@@ -1,0 +1,14 @@
+INFO  23:32:08,403 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  23:32:08,408 - #2 program
+INFO  23:32:08,409 - #3 p
+INFO  23:32:08,409 - #5 {
+INFO  23:32:08,410 - #6 }
+INFO  23:32:08,411 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationListDerived1(
+  ) [DeclarationListDerived1]
+  MethodDeclListDerived1(
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  23:32:08,411 - ===================================

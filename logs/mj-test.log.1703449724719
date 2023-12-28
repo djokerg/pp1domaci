@@ -1,0 +1,16 @@
+INFO  12:55:08,969 - Compiling source file: C:\Users\gd200089d\IdeaProjects\MJCompiler\test\program.mj
+INFO  12:55:08,972 - #1 program
+INFO  12:55:08,972 - #4 MJProgram
+INFO  12:55:08,972 - #4 int
+INFO  12:55:08,972 - #4 x
+INFO  12:55:08,972 - #8 ,
+INFO  12:55:08,972 - #4 y
+INFO  12:55:08,972 - #9 ;
+INFO  12:55:08,972 - #12 {
+INFO  12:55:08,972 - #15 void
+INFO  12:55:08,972 - #4 main
+INFO  12:55:08,972 - #10 (
+INFO  12:55:08,972 - #11 )
+INFO  12:55:08,972 - #12 {
+INFO  12:55:08,972 - #13 }
+INFO  12:55:08,972 - #13 }

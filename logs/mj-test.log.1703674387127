@@ -1,0 +1,76 @@
+INFO  11:48:01,904 - Compiling source file: C:\Users\gd200089d\IdeaProjects\MJCompiler\test\program.mj
+INFO  11:48:01,922 - #2 program
+INFO  11:48:01,922 - #15 MJProgram
+INFO  11:48:01,922 - #15 int
+INFO  11:48:01,922 - #15 x
+INFO  11:48:01,923 - #5 ;
+INFO  11:48:01,923 - #15 int
+INFO  11:48:01,923 - #15 y
+INFO  11:48:01,923 - #5 ;
+INFO  11:48:01,923 - #3 {
+INFO  11:48:01,923 - #15 int
+INFO  11:48:01,924 - #15 main
+INFO  11:48:01,924 - #6 (
+INFO  11:48:01,924 - #7 )
+INFO  11:48:01,925 - #3 {
+INFO  11:48:01,925 - #12 print
+INFO  11:48:01,926 - #6 (
+INFO  11:48:01,926 - #14 1
+INFO  11:48:01,926 - #7 )
+INFO  11:48:01,927 - #5 ;
+INFO  11:48:01,927 - #4 }
+INFO  11:48:01,927 - #4 }
+INFO  11:48:01,929 - Program(
+ MJProgram
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     y
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStmt(
+          TermExpr(
+            Term(
+              Const(
+               1
+              ) [Const]
+            ) [Term]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:48:01,930 - ===================================
+INFO  11:48:01,933 - Var declaration detected
+INFO  11:48:01,933 - Var declaration detected
+INFO  11:48:01,933 - Print call detected
+INFO  11:48:01,933 -  Print count calls = 1
+INFO  11:48:01,933 -  Variable declaration count = 2
