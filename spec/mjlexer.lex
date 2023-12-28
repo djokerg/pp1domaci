@@ -21,7 +21,7 @@ import java_cup.runtime.Symbol;
 %line
 %column
 
-%state COMMENT
+%xstate COMMENT
 
 %eofval{
     return new_symbol(sym.EOF);
@@ -79,16 +79,16 @@ import java_cup.runtime.Symbol;
 "}"			{ return new_symbol(sym.RBRACE, yytext()); }
 "=>"		{ return new_symbol(sym.LAMBDA, yytext()); }
 
-"//"                {yybegin(COMMENT);}
-<COMMENT> "\n"    {yybegin(YYINITIAL);}
-<COMMENT> "\r"    {yybegin(YYINITIAL);}
-<COMMENT> .         {yybegin(COMMENT);}
+"//" {yybegin(COMMENT);}
+<COMMENT> . {yybegin(COMMENT);}
+<COMMENT> "\r\n" { yybegin(YYINITIAL); }
 
-[a-zA-Z][a-zA-Z0-9_]* 	{return new_symbol (sym.IDENT, yytext()); }
-'[\x20-\x7E]'         { return new_symbol(sym.CHARCONST, new Character ((yytext()).charAt(0))); }
+
 [0-9]+              { return new_symbol(sym.NUMCONST, new Integer (yytext())); }
 "true"  { return new_symbol(sym.BOOLCONST, new Boolean (yytext())); }
 "false"  { return new_symbol(sym.BOOLCONST, new Boolean (yytext())); }
+[a-zA-Z][a-zA-Z0-9_]* 	{return new_symbol (sym.IDENT, yytext()); }
+'[\x20-\x7E]'         { return new_symbol(sym.CHARCONST, new Character ((yytext()).charAt(1))); }
 
-. { System.err.println("Leksicka greska ("+yytext()+") u liniji "+(yyline+1)); }
+. { System.err.println("Lexical error (" + yytext() + ") at line " + (yyline + 1) + ", column " + (yycolumn + 1)); }
 

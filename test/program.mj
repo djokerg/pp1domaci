@@ -1,5 +1,13 @@
+
 program p
+//jaaja
 const char b = 'a';
 {
+    void main() int a;
+    {
+        for(a = 5;a < 5;){
+            continue;
+        }
+    }
 
 }

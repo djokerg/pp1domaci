@@ -1,0 +1,136 @@
+INFO  23:10:14,693 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  23:10:14,742 - #2 program
+INFO  23:10:14,743 - #3 p
+INFO  23:10:14,743 - #10 const
+INFO  23:10:14,744 - #3 char
+INFO  23:10:14,744 - #3 b
+INFO  23:10:14,744 - #34 =
+INFO  23:10:14,744 - #47 a
+INFO  23:10:14,744 - #37 ;
+INFO  23:10:14,746 - #5 {
+INFO  23:10:14,746 - #16 void
+INFO  23:10:14,747 - #3 main
+INFO  23:10:14,747 - #41 (
+INFO  23:10:14,747 - #42 )
+INFO  23:10:14,748 - #3 int
+INFO  23:10:14,748 - #3 a
+INFO  23:10:14,748 - #37 ;
+INFO  23:10:14,749 - #5 {
+INFO  23:10:14,750 - #19 for
+INFO  23:10:14,750 - #41 (
+INFO  23:10:14,750 - #3 a
+INFO  23:10:14,751 - #34 =
+INFO  23:10:14,751 - #46 5
+INFO  23:10:14,752 - #37 ;
+INFO  23:10:14,754 - #3 a
+INFO  23:10:14,754 - #30 <
+INFO  23:10:14,754 - #46 5
+INFO  23:10:14,755 - #37 ;
+INFO  23:10:14,755 - #42 )
+INFO  23:10:14,756 - #5 {
+INFO  23:10:14,756 - #18 continue
+INFO  23:10:14,756 - #37 ;
+INFO  23:10:14,756 - #6 }
+INFO  23:10:14,756 - #6 }
+INFO  23:10:14,757 - #6 }
+INFO  23:10:14,757 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationListDerived2(
+    DeclarationListDerived4(
+    ) [DeclarationListDerived4]
+    ConstDeclDerived1(
+      TypeDerived2(
+      ) [TypeDerived2]
+      LiteralDerived3(
+      ) [LiteralDerived3]
+      MultipleConstDeclDerived2(
+      ) [MultipleConstDeclDerived2]
+    ) [ConstDeclDerived1]
+  ) [DeclarationListDerived2]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      TypeOrVoidDerived2(
+      ) [TypeOrVoidDerived2]
+      PossibleFormParsDerived2(
+      ) [PossibleFormParsDerived2]
+      VarDeclListDerived1(
+        VarDeclListDerived2(
+        ) [VarDeclListDerived2]
+        VarDeclDerived1(
+          TypeDerived2(
+          ) [TypeDerived2]
+          MultipleVarDeclDerived3(
+          ) [MultipleVarDeclDerived3]
+        ) [VarDeclDerived1]
+      ) [VarDeclListDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDerived11(
+          PossibleDesignatorStatementListDerived1(
+            DesignatorStatementDerived1(
+              DesignatorDerived2(
+                DesignatorHelperListDerived3(
+                ) [DesignatorHelperListDerived3]
+              ) [DesignatorDerived2]
+              OperationDerived1(
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                ExprDerived2(
+                  TermDerived2(
+                    FactorDerived4(
+                    ) [FactorDerived4]
+                  ) [TermDerived2]
+                  TermListDerived2(
+                  ) [TermListDerived2]
+                ) [ExprDerived2]
+              ) [OperationDerived1]
+            ) [DesignatorStatementDerived1]
+            ForLoopHelperDerived2(
+            ) [ForLoopHelperDerived2]
+          ) [PossibleDesignatorStatementListDerived1]
+          PossibleCondFactDerived1(
+            CondFactDerived2(
+              ExprDerived2(
+                TermDerived2(
+                  FactorDerived1(
+                    DesignatorDerived2(
+                      DesignatorHelperListDerived3(
+                      ) [DesignatorHelperListDerived3]
+                    ) [DesignatorDerived2]
+                  ) [FactorDerived1]
+                ) [TermDerived2]
+                TermListDerived2(
+                ) [TermListDerived2]
+              ) [ExprDerived2]
+              RelopDerived5(
+              ) [RelopDerived5]
+              ExprDerived2(
+                TermDerived2(
+                  FactorDerived4(
+                  ) [FactorDerived4]
+                ) [TermDerived2]
+                TermListDerived2(
+                ) [TermListDerived2]
+              ) [ExprDerived2]
+            ) [CondFactDerived2]
+          ) [PossibleCondFactDerived1]
+          PossibleDesignatorStatementListDerived2(
+          ) [PossibleDesignatorStatementListDerived2]
+          StatementDerived12(
+            StatementListDerived1(
+              StatementListDerived2(
+              ) [StatementListDerived2]
+              StatementDerived5(
+              ) [StatementDerived5]
+            ) [StatementListDerived1]
+          ) [StatementDerived12]
+        ) [StatementDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  23:10:14,758 - ===================================

@@ -58,7 +58,6 @@ nonterminal VarDeclList VarDeclList;
 nonterminal VarDecl VarDecl;
 nonterminal MultipleVarDecl MultipleVarDecl;
 nonterminal Type Type;
-nonterminal OptionalNamespace OptionalNamespace;
 nonterminal ConstDecl ConstDecl;
 nonterminal MultipleConstDecl MultipleConstDecl;
 nonterminal Literal Literal;
@@ -82,8 +81,17 @@ nonterminal Assignop Assignop;
 nonterminal Relop Relop;
 nonterminal Addop Addop;
 nonterminal Mulop Mulop;
+nonterminal DesStmtHelper DesStmtHelper;
 
+nonterminal PossibleDesignatorStatementList PossibleDesignatorStatementList;
+nonterminal PossibleCondFact PossibleCondFact;
+nonterminal ForLoopHelper ForLoopHelper;
 nonterminal ClassDecl ClassDecl;
+nonterminal OptionalExtends OptionalExtends;
+nonterminal StaticVarDeclList StaticVarDeclList;
+nonterminal StaticInitializerList StaticInitializerList;
+nonterminal OtpionalMethodDeclList OtpionalMethodDeclList;
+nonterminal StaticInitializerHelper StaticInitializerHelper;
 terminal PROG, IDENT, NAMESPACE, LBRACE, RBRACE;
 terminal BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ,RETURN, VOID, EXTENDS, CONTINUE, FOR, STATIC;
 terminal PLUS, MINUS, MUL, DIV, MOD, EQUAL, NOTEQUAL, GRT, GRTE, LSS, LSSE, BITAND, BITOR, ASSIGN, PLUSPLUS, MINUSMINUS;
@@ -101,6 +109,39 @@ NamespaceList ::= NamespaceList:N1 Namespace:N2 {: RESULT=new NamespaceListDeriv
                 ;
 
 Namespace ::= NAMESPACE IDENT LBRACE DeclarationList:D1 LBRACE MethodDeclList:M2 RBRACE RBRACE {: RESULT=new NamespaceDerived1(D1, M2); RESULT.setLine(D1left); :};
+
+ClassDecl ::= CLASS IDENT OptionalExtends:O1
+                LBRACE
+                StaticVarDeclList:S2
+                StaticInitializerHelper:S3
+                VarDeclList:V4
+                OtpionalMethodDeclList:O5
+                RBRACE {: RESULT=new ClassDeclDerived1(O1, S2, S3, V4, O5); RESULT.setLine(O1left); :}
+                ;
+
+OptionalExtends ::= EXTENDS Type:T1 {: RESULT=new OptionalExtendsDerived1(T1); RESULT.setLine(T1left); :}
+                | {: RESULT=new OptionalExtendsDerived2(); :}
+                /* epsilon */
+                ;
+
+StaticVarDeclList ::= StaticVarDeclList:S1 STATIC VarDecl:V2 {: RESULT=new StaticVarDeclListDerived1(S1, V2); RESULT.setLine(S1left); :}
+                    | {: RESULT=new StaticVarDeclListDerived2(); :}
+                    /* epsilon */
+                    ;
+
+StaticInitializerHelper ::= StaticInitializerList:S1 {: RESULT=new StaticInitializerHelperDerived1(S1); RESULT.setLine(S1left); :} | {: RESULT=new StaticInitializerHelperDerived2(); :} /* epsilon */;
+
+StaticInitializerList ::= StaticInitializer:S1 {: RESULT=new StaticInitializerListDerived1(S1); RESULT.setLine(S1left); :}
+                    |
+                    StaticInitializerList:S1 StaticInitializer:S2 {: RESULT=new StaticInitializerListDerived2(S1, S2); RESULT.setLine(S1left); :}
+                    ;
+
+StaticInitializer ::= STATIC LBRACE StatementList:S1 RBRACE {: RESULT=new StaticInitializerDerived1(S1); RESULT.setLine(S1left); :};//mozda bude bacalo konflikt
+
+OtpionalMethodDeclList ::= LBRACE MethodDeclList:M1 RBRACE {: RESULT=new OtpionalMethodDeclListDerived1(M1); RESULT.setLine(M1left); :}
+                        | {: RESULT=new OtpionalMethodDeclListDerived2(); :}
+                        /* epsilon */
+                        ;
 
 MethodDeclList ::= MethodDeclList:M1 MethodDecl:M2 {: RESULT=new MethodDeclListDerived1(M1, M2); RESULT.setLine(M1left); :}
                 | {: RESULT=new MethodDeclListDerived2(); :}
@@ -158,8 +199,6 @@ MultipleConstDecl ::= MultipleConstDecl:M1 COMMA IDENT ASSIGN Literal:L2 {: RESU
 
 Literal ::= NUMCONST {: RESULT=new LiteralDerived1(); :} | BOOLCONST {: RESULT=new LiteralDerived2(); :} | CHARCONST {: RESULT=new LiteralDerived3(); :};
 
-StaticInitializer ::= STATIC LBRACE StatementList:S1 RBRACE {: RESULT=new StaticInitializerDerived1(S1); RESULT.setLine(S1left); :};//mozda bude bacalo konflikt
-
 StatementList ::= StatementList:S1 Statement:S2 {: RESULT=new StatementListDerived1(S1, S2); RESULT.setLine(S1left); :}
                 | {: RESULT=new StatementListDerived2(); :}
                 /* epsilon */
@@ -185,10 +224,34 @@ Statement ::= DesignatorStatement:D1 SEMI {: RESULT=new StatementDerived1(D1); R
             |
             PRINT LPAREN Expr:E1 COMMA NUMCONST RPAREN SEMI {: RESULT=new StatementDerived10(E1); RESULT.setLine(E1left); :}
             |
-            LBRACE StatementList:S1 RBRACE {: RESULT=new StatementDerived11(S1); RESULT.setLine(S1left); :}
+            FOR LPAREN PossibleDesignatorStatementList:P1 SEMI PossibleCondFact:P2 SEMI PossibleDesignatorStatementList:P3 RPAREN Statement:S4 {: RESULT=new StatementDerived11(P1, P2, P3, S4); RESULT.setLine(P1left); :}
+            |
+            LBRACE StatementList:S1 RBRACE {: RESULT=new StatementDerived12(S1); RESULT.setLine(S1left); :}
             ;
 
-DesignatorStatement ::= Designator:D1 Operation:O2 {: RESULT=new DesignatorStatementDerived1(D1, O2); RESULT.setLine(D1left); :};
+PossibleCondFact ::= CondFact:C1 {: RESULT=new PossibleCondFactDerived1(C1); RESULT.setLine(C1left); :} | {: RESULT=new PossibleCondFactDerived2(); :} /* epsilon */;
+
+PossibleDesignatorStatementList ::= DesignatorStatement:D1 ForLoopHelper:F2 {: RESULT=new PossibleDesignatorStatementListDerived1(D1, F2); RESULT.setLine(D1left); :}
+                                    | {: RESULT=new PossibleDesignatorStatementListDerived2(); :}
+                                    /* epsilon */
+                                    ;
+
+ForLoopHelper ::= ForLoopHelper:F1 COMMA DesignatorStatement:D2 {: RESULT=new ForLoopHelperDerived1(F1, D2); RESULT.setLine(F1left); :}
+                | {: RESULT=new ForLoopHelperDerived2(); :}
+                /* epsilon */
+                ;
+
+DesignatorStatement ::= Designator:D1 Operation:O2 {: RESULT=new DesignatorStatementDerived1(D1, O2); RESULT.setLine(D1left); :}
+                    |
+                    LSQUARE DesStmtHelper:D1 MUL Designator:D2 RSQUARE ASSIGN Designator:D3 {: RESULT=new DesignatorStatementDerived2(D1, D2, D3); RESULT.setLine(D1left); :}
+                    ;
+
+DesStmtHelper ::= DesStmtHelper:D1 COMMA {: RESULT=new DesStmtHelperDerived1(D1); RESULT.setLine(D1left); :}
+                |
+                DesStmtHelper:D1 Designator:D2 COMMA {: RESULT=new DesStmtHelperDerived2(D1, D2); RESULT.setLine(D1left); :}
+                | {: RESULT=new DesStmtHelperDerived3(); :}
+                /* epsilon */
+                ;
 
 Operation ::= Assignop:A1 Expr:E2 {: RESULT=new OperationDerived1(A1, E2); RESULT.setLine(A1left); :}
             |
@@ -280,9 +343,3 @@ Relop ::= EQUAL {: RESULT=new RelopDerived1(); :} | NOTEQUAL {: RESULT=new Relop
 Addop ::= PLUS {: RESULT=new AddopDerived1(); :} | MINUS {: RESULT=new AddopDerived2(); :};
 
 Mulop ::= MUL {: RESULT=new MulopDerived1(); :} | DIV {: RESULT=new MulopDerived2(); :} | MOD {: RESULT=new MulopDerived3(); :} ;
-
-
-
-
-
-

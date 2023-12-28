@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/11/2023 17:33:55
+// 28/11/2023 23:51:7
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -15,20 +15,27 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(Literal Literal) { }
     public void visit(PossibleArrayDecl PossibleArrayDecl) { }
     public void visit(Relop Relop) { }
-    public void visit(Assignop Assignop) { }
     public void visit(TermList TermList) { }
     public void visit(Namespace Namespace) { }
+    public void visit(Assignop Assignop) { }
+    public void visit(PossibleDesignatorStatementList PossibleDesignatorStatementList) { }
+    public void visit(StaticInitializerList StaticInitializerList) { }
+    public void visit(OptionalExtends OptionalExtends) { }
     public void visit(StatementList StatementList) { }
     public void visit(NamespaceList NamespaceList) { }
     public void visit(Addop Addop) { }
     public void visit(Factor Factor) { }
     public void visit(CondTerm CondTerm) { }
-    public void visit(OptionalNamespace OptionalNamespace) { }
+    public void visit(StaticInitializerHelper StaticInitializerHelper) { }
+    public void visit(ForLoopHelper ForLoopHelper) { }
     public void visit(Designator Designator) { }
+    public void visit(StaticVarDeclList StaticVarDeclList) { }
     public void visit(Term Term) { }
     public void visit(Condition Condition) { }
+    public void visit(DesStmtHelper DesStmtHelper) { }
     public void visit(MultipleVarDecl MultipleVarDecl) { }
     public void visit(Label Label) { }
+    public void visit(OtpionalMethodDeclList OtpionalMethodDeclList) { }
     public void visit(VarDeclList VarDeclList) { }
     public void visit(Expr Expr) { }
     public void visit(DesignatorHelperList DesignatorHelperList) { }
@@ -46,6 +53,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(MethodDeclList MethodDeclList) { }
     public void visit(Program Program) { }
     public void visit(FormPars FormPars) { }
+    public void visit(PossibleCondFact PossibleCondFact) { }
     public void visit(MulopDerived3 MulopDerived3) { visit(); }
     public void visit(MulopDerived2 MulopDerived2) { visit(); }
     public void visit(MulopDerived1 MulopDerived1) { visit(); }
@@ -94,7 +102,18 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(OperationDerived3 OperationDerived3) { visit(); }
     public void visit(OperationDerived2 OperationDerived2) { visit(); }
     public void visit(OperationDerived1 OperationDerived1) { visit(); }
+    public void visit(DesStmtHelperDerived3 DesStmtHelperDerived3) { visit(); }
+    public void visit(DesStmtHelperDerived2 DesStmtHelperDerived2) { visit(); }
+    public void visit(DesStmtHelperDerived1 DesStmtHelperDerived1) { visit(); }
+    public void visit(DesignatorStatementDerived2 DesignatorStatementDerived2) { visit(); }
     public void visit(DesignatorStatementDerived1 DesignatorStatementDerived1) { visit(); }
+    public void visit(ForLoopHelperDerived2 ForLoopHelperDerived2) { visit(); }
+    public void visit(ForLoopHelperDerived1 ForLoopHelperDerived1) { visit(); }
+    public void visit(PossibleDesignatorStatementListDerived2 PossibleDesignatorStatementListDerived2) { visit(); }
+    public void visit(PossibleDesignatorStatementListDerived1 PossibleDesignatorStatementListDerived1) { visit(); }
+    public void visit(PossibleCondFactDerived2 PossibleCondFactDerived2) { visit(); }
+    public void visit(PossibleCondFactDerived1 PossibleCondFactDerived1) { visit(); }
+    public void visit(StatementDerived12 StatementDerived12) { visit(); }
     public void visit(StatementDerived11 StatementDerived11) { visit(); }
     public void visit(StatementDerived10 StatementDerived10) { visit(); }
     public void visit(StatementDerived9 StatementDerived9) { visit(); }
@@ -108,7 +127,6 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(StatementDerived1 StatementDerived1) { visit(); }
     public void visit(StatementListDerived2 StatementListDerived2) { visit(); }
     public void visit(StatementListDerived1 StatementListDerived1) { visit(); }
-    public void visit(StaticInitializerDerived1 StaticInitializerDerived1) { visit(); }
     public void visit(LiteralDerived3 LiteralDerived3) { visit(); }
     public void visit(LiteralDerived2 LiteralDerived2) { visit(); }
     public void visit(LiteralDerived1 LiteralDerived1) { visit(); }
@@ -139,6 +157,18 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(MethodDeclDerived1 MethodDeclDerived1) { visit(); }
     public void visit(MethodDeclListDerived2 MethodDeclListDerived2) { visit(); }
     public void visit(MethodDeclListDerived1 MethodDeclListDerived1) { visit(); }
+    public void visit(OtpionalMethodDeclListDerived2 OtpionalMethodDeclListDerived2) { visit(); }
+    public void visit(OtpionalMethodDeclListDerived1 OtpionalMethodDeclListDerived1) { visit(); }
+    public void visit(StaticInitializerDerived1 StaticInitializerDerived1) { visit(); }
+    public void visit(StaticInitializerListDerived2 StaticInitializerListDerived2) { visit(); }
+    public void visit(StaticInitializerListDerived1 StaticInitializerListDerived1) { visit(); }
+    public void visit(StaticInitializerHelperDerived2 StaticInitializerHelperDerived2) { visit(); }
+    public void visit(StaticInitializerHelperDerived1 StaticInitializerHelperDerived1) { visit(); }
+    public void visit(StaticVarDeclListDerived2 StaticVarDeclListDerived2) { visit(); }
+    public void visit(StaticVarDeclListDerived1 StaticVarDeclListDerived1) { visit(); }
+    public void visit(OptionalExtendsDerived2 OptionalExtendsDerived2) { visit(); }
+    public void visit(OptionalExtendsDerived1 OptionalExtendsDerived1) { visit(); }
+    public void visit(ClassDeclDerived1 ClassDeclDerived1) { visit(); }
     public void visit(NamespaceDerived1 NamespaceDerived1) { visit(); }
     public void visit(NamespaceListDerived2 NamespaceListDerived2) { visit(); }
     public void visit(NamespaceListDerived1 NamespaceListDerived1) { visit(); }

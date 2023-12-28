@@ -44,9 +44,10 @@ scan with {:
 	return s;
 :}
 
-nonterminal Program, NamespaceList, Namespace, MethodDeclList, MethodDecl, TypeOrVoid, PossibleFormPars, FormPars, PossibleArrayDecl, DeclarationList, VarDeclList, VarDecl, MultipleVarDecl, Type, OptionalNamespace, ConstDecl, MultipleConstDecl, Literal, StaticInitializer, StatementList, Statement, DesignatorStatement, Operation, ActPars, Condition, CondTerm, CondFact, Expr, TermList, Term, Factor, Designator, DesignatorHelperList, Label, Assignop, Relop, Addop, Mulop;
+nonterminal Program, NamespaceList, Namespace, MethodDeclList, MethodDecl, TypeOrVoid, PossibleFormPars, FormPars, PossibleArrayDecl, DeclarationList, VarDeclList, VarDecl, MultipleVarDecl, Type, ConstDecl, MultipleConstDecl, Literal, StaticInitializer, StatementList, Statement, DesignatorStatement, Operation, ActPars, Condition, CondTerm, CondFact, Expr, TermList, Term, Factor, Designator, DesignatorHelperList, Label, Assignop, Relop, Addop, Mulop, DesStmtHelper;
 
-nonterminal ClassDecl;
+nonterminal PossibleDesignatorStatementList, PossibleCondFact, ForLoopHelper;
+nonterminal ClassDecl, OptionalExtends, StaticVarDeclList, StaticInitializerList, OtpionalMethodDeclList, StaticInitializerHelper;
 terminal PROG, IDENT, NAMESPACE, LBRACE, RBRACE;
 terminal BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ,RETURN, VOID, EXTENDS, CONTINUE, FOR, STATIC;
 terminal PLUS, MINUS, MUL, DIV, MOD, EQUAL, NOTEQUAL, GRT, GRTE, LSS, LSSE, BITAND, BITOR, ASSIGN, PLUSPLUS, MINUSMINUS;
@@ -64,6 +65,39 @@ NamespaceList ::= NamespaceList Namespace
                 ;
 
 Namespace ::= NAMESPACE IDENT LBRACE DeclarationList LBRACE MethodDeclList RBRACE RBRACE;
+
+ClassDecl ::= CLASS IDENT OptionalExtends
+                LBRACE
+                StaticVarDeclList
+                StaticInitializerHelper
+                VarDeclList
+                OtpionalMethodDeclList
+                RBRACE
+                ;
+
+OptionalExtends ::= EXTENDS Type
+                |
+                /* epsilon */
+                ;
+
+StaticVarDeclList ::= StaticVarDeclList STATIC VarDecl
+                    |
+                    /* epsilon */
+                    ;
+
+StaticInitializerHelper ::= StaticInitializerList | /* epsilon */;
+
+StaticInitializerList ::= StaticInitializer
+                    |
+                    StaticInitializerList StaticInitializer
+                    ;
+
+StaticInitializer ::= STATIC LBRACE StatementList RBRACE;//mozda bude bacalo konflikt
+
+OtpionalMethodDeclList ::= LBRACE MethodDeclList RBRACE
+                        |
+                        /* epsilon */
+                        ;
 
 MethodDeclList ::= MethodDeclList MethodDecl
                 |
@@ -121,8 +155,6 @@ MultipleConstDecl ::= MultipleConstDecl COMMA IDENT ASSIGN Literal
 
 Literal ::= NUMCONST | BOOLCONST | CHARCONST;
 
-StaticInitializer ::= STATIC LBRACE StatementList RBRACE;//mozda bude bacalo konflikt
-
 StatementList ::= StatementList Statement
                 |
                 /* epsilon */
@@ -148,10 +180,34 @@ Statement ::= DesignatorStatement SEMI
             |
             PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
             |
+            FOR LPAREN PossibleDesignatorStatementList SEMI PossibleCondFact SEMI PossibleDesignatorStatementList RPAREN Statement
+            |
             LBRACE StatementList RBRACE
             ;
 
-DesignatorStatement ::= Designator Operation;
+PossibleCondFact ::= CondFact | /* epsilon */;
+
+PossibleDesignatorStatementList ::= DesignatorStatement ForLoopHelper
+                                    |
+                                    /* epsilon */
+                                    ;
+
+ForLoopHelper ::= ForLoopHelper COMMA DesignatorStatement
+                |
+                /* epsilon */
+                ;
+
+DesignatorStatement ::= Designator Operation
+                    |
+                    LSQUARE DesStmtHelper MUL Designator RSQUARE ASSIGN Designator
+                    ;
+
+DesStmtHelper ::= DesStmtHelper COMMA
+                |
+                DesStmtHelper Designator COMMA
+                |
+                /* epsilon */
+                ;
 
 Operation ::= Assignop Expr
             |
@@ -243,9 +299,3 @@ Relop ::= EQUAL | NOTEQUAL | GRT | GRTE | LSS | LSSE;
 Addop ::= PLUS | MINUS;
 
 Mulop ::= MUL | DIV | MOD ;
-
-
-
-
-
-

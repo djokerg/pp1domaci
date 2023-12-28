@@ -1,0 +1,22 @@
+INFO  21:33:42,856 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  21:33:42,907 - #2 program
+INFO  21:33:42,907 - #3 p
+INFO  21:33:42,907 - #10 const
+INFO  21:33:42,908 - #3 char
+INFO  21:33:42,909 - #3 b
+INFO  21:33:42,910 - #34 =
+INFO  21:33:42,910 - #47 '
+INFO  21:33:42,910 - #37 ;
+INFO  21:33:42,912 - #5 {
+INFO  21:33:42,912 - #16 void
+INFO  21:33:42,913 - #3 main
+INFO  21:33:42,914 - #41 (
+INFO  21:33:42,914 - #42 )
+INFO  21:33:42,914 - #5 {
+INFO  21:33:42,915 - #19 for
+INFO  21:33:42,915 - #41 (
+INFO  21:33:42,915 - #3 int
+INFO  21:33:42,915 - #3 a
+ERROR 21:33:42,915 - 
+Sintaksna greska na liniji 5
+ERROR 21:33:42,915 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5
