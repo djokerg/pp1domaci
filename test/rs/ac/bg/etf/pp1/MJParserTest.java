@@ -28,7 +28,7 @@ public class MJParserTest {
 		
 		Reader br = null;
 		try {
-			File sourceCode = new File("test/program.mj");
+			File sourceCode = new File("tests/test301.mj");
 			log.info("Compiling source file: " + sourceCode.getAbsolutePath());
 			
 			br = new BufferedReader(new FileReader(sourceCode));
@@ -45,9 +45,7 @@ public class MJParserTest {
 			// ispis prepoznatih programskih konstrukcija
 			RuleVisitor v = new RuleVisitor();
 			prog.traverseBottomUp(v); 
-	      
-			log.info(" Print count calls = " + v.printCallCount);
-			log.info(" Variable declaration count = " + v.varDeclCount);
+
 		} 
 		finally {
 			if (br != null) try { br.close(); } catch (IOException e1) { log.error(e1.getMessage(), e1); }

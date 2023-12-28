@@ -1,0 +1,123 @@
+INFO  14:37:45,031 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  14:37:45,065 - #2 program
+INFO  14:37:45,065 - #3 p
+INFO  14:37:45,066 - #4 namespace
+INFO  14:37:45,066 - #3 sizes
+INFO  14:37:45,066 - #5 {
+INFO  14:37:45,066 - #3 int
+INFO  14:37:45,067 - #3 x
+INFO  14:37:45,068 - #37 ;
+INFO  14:37:45,068 - #5 {
+INFO  14:37:45,068 - #6 }
+INFO  14:37:45,069 - #6 }
+INFO  14:37:45,069 - #3 int
+INFO  14:37:45,069 - #3 x
+INFO  14:37:45,069 - #37 ;
+INFO  14:37:45,069 - #10 const
+INFO  14:37:45,069 - #3 int
+INFO  14:37:45,069 - #3 a
+INFO  14:37:45,069 - #34 =
+INFO  14:37:45,069 - #46 10
+INFO  14:37:45,070 - #37 ;
+INFO  14:37:45,071 - #10 const
+INFO  14:37:45,071 - #3 bool
+INFO  14:37:45,071 - #3 b
+INFO  14:37:45,071 - #34 =
+INFO  14:37:45,071 - #48 true
+INFO  14:37:45,071 - #39 ,
+INFO  14:37:45,072 - #3 c
+INFO  14:37:45,072 - #34 =
+INFO  14:37:45,072 - #48 false
+INFO  14:37:45,072 - #37 ;
+INFO  14:37:45,072 - #3 bool
+INFO  14:37:45,072 - #3 y
+INFO  14:37:45,072 - #43 [
+INFO  14:37:45,072 - #44 ]
+INFO  14:37:45,072 - #39 ,
+INFO  14:37:45,072 - #3 x
+INFO  14:37:45,072 - #43 [
+INFO  14:37:45,072 - #44 ]
+INFO  14:37:45,072 - #39 ,
+INFO  14:37:45,072 - #3 a
+INFO  14:37:45,072 - #37 ;
+INFO  14:37:45,073 - #5 {
+INFO  14:37:45,073 - #6 }
+INFO  14:37:45,073 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDerived1(
+      DeclarationListDerived1(
+        DeclarationListDerived4(
+        ) [DeclarationListDerived4]
+        VarDeclDerived1(
+          TypeDerived1(
+            OptionalNamespaceDerived2(
+            ) [OptionalNamespaceDerived2]
+          ) [TypeDerived1]
+          MultipleVarDeclDerived3(
+          ) [MultipleVarDeclDerived3]
+        ) [VarDeclDerived1]
+      ) [DeclarationListDerived1]
+      MethodDeclListDerived1(
+      ) [MethodDeclListDerived1]
+    ) [NamespaceDerived1]
+  ) [NamespaceListDerived1]
+  DeclarationListDerived1(
+    DeclarationListDerived2(
+      DeclarationListDerived2(
+        DeclarationListDerived1(
+          DeclarationListDerived4(
+          ) [DeclarationListDerived4]
+          VarDeclDerived1(
+            TypeDerived1(
+              OptionalNamespaceDerived2(
+              ) [OptionalNamespaceDerived2]
+            ) [TypeDerived1]
+            MultipleVarDeclDerived3(
+            ) [MultipleVarDeclDerived3]
+          ) [VarDeclDerived1]
+        ) [DeclarationListDerived1]
+        ConstDeclDerived1(
+          TypeDerived1(
+            OptionalNamespaceDerived2(
+            ) [OptionalNamespaceDerived2]
+          ) [TypeDerived1]
+          LiteralDerived1(
+          ) [LiteralDerived1]
+          MultipleConstDeclDerived2(
+          ) [MultipleConstDeclDerived2]
+        ) [ConstDeclDerived1]
+      ) [DeclarationListDerived2]
+      ConstDeclDerived1(
+        TypeDerived1(
+          OptionalNamespaceDerived2(
+          ) [OptionalNamespaceDerived2]
+        ) [TypeDerived1]
+        LiteralDerived2(
+        ) [LiteralDerived2]
+        MultipleConstDeclDerived1(
+          MultipleConstDeclDerived2(
+          ) [MultipleConstDeclDerived2]
+          LiteralDerived2(
+          ) [LiteralDerived2]
+        ) [MultipleConstDeclDerived1]
+      ) [ConstDeclDerived1]
+    ) [DeclarationListDerived2]
+    VarDeclDerived2(
+      TypeDerived1(
+        OptionalNamespaceDerived2(
+        ) [OptionalNamespaceDerived2]
+      ) [TypeDerived1]
+      MultipleVarDeclDerived1(
+        MultipleVarDeclDerived2(
+          MultipleVarDeclDerived3(
+          ) [MultipleVarDeclDerived3]
+        ) [MultipleVarDeclDerived2]
+      ) [MultipleVarDeclDerived1]
+    ) [VarDeclDerived2]
+  ) [DeclarationListDerived1]
+  MethodDeclListDerived1(
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  14:37:45,073 - ===================================

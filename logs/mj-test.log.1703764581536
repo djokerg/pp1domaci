@@ -1,0 +1,75 @@
+INFO  12:56:11,222 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  12:56:11,235 - #2 program
+INFO  12:56:11,235 - #3 p
+INFO  12:56:11,235 - #4 namespace
+INFO  12:56:11,235 - #3 sizes
+INFO  12:56:11,235 - #5 {
+INFO  12:56:11,235 - #3 int
+INFO  12:56:11,236 - #3 x
+INFO  12:56:11,237 - #37 ;
+INFO  12:56:11,238 - #5 {
+INFO  12:56:11,238 - #6 }
+INFO  12:56:11,240 - #6 }
+INFO  12:56:11,240 - #3 int
+INFO  12:56:11,240 - #3 x
+INFO  12:56:11,240 - #37 ;
+INFO  12:56:11,240 - #3 bool
+INFO  12:56:11,240 - #3 y
+INFO  12:56:11,240 - #43 [
+INFO  12:56:11,240 - #44 ]
+INFO  12:56:11,241 - #39 ,
+INFO  12:56:11,241 - #3 x
+INFO  12:56:11,241 - #43 [
+INFO  12:56:11,241 - #44 ]
+INFO  12:56:11,243 - #37 ;
+INFO  12:56:11,243 - #5 {
+INFO  12:56:11,243 - #6 }
+INFO  12:56:11,244 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDerived1(
+      DeclarationListDerived1(
+        DeclarationListDerived4(
+        ) [DeclarationListDerived4]
+        VarDeclDerived1(
+          TypeDerived1(
+            OptionalNamespaceDerived2(
+            ) [OptionalNamespaceDerived2]
+          ) [TypeDerived1]
+          ArrayDeclListDerived3(
+          ) [ArrayDeclListDerived3]
+        ) [VarDeclDerived1]
+      ) [DeclarationListDerived1]
+      MethodDeclListDerived1(
+      ) [MethodDeclListDerived1]
+    ) [NamespaceDerived1]
+  ) [NamespaceListDerived1]
+  DeclarationListDerived1(
+    DeclarationListDerived1(
+      DeclarationListDerived4(
+      ) [DeclarationListDerived4]
+      VarDeclDerived1(
+        TypeDerived1(
+          OptionalNamespaceDerived2(
+          ) [OptionalNamespaceDerived2]
+        ) [TypeDerived1]
+        ArrayDeclListDerived3(
+        ) [ArrayDeclListDerived3]
+      ) [VarDeclDerived1]
+    ) [DeclarationListDerived1]
+    VarDeclDerived2(
+      TypeDerived1(
+        OptionalNamespaceDerived2(
+        ) [OptionalNamespaceDerived2]
+      ) [TypeDerived1]
+      ArrayDeclListDerived2(
+        ArrayDeclListDerived3(
+        ) [ArrayDeclListDerived3]
+      ) [ArrayDeclListDerived2]
+    ) [VarDeclDerived2]
+  ) [DeclarationListDerived1]
+  MethodDeclListDerived1(
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  12:56:11,244 - ===================================

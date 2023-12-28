@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/11/2023 10:18:41
+// 28/11/2023 17:33:55
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class DeclarationListDerived2 extends DeclarationList {
 
     private DeclarationList DeclarationList;
-    private VarDeclList VarDeclList;
+    private ConstDecl ConstDecl;
 
-    public DeclarationListDerived2 (DeclarationList DeclarationList, VarDeclList VarDeclList) {
+    public DeclarationListDerived2 (DeclarationList DeclarationList, ConstDecl ConstDecl) {
         this.DeclarationList=DeclarationList;
         if(DeclarationList!=null) DeclarationList.setParent(this);
-        this.VarDeclList=VarDeclList;
-        if(VarDeclList!=null) VarDeclList.setParent(this);
+        this.ConstDecl=ConstDecl;
+        if(ConstDecl!=null) ConstDecl.setParent(this);
     }
 
     public DeclarationList getDeclarationList() {
@@ -25,12 +25,12 @@ public class DeclarationListDerived2 extends DeclarationList {
         this.DeclarationList=DeclarationList;
     }
 
-    public VarDeclList getVarDeclList() {
-        return VarDeclList;
+    public ConstDecl getConstDecl() {
+        return ConstDecl;
     }
 
-    public void setVarDeclList(VarDeclList VarDeclList) {
-        this.VarDeclList=VarDeclList;
+    public void setConstDecl(ConstDecl ConstDecl) {
+        this.ConstDecl=ConstDecl;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class DeclarationListDerived2 extends DeclarationList {
 
     public void childrenAccept(Visitor visitor) {
         if(DeclarationList!=null) DeclarationList.accept(visitor);
-        if(VarDeclList!=null) VarDeclList.accept(visitor);
+        if(ConstDecl!=null) ConstDecl.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(DeclarationList!=null) DeclarationList.traverseTopDown(visitor);
-        if(VarDeclList!=null) VarDeclList.traverseTopDown(visitor);
+        if(ConstDecl!=null) ConstDecl.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(DeclarationList!=null) DeclarationList.traverseBottomUp(visitor);
-        if(VarDeclList!=null) VarDeclList.traverseBottomUp(visitor);
+        if(ConstDecl!=null) ConstDecl.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class DeclarationListDerived2 extends DeclarationList {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(VarDeclList!=null)
-            buffer.append(VarDeclList.toString("  "+tab));
+        if(ConstDecl!=null)
+            buffer.append(ConstDecl.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

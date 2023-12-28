@@ -1,9 +1,5 @@
-program MJProgram
-	int x; int y;
+program p
+const char b = 'a';
 {
-	int main() {
-		print(1);
 
-		x = y + 5 +;
-	}
 }

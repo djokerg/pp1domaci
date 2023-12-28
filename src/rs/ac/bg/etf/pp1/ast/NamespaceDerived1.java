@@ -1,9 +1,9 @@
 // generated with ast extension for cup
 // version 0.8
-// 27/11/2023 18:25:22
+// 28/11/2023 17:33:55
 
 
-package src.rs.ac.bg.etf.pp1.ast;
+package rs.ac.bg.etf.pp1.ast;
 
 public class NamespaceDerived1 extends Namespace {
 

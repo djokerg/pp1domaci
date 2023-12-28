@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/11/2023 11:45:23
+// 28/11/2023 17:33:55
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class VarDeclDerived2 extends VarDecl {
 
     private Type Type;
-    private ArrayDeclList arrayDeclList;
+    private MultipleVarDecl MultipleVarDecl;
 
-    public VarDeclDerived2 (Type Type, ArrayDeclList arrayDeclList) {
+    public VarDeclDerived2 (Type Type, MultipleVarDecl MultipleVarDecl) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
-        this.arrayDeclList=arrayDeclList;
-        if(arrayDeclList!=null) arrayDeclList.setParent(this);
+        this.MultipleVarDecl=MultipleVarDecl;
+        if(MultipleVarDecl!=null) MultipleVarDecl.setParent(this);
     }
 
     public Type getType() {
@@ -25,12 +25,12 @@ public class VarDeclDerived2 extends VarDecl {
         this.Type=Type;
     }
 
-    public ArrayDeclList getArrayDeclList() {
-        return arrayDeclList;
+    public MultipleVarDecl getMultipleVarDecl() {
+        return MultipleVarDecl;
     }
 
-    public void setArrayDeclList(ArrayDeclList arrayDeclList) {
-        this.arrayDeclList=arrayDeclList;
+    public void setMultipleVarDecl(MultipleVarDecl MultipleVarDecl) {
+        this.MultipleVarDecl=MultipleVarDecl;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class VarDeclDerived2 extends VarDecl {
 
     public void childrenAccept(Visitor visitor) {
         if(Type!=null) Type.accept(visitor);
-        if(arrayDeclList!=null) arrayDeclList.accept(visitor);
+        if(MultipleVarDecl!=null) MultipleVarDecl.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(Type!=null) Type.traverseTopDown(visitor);
-        if(arrayDeclList!=null) arrayDeclList.traverseTopDown(visitor);
+        if(MultipleVarDecl!=null) MultipleVarDecl.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(Type!=null) Type.traverseBottomUp(visitor);
-        if(arrayDeclList!=null) arrayDeclList.traverseBottomUp(visitor);
+        if(MultipleVarDecl!=null) MultipleVarDecl.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class VarDeclDerived2 extends VarDecl {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(arrayDeclList!=null)
-            buffer.append(arrayDeclList.toString("  "+tab));
+        if(MultipleVarDecl!=null)
+            buffer.append(MultipleVarDecl.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

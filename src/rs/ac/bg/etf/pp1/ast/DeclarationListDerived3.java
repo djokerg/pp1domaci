@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/11/2023 10:18:41
+// 28/11/2023 17:33:55
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class DeclarationListDerived3 extends DeclarationList {
 
     private DeclarationList DeclarationList;
-    private ClassDeclList ClassDeclList;
+    private ClassDecl ClassDecl;
 
-    public DeclarationListDerived3 (DeclarationList DeclarationList, ClassDeclList ClassDeclList) {
+    public DeclarationListDerived3 (DeclarationList DeclarationList, ClassDecl ClassDecl) {
         this.DeclarationList=DeclarationList;
         if(DeclarationList!=null) DeclarationList.setParent(this);
-        this.ClassDeclList=ClassDeclList;
-        if(ClassDeclList!=null) ClassDeclList.setParent(this);
+        this.ClassDecl=ClassDecl;
+        if(ClassDecl!=null) ClassDecl.setParent(this);
     }
 
     public DeclarationList getDeclarationList() {
@@ -25,12 +25,12 @@ public class DeclarationListDerived3 extends DeclarationList {
         this.DeclarationList=DeclarationList;
     }
 
-    public ClassDeclList getClassDeclList() {
-        return ClassDeclList;
+    public ClassDecl getClassDecl() {
+        return ClassDecl;
     }
 
-    public void setClassDeclList(ClassDeclList ClassDeclList) {
-        this.ClassDeclList=ClassDeclList;
+    public void setClassDecl(ClassDecl ClassDecl) {
+        this.ClassDecl=ClassDecl;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class DeclarationListDerived3 extends DeclarationList {
 
     public void childrenAccept(Visitor visitor) {
         if(DeclarationList!=null) DeclarationList.accept(visitor);
-        if(ClassDeclList!=null) ClassDeclList.accept(visitor);
+        if(ClassDecl!=null) ClassDecl.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(DeclarationList!=null) DeclarationList.traverseTopDown(visitor);
-        if(ClassDeclList!=null) ClassDeclList.traverseTopDown(visitor);
+        if(ClassDecl!=null) ClassDecl.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(DeclarationList!=null) DeclarationList.traverseBottomUp(visitor);
-        if(ClassDeclList!=null) ClassDeclList.traverseBottomUp(visitor);
+        if(ClassDecl!=null) ClassDecl.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class DeclarationListDerived3 extends DeclarationList {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(ClassDeclList!=null)
-            buffer.append(ClassDeclList.toString("  "+tab));
+        if(ClassDecl!=null)
+            buffer.append(ClassDecl.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
