@@ -1,0 +1,185 @@
+INFO  15:11:44,930 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  15:11:44,981 - #2 program
+INFO  15:11:44,981 - #45 p
+INFO  15:11:44,981 - #9 const
+INFO  15:11:44,982 - #45 char
+INFO  15:11:44,982 - #45 b
+INFO  15:11:44,982 - #33 =
+INFO  15:11:44,983 - #48 a
+INFO  15:11:44,983 - #38 ,
+INFO  15:11:44,983 - #45 c
+INFO  15:11:44,983 - #33 =
+INFO  15:11:44,983 - #48 b
+INFO  15:11:44,983 - #36 ;
+INFO  15:11:44,984 - #4 {
+INFO  15:11:44,984 - #15 void
+INFO  15:11:44,985 - #45 main
+INFO  15:11:44,985 - #40 (
+INFO  15:11:44,985 - #41 )
+INFO  15:11:44,986 - #45 int
+INFO  15:11:44,986 - #45 a
+INFO  15:11:44,986 - #38 ,
+INFO  15:11:44,987 - #45 b
+INFO  15:11:44,988 - #45 b
+ERROR 15:11:44,990 - 
+Sintaksna greska na liniji 6
+INFO  15:11:44,990 - #38 ,
+INFO  15:11:44,990 - #45 c
+INFO  15:11:44,990 - #36 ;
+INFO  15:11:44,991 - #4 {
+ERROR 15:11:44,991 - Izvrsen oporavak do , u liniji 6
+INFO  15:11:44,992 - #18 for
+INFO  15:11:44,993 - #40 (
+INFO  15:11:44,993 - #45 a
+INFO  15:11:44,993 - #33 =
+INFO  15:11:44,994 - #46 5
+INFO  15:11:44,995 - #36 ;
+INFO  15:11:44,996 - #45 a
+INFO  15:11:44,996 - #29 <
+INFO  15:11:44,997 - #46 5
+INFO  15:11:44,997 - #36 ;
+INFO  15:11:44,998 - #41 )
+INFO  15:11:44,998 - #4 {
+INFO  15:11:44,998 - #17 continue
+INFO  15:11:44,998 - #36 ;
+INFO  15:11:44,998 - #45 a
+INFO  15:11:44,999 - #33 =
+INFO  15:11:44,999 - #35 --
+ERROR 15:11:44,999 - 
+Sintaksna greska na liniji 10
+INFO  15:11:44,999 - #21 -
+INFO  15:11:44,999 - #45 o
+INFO  15:11:44,999 - #36 ;
+INFO  15:11:44,999 - #5 }
+ERROR 15:11:44,999 - Izvrsen oporavak(iskaz dodele) do ; u liniji 10
+INFO  15:11:45,000 - #5 }
+INFO  15:11:45,000 - #5 }
+INFO  15:11:45,002 - Program(
+ p
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationListConstDecl(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    ConstDecl(
+      NormalType(
+       char
+      ) [NormalType]
+     b
+      LiteralCHAR(
+       a
+      ) [LiteralCHAR]
+      MultipleConstDecls(
+        NoMultipleConst(
+        ) [NoMultipleConst]
+       c
+        LiteralCHAR(
+         b
+        ) [LiteralCHAR]
+      ) [MultipleConstDecls]
+    ) [ConstDecl]
+  ) [DeclarationListConstDecl]
+  MethodDecls(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      TypeOrVoidV(
+      ) [TypeOrVoidV]
+     main
+      NoPossibleFormPars(
+      ) [NoPossibleFormPars]
+      VarDecls(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclNormal(
+          NormalType(
+           int
+          ) [NormalType]
+          MultipleVarDecls(
+            MultipleVarDeclError(
+            ) [MultipleVarDeclError]
+            SingleVar(
+             c
+              NoPossibleArrayDecl(
+              ) [NoPossibleArrayDecl]
+            ) [SingleVar]
+          ) [MultipleVarDecls]
+        ) [VarDeclNormal]
+      ) [VarDecls]
+      Statements(
+        NoStatement(
+        ) [NoStatement]
+        StatementForLoop(
+          PossibleDesignatorStatements(
+            DesignatorStatementOperation(
+              DesignatorWONamespace(
+               a
+                NoDesignatorHelper(
+                ) [NoDesignatorHelper]
+              ) [DesignatorWONamespace]
+              OperationAssign(
+                Assignop(
+                ) [Assignop]
+                NormalExpr(
+                  TermFactor(
+                    FactorNum(
+                     5
+                    ) [FactorNum]
+                  ) [TermFactor]
+                  NoTerm(
+                  ) [NoTerm]
+                ) [NormalExpr]
+              ) [OperationAssign]
+            ) [DesignatorStatementOperation]
+            ForLoopHelperNo(
+            ) [ForLoopHelperNo]
+          ) [PossibleDesignatorStatements]
+          PossibleCondFactYes(
+            RelopCondFact(
+              NormalExpr(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorWONamespace(
+                     a
+                      NoDesignatorHelper(
+                      ) [NoDesignatorHelper]
+                    ) [DesignatorWONamespace]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+                NoTerm(
+                ) [NoTerm]
+              ) [NormalExpr]
+              RelopLSS(
+              ) [RelopLSS]
+              NormalExpr(
+                TermFactor(
+                  FactorNum(
+                   5
+                  ) [FactorNum]
+                ) [TermFactor]
+                NoTerm(
+                ) [NoTerm]
+              ) [NormalExpr]
+            ) [RelopCondFact]
+          ) [PossibleCondFactYes]
+          NoPossibleDesignatorStatement(
+          ) [NoPossibleDesignatorStatement]
+          StatementStmtList(
+            Statements(
+              Statements(
+                NoStatement(
+                ) [NoStatement]
+                StatementContinue(
+                ) [StatementContinue]
+              ) [Statements]
+              StatementError(
+                null
+              ) [StatementError]
+            ) [Statements]
+          ) [StatementStmtList]
+        ) [StatementForLoop]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDecls]
+) [Program]
+INFO  15:11:45,002 - ===================================

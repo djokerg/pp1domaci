@@ -1,0 +1,29 @@
+INFO  12:15:46,061 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  12:15:46,116 - #2 program
+INFO  12:15:46,116 - #3 p
+INFO  12:15:46,116 - #10 const
+INFO  12:15:46,117 - #3 char
+INFO  12:15:46,118 - #3 b
+INFO  12:15:46,119 - #34 =
+INFO  12:15:46,119 - #47 a
+INFO  12:15:46,119 - #39 ,
+INFO  12:15:46,121 - #3 c
+INFO  12:15:46,121 - #34 =
+INFO  12:15:46,121 - #47 b
+INFO  12:15:46,121 - #37 ;
+INFO  12:15:46,121 - #5 {
+INFO  12:15:46,121 - #16 void
+INFO  12:15:46,122 - #3 main
+INFO  12:15:46,122 - #41 (
+INFO  12:15:46,123 - #42 )
+INFO  12:15:46,123 - #3 int
+INFO  12:15:46,124 - #3 a
+INFO  12:15:46,124 - #39 ,
+INFO  12:15:46,125 - #3 b
+INFO  12:15:46,125 - #3 b
+ERROR 12:15:46,126 - 
+Sintaksna greska na liniji 6
+INFO  12:15:46,126 - #39 ,
+INFO  12:15:46,126 - #3 c
+INFO  12:15:46,126 - #37 ;
+INFO  12:15:46,127 - #5 {

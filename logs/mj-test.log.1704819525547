@@ -1,0 +1,577 @@
+INFO  17:52:48,139 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  17:52:48,225 - #2 program
+INFO  17:52:48,225 - #45 test301
+INFO  17:52:48,225 - #3 namespace
+INFO  17:52:48,226 - #45 Konstante
+INFO  17:52:48,226 - #4 {
+INFO  17:52:48,226 - #9 const
+INFO  17:52:48,227 - #45 int
+INFO  17:52:48,227 - #45 nula
+INFO  17:52:48,227 - #33 =
+INFO  17:52:48,227 - #46 0
+INFO  17:52:48,227 - #36 ;
+INFO  17:52:48,227 - #9 const
+INFO  17:52:48,228 - #45 int
+INFO  17:52:48,228 - #45 jedan
+INFO  17:52:48,228 - #33 =
+INFO  17:52:48,228 - #46 1
+INFO  17:52:48,228 - #36 ;
+INFO  17:52:48,228 - #9 const
+INFO  17:52:48,228 - #45 int
+INFO  17:52:48,228 - #45 pet
+INFO  17:52:48,228 - #33 =
+INFO  17:52:48,230 - #46 5
+INFO  17:52:48,230 - #36 ;
+INFO  17:52:48,230 - #9 const
+INFO  17:52:48,230 - #45 char
+INFO  17:52:48,230 - #45 djok
+INFO  17:52:48,230 - #33 =
+INFO  17:52:48,230 - #48 a
+INFO  17:52:48,230 - #36 ;
+INFO  17:52:48,230 - #4 {
+INFO  17:52:48,230 - #5 }
+INFO  17:52:48,231 - #5 }
+INFO  17:52:48,231 - #3 namespace
+INFO  17:52:48,232 - #45 Nizovi
+INFO  17:52:48,232 - #4 {
+INFO  17:52:48,232 - #45 int
+INFO  17:52:48,232 - #45 niz
+INFO  17:52:48,232 - #42 [
+INFO  17:52:48,232 - #43 ]
+INFO  17:52:48,232 - #36 ;
+INFO  17:52:48,233 - #45 char
+INFO  17:52:48,233 - #45 nizch
+INFO  17:52:48,233 - #42 [
+INFO  17:52:48,233 - #43 ]
+INFO  17:52:48,233 - #36 ;
+INFO  17:52:48,233 - #4 {
+INFO  17:52:48,233 - #5 }
+INFO  17:52:48,233 - #5 }
+INFO  17:52:48,233 - #45 int
+INFO  17:52:48,234 - #45 a
+INFO  17:52:48,234 - #38 ,
+INFO  17:52:48,234 - #45 b
+INFO  17:52:48,234 - #36 ;
+INFO  17:52:48,234 - #4 {
+INFO  17:52:48,234 - #45 int
+INFO  17:52:48,234 - #45 sum
+INFO  17:52:48,234 - #40 (
+INFO  17:52:48,235 - #45 int
+INFO  17:52:48,235 - #45 a
+INFO  17:52:48,235 - #38 ,
+INFO  17:52:48,235 - #45 int
+INFO  17:52:48,235 - #45 b
+INFO  17:52:48,235 - #41 )
+INFO  17:52:48,236 - #4 {
+INFO  17:52:48,236 - #14 return
+INFO  17:52:48,237 - #45 a
+INFO  17:52:48,237 - #20 +
+INFO  17:52:48,237 - #45 b
+INFO  17:52:48,238 - #36 ;
+INFO  17:52:48,238 - #5 }
+INFO  17:52:48,238 - #15 void
+INFO  17:52:48,239 - #45 main
+INFO  17:52:48,239 - #40 (
+INFO  17:52:48,239 - #41 )
+INFO  17:52:48,239 - #4 {
+INFO  17:52:48,239 - #18 for
+INFO  17:52:48,239 - #40 (
+INFO  17:52:48,240 - #45 a
+INFO  17:52:48,240 - #33 =
+INFO  17:52:48,240 - #46 0
+INFO  17:52:48,240 - #36 ;
+INFO  17:52:48,240 - #45 a
+INFO  17:52:48,241 - #29 <
+INFO  17:52:48,241 - #46 1000
+INFO  17:52:48,241 - #36 ;
+INFO  17:52:48,241 - #45 a
+INFO  17:52:48,242 - #33 =
+INFO  17:52:48,242 - #45 a
+INFO  17:52:48,242 - #20 +
+INFO  17:52:48,242 - #46 1
+INFO  17:52:48,242 - #41 )
+INFO  17:52:48,242 - #4 {
+INFO  17:52:48,242 - #12 print
+INFO  17:52:48,242 - #40 (
+INFO  17:52:48,242 - #48 a
+INFO  17:52:48,243 - #41 )
+INFO  17:52:48,243 - #36 ;
+INFO  17:52:48,243 - #18 for
+INFO  17:52:48,243 - #40 (
+INFO  17:52:48,243 - #45 b
+INFO  17:52:48,243 - #33 =
+INFO  17:52:48,243 - #46 0
+INFO  17:52:48,243 - #36 ;
+INFO  17:52:48,243 - #45 b
+INFO  17:52:48,243 - #29 <
+INFO  17:52:48,243 - #46 2
+INFO  17:52:48,243 - #36 ;
+INFO  17:52:48,243 - #45 b
+INFO  17:52:48,243 - #33 =
+INFO  17:52:48,243 - #45 b
+INFO  17:52:48,243 - #20 +
+INFO  17:52:48,243 - #46 1
+INFO  17:52:48,244 - #41 )
+INFO  17:52:48,244 - #4 {
+INFO  17:52:48,244 - #12 print
+INFO  17:52:48,244 - #40 (
+INFO  17:52:48,244 - #48 b
+INFO  17:52:48,244 - #41 )
+INFO  17:52:48,244 - #36 ;
+INFO  17:52:48,244 - #5 }
+INFO  17:52:48,244 - #10 if
+INFO  17:52:48,244 - #40 (
+INFO  17:52:48,245 - #45 a
+INFO  17:52:48,245 - #25 ==
+INFO  17:52:48,245 - #46 2
+INFO  17:52:48,245 - #41 )
+INFO  17:52:48,245 - #6 break
+INFO  17:52:48,246 - #36 ;
+INFO  17:52:48,246 - #5 }
+INFO  17:52:48,247 - #5 }
+INFO  17:52:48,247 - #5 }
+INFO  17:52:48,251 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Namespaces(
+    Namespaces(
+      NoNamespace(
+      ) [NoNamespace]
+      Namespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        DeclarationListConstDecl(
+          DeclarationListConstDecl(
+            DeclarationListConstDecl(
+              DeclarationListConstDecl(
+                NoDeclarationList(
+                ) [NoDeclarationList]
+                ConstDecl(
+                  NormalType(
+                   int
+                  ) [NormalType]
+                 nula
+                  LiteralNUM(
+                   0
+                  ) [LiteralNUM]
+                  NoMultipleConst(
+                  ) [NoMultipleConst]
+                ) [ConstDecl]
+              ) [DeclarationListConstDecl]
+              ConstDecl(
+                NormalType(
+                 int
+                ) [NormalType]
+               jedan
+                LiteralNUM(
+                 1
+                ) [LiteralNUM]
+                NoMultipleConst(
+                ) [NoMultipleConst]
+              ) [ConstDecl]
+            ) [DeclarationListConstDecl]
+            ConstDecl(
+              NormalType(
+               int
+              ) [NormalType]
+             pet
+              LiteralNUM(
+               5
+              ) [LiteralNUM]
+              NoMultipleConst(
+              ) [NoMultipleConst]
+            ) [ConstDecl]
+          ) [DeclarationListConstDecl]
+          ConstDecl(
+            NormalType(
+             char
+            ) [NormalType]
+           djok
+            LiteralCHAR(
+             a
+            ) [LiteralCHAR]
+            NoMultipleConst(
+            ) [NoMultipleConst]
+          ) [ConstDecl]
+        ) [DeclarationListConstDecl]
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Namespace]
+    ) [Namespaces]
+    Namespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      DeclarationListVarDecl(
+        DeclarationListVarDecl(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          VarDeclNormal(
+            NormalType(
+             int
+            ) [NormalType]
+            MultipleVarDeclSingleVar(
+              SingleVar(
+               niz
+                PossibleArrayDeclYes(
+                ) [PossibleArrayDeclYes]
+              ) [SingleVar]
+            ) [MultipleVarDeclSingleVar]
+          ) [VarDeclNormal]
+        ) [DeclarationListVarDecl]
+        VarDeclNormal(
+          NormalType(
+           char
+          ) [NormalType]
+          MultipleVarDeclSingleVar(
+            SingleVar(
+             nizch
+              PossibleArrayDeclYes(
+              ) [PossibleArrayDeclYes]
+            ) [SingleVar]
+          ) [MultipleVarDeclSingleVar]
+        ) [VarDeclNormal]
+      ) [DeclarationListVarDecl]
+      NoMethodDecl(
+      ) [NoMethodDecl]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclarationListVarDecl(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    VarDeclNormal(
+      NormalType(
+       int
+      ) [NormalType]
+      MultipleVarDecls(
+        MultipleVarDeclSingleVar(
+          SingleVar(
+           a
+            NoPossibleArrayDecl(
+            ) [NoPossibleArrayDecl]
+          ) [SingleVar]
+        ) [MultipleVarDeclSingleVar]
+        SingleVar(
+         b
+          NoPossibleArrayDecl(
+          ) [NoPossibleArrayDecl]
+        ) [SingleVar]
+      ) [MultipleVarDecls]
+    ) [VarDeclNormal]
+  ) [DeclarationListVarDecl]
+  MethodDecls(
+    MethodDecls(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodWithType(
+          NormalType(
+           int
+          ) [NormalType]
+         sum
+        ) [MethodWithType]
+        PossibleFormParsDeclared(
+          FormParsList(
+            SignleFromParam(
+              FormParam(
+                NormalType(
+                 int
+                ) [NormalType]
+               a
+                NoPossibleArrayDecl(
+                ) [NoPossibleArrayDecl]
+              ) [FormParam]
+            ) [SignleFromParam]
+            FormParam(
+              NormalType(
+               int
+              ) [NormalType]
+             b
+              NoPossibleArrayDecl(
+              ) [NoPossibleArrayDecl]
+            ) [FormParam]
+          ) [FormParsList]
+        ) [PossibleFormParsDeclared]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStatement(
+          ) [NoStatement]
+          StatementReturnExpr(
+            GeneralExpr(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorWONamespace(
+                     a
+                    ) [DesignatorWONamespace]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+              AddopPLUS(
+              ) [AddopPLUS]
+              TermFactor(
+                FactorDesignator(
+                  DesignatorWONamespace(
+                   b
+                  ) [DesignatorWONamespace]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [GeneralExpr]
+          ) [StatementReturnExpr]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDecls]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoPossibleFormPars(
+      ) [NoPossibleFormPars]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStatement(
+        ) [NoStatement]
+        StatementForLoop(
+          ForLoopStart(
+          ) [ForLoopStart]
+          SingleDesignatorStatement(
+            DesignatorStmtAssign(
+              DesignatorWONamespace(
+               a
+              ) [DesignatorWONamespace]
+              Assignop(
+              ) [Assignop]
+              ExprTerm(
+                TermFactor(
+                  FactorNum(
+                   0
+                  ) [FactorNum]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorStmtAssign]
+          ) [SingleDesignatorStatement]
+          ForConditionStart(
+          ) [ForConditionStart]
+          PossibleCondFactYes(
+            RelopCondFact(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorWONamespace(
+                     a
+                    ) [DesignatorWONamespace]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+              RelopLSS(
+              ) [RelopLSS]
+              ExprTerm(
+                TermFactor(
+                  FactorNum(
+                   1000
+                  ) [FactorNum]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [RelopCondFact]
+          ) [PossibleCondFactYes]
+          ForTailDesignatorStart(
+          ) [ForTailDesignatorStart]
+          SingleDesignatorStatement(
+            DesignatorStmtAssign(
+              DesignatorWONamespace(
+               a
+              ) [DesignatorWONamespace]
+              Assignop(
+              ) [Assignop]
+              GeneralExpr(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      DesignatorWONamespace(
+                       a
+                      ) [DesignatorWONamespace]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                AddopPLUS(
+                ) [AddopPLUS]
+                TermFactor(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                ) [TermFactor]
+              ) [GeneralExpr]
+            ) [DesignatorStmtAssign]
+          ) [SingleDesignatorStatement]
+          ForStatementsStart(
+          ) [ForStatementsStart]
+          ForStatement(
+            StatementStmtList(
+              StatementListDetected(
+              ) [StatementListDetected]
+              Statements(
+                Statements(
+                  Statements(
+                    NoStatement(
+                    ) [NoStatement]
+                    StatementPrintSingle(
+                      ExprTerm(
+                        TermFactor(
+                          FactorChar(
+                           a
+                          ) [FactorChar]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [StatementPrintSingle]
+                  ) [Statements]
+                  StatementForLoop(
+                    ForLoopStart(
+                    ) [ForLoopStart]
+                    SingleDesignatorStatement(
+                      DesignatorStmtAssign(
+                        DesignatorWONamespace(
+                         b
+                        ) [DesignatorWONamespace]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorStmtAssign]
+                    ) [SingleDesignatorStatement]
+                    ForConditionStart(
+                    ) [ForConditionStart]
+                    PossibleCondFactYes(
+                      RelopCondFact(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               b
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                        RelopLSS(
+                        ) [RelopLSS]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [RelopCondFact]
+                    ) [PossibleCondFactYes]
+                    ForTailDesignatorStart(
+                    ) [ForTailDesignatorStart]
+                    SingleDesignatorStatement(
+                      DesignatorStmtAssign(
+                        DesignatorWONamespace(
+                         b
+                        ) [DesignatorWONamespace]
+                        Assignop(
+                        ) [Assignop]
+                        GeneralExpr(
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 b
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          AddopPLUS(
+                          ) [AddopPLUS]
+                          TermFactor(
+                            FactorNum(
+                             1
+                            ) [FactorNum]
+                          ) [TermFactor]
+                        ) [GeneralExpr]
+                      ) [DesignatorStmtAssign]
+                    ) [SingleDesignatorStatement]
+                    ForStatementsStart(
+                    ) [ForStatementsStart]
+                    ForStatement(
+                      StatementStmtList(
+                        StatementListDetected(
+                        ) [StatementListDetected]
+                        Statements(
+                          NoStatement(
+                          ) [NoStatement]
+                          StatementPrintSingle(
+                            ExprTerm(
+                              TermFactor(
+                                FactorChar(
+                                 b
+                                ) [FactorChar]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [StatementPrintSingle]
+                        ) [Statements]
+                      ) [StatementStmtList]
+                    ) [ForStatement]
+                  ) [StatementForLoop]
+                ) [Statements]
+                IfStatement(
+                  IfBlock(
+                    IfConditionEndDetected(
+                      IfStartDetected(
+                      ) [IfStartDetected]
+                      NormalCondition(
+                        NormalCondTerm(
+                          RelopCondFact(
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  DesignatorWONamespace(
+                                   a
+                                  ) [DesignatorWONamespace]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            RelopEQUAL(
+                            ) [RelopEQUAL]
+                            ExprTerm(
+                              TermFactor(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [RelopCondFact]
+                        ) [NormalCondTerm]
+                      ) [NormalCondition]
+                    ) [IfConditionEndDetected]
+                    StatementBreak(
+                    ) [StatementBreak]
+                  ) [IfBlock]
+                ) [IfStatement]
+              ) [Statements]
+            ) [StatementStmtList]
+          ) [ForStatement]
+        ) [StatementForLoop]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDecls]
+) [Program]
+INFO  17:52:48,251 - ===================================
+INFO  17:52:48,253 - Deklarisana promenljiva niz na liniji 15
+INFO  17:52:48,254 - Deklarisana promenljiva nizch na liniji 16
+INFO  17:52:48,254 - Deklarisana promenljiva a na liniji 23
+INFO  17:52:48,254 - Deklarisana promenljiva b na liniji 23
+INFO  17:52:48,254 - Obradjuje se metod sum na liniji 26
+INFO  17:52:48,254 - Obradjuje se metod main na liniji 30
+ERROR 17:52:48,254 - Iskaz break se moze koristiti samo unutar for petlje
+INFO  17:52:48,254 - ===================================
+ERROR 17:52:48,254 - Parsiranje nije uspesno zavrseno!

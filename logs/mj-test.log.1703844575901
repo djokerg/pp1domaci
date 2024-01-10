@@ -1,0 +1,51 @@
+INFO  11:09:28,171 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  11:09:28,220 - #2 program
+INFO  11:09:28,220 - #3 p
+INFO  11:09:28,220 - #10 const
+INFO  11:09:28,221 - #3 char
+INFO  11:09:28,221 - #3 b
+INFO  11:09:28,222 - #34 =
+INFO  11:09:28,222 - #47 a
+INFO  11:09:28,222 - #21 +
+ERROR 11:09:28,222 - 
+Sintaksna greska na liniji 4
+INFO  11:09:28,222 - #39 ,
+INFO  11:09:28,223 - #3 c
+INFO  11:09:28,223 - #34 =
+INFO  11:09:28,223 - #47 b
+INFO  11:09:28,223 - #37 ;
+INFO  11:09:28,223 - #5 {
+INFO  11:09:28,223 - #16 void
+INFO  11:09:28,223 - #3 main
+ERROR 11:09:28,223 - Izvrsen oporavak do ; u liniji 4
+INFO  11:09:28,225 - #41 (
+INFO  11:09:28,225 - #42 )
+INFO  11:09:28,225 - #3 int
+INFO  11:09:28,226 - #3 a
+INFO  11:09:28,226 - #37 ;
+INFO  11:09:28,227 - #5 {
+INFO  11:09:28,227 - #19 for
+INFO  11:09:28,227 - #41 (
+INFO  11:09:28,227 - #3 a
+INFO  11:09:28,227 - #34 =
+INFO  11:09:28,228 - #46 5
+INFO  11:09:28,229 - #37 ;
+INFO  11:09:28,231 - #3 a
+INFO  11:09:28,231 - #30 <
+INFO  11:09:28,231 - #46 5
+INFO  11:09:28,232 - #37 ;
+INFO  11:09:28,232 - #42 )
+INFO  11:09:28,233 - #5 {
+INFO  11:09:28,233 - #18 continue
+INFO  11:09:28,233 - #37 ;
+INFO  11:09:28,233 - #3 a
+INFO  11:09:28,233 - #21 +
+ERROR 11:09:28,233 - 
+Sintaksna greska na liniji 10
+INFO  11:09:28,233 - #34 =
+INFO  11:09:28,233 - #46 5
+INFO  11:09:28,233 - #37 ;
+INFO  11:09:28,234 - #6 }
+INFO  11:09:28,234 - #6 }
+INFO  11:09:28,234 - #6 }
+ERROR 11:09:28,234 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

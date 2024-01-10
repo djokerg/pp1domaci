@@ -5,8 +5,11 @@ package rs.ac.bg.etf.pp1;
 import java_cup.runtime.*;
 import org.apache.log4j.*;
 import rs.ac.bg.etf.pp1.ast.*;
+import java.lang.Boolean;
 
 parser code {:
+
+    boolean errorDetected;
 
 	Logger log = Logger.getLogger(getClass());
 
@@ -36,6 +39,10 @@ parser code {:
 
 :}
 
+init with {:
+    errorDetected = false;
+:}
+
 
 scan with {:
 	Symbol s = this.getScanner().next_token();
@@ -44,29 +51,43 @@ scan with {:
 	return s;
 :}
 
-nonterminal Program, NamespaceList, Namespace, MethodDeclList, MethodDecl, TypeOrVoid, PossibleFormPars, FormPars, PossibleArrayDecl, DeclarationList, VarDeclList, VarDecl, MultipleVarDecl, Type, ConstDecl, MultipleConstDecl, Literal, StaticInitializer, StatementList, Statement, DesignatorStatement, Operation, ActPars, Condition, CondTerm, CondFact, Expr, TermList, Term, Factor, Designator, DesignatorHelperList, Label, Assignop, Relop, Addop, Mulop, DesStmtHelper;
+nonterminal NamespaceList, Namespace, MethodDeclList, PossibleFormPars, FormPars, PossibleArrayDecl, DeclarationList, VarDeclList, VarDecl, ConstDecl, MultipleConstDecl, StaticInitializer, StatementList, Statement, DesignatorStatement, ActPars, Label, Assignop, Addop, Mulop, DesStmtHelper;
 
-nonterminal PossibleDesignatorStatementList, PossibleCondFact, ForLoopHelper;
+nonterminal PossibleDesignatorStatementList, PossibleCondFact, ForLoopHelper, MultipleVarDecl, SingleVar;
 nonterminal ClassDecl, OptionalExtends, StaticVarDeclList, StaticInitializerList, OtpionalMethodDeclList, StaticInitializerHelper;
-terminal PROG, IDENT, NAMESPACE, LBRACE, RBRACE;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, Literal, MethodDecl, MethodTypeName, Designator;
+nonterminal NamespaceName, FactorCallPossiblePars, FormParam, ForLoopStart, PossibleDesignator, DesignatorArrayName, IfFirstPart, IfSecondPart, ElseFirstPart, StatementListDetected, ForConditionStart, ForTailDesignatorStart, ForStatementsStart;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Term, Factor, Condition, CondTerm, CondFact;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Relop;
+
+nonterminal IfStartDetected, ORBlockDetected, IfConditionEndDetected, IfBlock, ForStatement;
+
+terminal PROG, NAMESPACE, LBRACE, RBRACE;
 terminal BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ,RETURN, VOID, EXTENDS, CONTINUE, FOR, STATIC;
 terminal PLUS, MINUS, MUL, DIV, MOD, EQUAL, NOTEQUAL, GRT, GRTE, LSS, LSSE, BITAND, BITOR, ASSIGN, PLUSPLUS, MINUSMINUS;
 terminal SEMI, COLON, COMMA, DOT, LPAREN, RPAREN, LSQUARE, RSQUARE, LAMBDA;
 
-terminal NUMCONST, CHARCONST, BOOLCONST;
+terminal String IDENT;
+terminal Integer NUMCONST;
+terminal Boolean BOOLCONST;
+terminal Character CHARCONST;
 
 precedence left ELSE;
 
-Program ::= PROG IDENT NamespaceList DeclarationList LBRACE MethodDeclList RBRACE;
+Program ::= (Program) PROG ProgName:p NamespaceList DeclarationList LBRACE MethodDeclList RBRACE;
 
-NamespaceList ::= NamespaceList Namespace
+ProgName ::= (ProgName) IDENT:progName;
+
+NamespaceList ::= (Namespaces) NamespaceList Namespace
                 |
-                /* epsilon */
+                (NoNamespace) /* epsilon */
                 ;
 
-Namespace ::= NAMESPACE IDENT LBRACE DeclarationList LBRACE MethodDeclList RBRACE RBRACE;
+Namespace ::= (Namespace) NAMESPACE NamespaceName LBRACE DeclarationList LBRACE MethodDeclList RBRACE RBRACE;
 
-ClassDecl ::= CLASS IDENT OptionalExtends
+NamespaceName ::= (NamespaceName) IDENT:NamespaceName;
+
+ClassDecl ::= (ClassDecl) CLASS IDENT OptionalExtends
                 LBRACE
                 StaticVarDeclList
                 StaticInitializerHelper
@@ -75,227 +96,258 @@ ClassDecl ::= CLASS IDENT OptionalExtends
                 RBRACE
                 ;
 
-OptionalExtends ::= EXTENDS Type
+OptionalExtends ::= (Extends) EXTENDS Type
                 |
-                /* epsilon */
+                (NoExtends) /* epsilon */
                 ;
 
-StaticVarDeclList ::= StaticVarDeclList STATIC VarDecl
+StaticVarDeclList ::= (StaticVarDecls) StaticVarDeclList STATIC VarDecl
                     |
-                    /* epsilon */
+                    (NoStaticVarDecl) /* epsilon */
                     ;
 
-StaticInitializerHelper ::= StaticInitializerList | /* epsilon */;
+StaticInitializerHelper ::= (StaticInitializerHelperYes) StaticInitializerList | (StaticInitializerHelperNo) /* epsilon */;
 
-StaticInitializerList ::= StaticInitializer
+StaticInitializerList ::= (StaticInitializers) StaticInitializerList StaticInitializer
                     |
-                    StaticInitializerList StaticInitializer
+                    (StaticInitializerSingle) StaticInitializer
                     ;
 
-StaticInitializer ::= STATIC LBRACE StatementList RBRACE;//mozda bude bacalo konflikt
+StaticInitializer ::= (StaticInitializer) STATIC LBRACE StatementList RBRACE;//mozda bude bacalo konflikt
 
-OtpionalMethodDeclList ::= LBRACE MethodDeclList RBRACE
+OtpionalMethodDeclList ::= (OptionalMethodDecls) LBRACE MethodDeclList RBRACE
                         |
-                        /* epsilon */
+                        (NoOptionalMethodDecl) /* epsilon */
                         ;
 
-MethodDeclList ::= MethodDeclList MethodDecl
+MethodDeclList ::= (MethodDecls) MethodDeclList MethodDecl
                 |
-                /* epsilon */
+                (NoMethodDecl) /* epsilon */
                 ;
 
-MethodDecl ::= TypeOrVoid IDENT LPAREN PossibleFormPars RPAREN VarDeclList LBRACE StatementList RBRACE;
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN PossibleFormPars RPAREN VarDeclList LBRACE StatementList RBRACE;
 
-TypeOrVoid ::= Type | VOID;
+MethodTypeName ::= (MethodWithType) Type IDENT:methodName | (VoidMethod) VOID IDENT:methodName;
 
-PossibleFormPars ::= FormPars | /* epsilon */;
+PossibleFormPars ::= (PossibleFormParsDeclared) FormPars | (NoPossibleFormPars) /* epsilon */;
 
-FormPars ::= FormPars COMMA Type IDENT PossibleArrayDecl
+FormPars ::= (FormParsList) FormPars COMMA FormParam
             |
-            Type IDENT PossibleArrayDecl
+            (SignleFromParam) FormParam
             ;
 
-PossibleArrayDecl ::= LSQUARE RSQUARE | /* epislon */;
+FormParam ::= (FormParam) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray;
 
-DeclarationList ::= DeclarationList VarDecl
+PossibleArrayDecl ::= (PossibleArrayDeclYes)  LSQUARE RSQUARE | (NoPossibleArrayDecl) /* epislon */;
+
+DeclarationList ::= (DeclarationListVarDecl) DeclarationList VarDecl
 			|
-			DeclarationList ConstDecl
+			(DeclarationListConstDecl) DeclarationList ConstDecl
 			|
-			DeclarationList ClassDecl
+			(DeclarationListClassDecl) DeclarationList ClassDecl
 			|
-			/* epsilon */
+			(NoDeclarationList)/* epsilon */
 			;
-VarDeclList ::= VarDeclList VarDecl
+
+VarDeclList ::= (VarDecls) VarDeclList VarDecl
                 |
-                /* epsilon */
+                (NoVarDecl) /* epsilon */
                 ;
 
-VarDecl ::= Type IDENT MultipleVarDecl SEMI
+VarDecl ::= (VarDeclNormal) Type:varType MultipleVarDecl:mulitpleVars SEMI
+                |
+                (VarDeclError) error SEMI:l
+                {: parser.report_error("Izvrsen oporavak do ; u liniji " +lleft, null); :}
+                ;
+
+MultipleVarDecl ::= (MultipleVarDecls) MultipleVarDecl COMMA SingleVar
+                |
+                (MultipleVarDeclSingleVar) SingleVar
+                |
+                (MultipleVarDeclError) error:l
+                {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :}
+                ;
+
+SingleVar ::= (SingleVar) IDENT:varName PossibleArrayDecl:possibleArray
+                ;
+
+Type ::= (TypeWNamespace) IDENT:namespace COLON COLON IDENT:typeName
         |
-        Type IDENT LSQUARE RSQUARE MultipleVarDecl SEMI
+        (NormalType) IDENT:typeName
         ;
 
-MultipleVarDecl ::= MultipleVarDecl COMMA IDENT
-                |
-                MultipleVarDecl COMMA IDENT LSQUARE RSQUARE
-                |
-                /* epsilon */
-                ;
+ConstDecl ::= (ConstDecl) CONST Type IDENT:constName ASSIGN Literal:literal MultipleConstDecl SEMI;
 
-Type ::= IDENT COLON COLON IDENT
-        |
-        IDENT;
-
-ConstDecl ::= CONST Type IDENT ASSIGN Literal MultipleConstDecl SEMI;
-
-MultipleConstDecl ::= MultipleConstDecl COMMA IDENT ASSIGN Literal
+MultipleConstDecl ::= (MultipleConstDecls) MultipleConstDecl COMMA IDENT:constName ASSIGN Literal:literal
                     |
-                    /* epsilon */
+                    (NoMultipleConst) /* epsilon */
                     ;
 
-Literal ::= NUMCONST | BOOLCONST | CHARCONST;
+Literal ::= (LiteralNUM) NUMCONST:value | (LiteralBOOL) BOOLCONST:value | (LiteralCHAR) CHARCONST:value;
 
-StatementList ::= StatementList Statement
+StatementList ::= (Statements) StatementList Statement
                 |
-                /* epsilon */
+                (NoStatement) /* epsilon */
                 ;
 
-Statement ::= DesignatorStatement SEMI
+Statement ::=  (StatementWDesignatorStmt) DesignatorStatement SEMI
             |
-            IF LPAREN Condition RPAREN Statement
+            (StatementError) error Expr SEMI:l
+            {: parser.report_error("Izvrsen oporavak(iskaz dodele) do ; u liniji " +lleft, null); :}
             |
-            IF LPAREN Condition RPAREN Statement ELSE Statement
+            (IfStatement) IfBlock
             |
-            BREAK SEMI
+            (IfElseStatement) IfBlock ELSE Statement
             |
-            CONTINUE SEMI
+            (StatementBreak) BREAK SEMI
             |
-            RETURN SEMI
+            (StatementContinue) CONTINUE SEMI
             |
-            RETURN Expr SEMI
+            (StatementRetrun) RETURN SEMI
             |
-            READ LPAREN Designator RPAREN SEMI
+            (StatementReturnExpr) RETURN Expr SEMI
             |
-            PRINT LPAREN Expr RPAREN SEMI
+            (StatementRead) READ LPAREN Designator RPAREN SEMI
             |
-            PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
+            (StatementPrintSingle) PRINT LPAREN Expr RPAREN SEMI
             |
-            FOR LPAREN PossibleDesignatorStatementList SEMI PossibleCondFact SEMI PossibleDesignatorStatementList RPAREN Statement
+            (StatementPrintMultiple) PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
             |
-            LBRACE StatementList RBRACE
+            (StatementForLoop) ForLoopStart LPAREN PossibleDesignatorStatementList ForConditionStart PossibleCondFact ForTailDesignatorStart PossibleDesignatorStatementList ForStatementsStart ForStatement
+            |
+            (StatementStmtList) LBRACE StatementListDetected StatementList RBRACE
             ;
+//all helpert for if-else
+IfStartDetected ::= (IfStartDetected) IF;
 
-PossibleCondFact ::= CondFact | /* epsilon */;
+IfConditionEndDetected ::= (IfConditionEndDetected) IfStartDetected LPAREN Condition RPAREN;
 
-PossibleDesignatorStatementList ::= DesignatorStatement ForLoopHelper
+IfBlock ::= (IfBlock) IfConditionEndDetected Statement;
+
+StatementListDetected ::= (StatementListDetected) /*epsilon*/;
+
+ForLoopStart ::= (ForLoopStart) FOR;
+
+ForConditionStart ::= (ForConditionStart) SEMI;
+
+ForStatementsStart ::= (ForStatementsStart) RPAREN;
+
+ForStatement ::= (ForStatement) Statement;
+
+ForTailDesignatorStart ::= (ForTailDesignatorStart) SEMI;
+
+PossibleCondFact ::= (PossibleCondFactYes) CondFact | (PossibleCondFactNo) /* epsilon */;
+
+PossibleDesignatorStatementList ::= (PossibleDesignatorStatements) PossibleDesignatorStatementList COMMA DesignatorStatement
                                     |
-                                    /* epsilon */
+                                    (SingleDesignatorStatement) DesignatorStatement
                                     ;
 
-ForLoopHelper ::= ForLoopHelper COMMA DesignatorStatement
-                |
-                /* epsilon */
-                ;
-
-DesignatorStatement ::= Designator Operation
+DesignatorStatement ::= (DesignatorStmtAssign) Designator Assignop Expr
                     |
-                    LSQUARE DesStmtHelper MUL Designator RSQUARE ASSIGN Designator
+                    (DesignatorStmtCallNoArg) Designator LPAREN RPAREN
+                    |
+                    (DesignatorStmtCallArg) Designator LPAREN ActPars RPAREN
+                    |
+                    (DesignatorStmtPlusPlus) Designator PLUSPLUS
+                    |
+                    (DesignatorStmtMinusMinus) Designator MINUSMINUS
+                    |
+                    (DesignatorStatementMultipleAssign) LSQUARE DesStmtHelper MUL Designator:lastLeft RSQUARE ASSIGN Designator:rightDes
                     ;
 
-DesStmtHelper ::= DesStmtHelper COMMA
+DesStmtHelper ::= (DesStmtHelperYes) DesStmtHelper PossibleDesignator:des COMMA
                 |
-                DesStmtHelper Designator COMMA
-                |
-                /* epsilon */
+                (DesStmtHelperNo) /* epsilon */
                 ;
 
-Operation ::= Assignop Expr
-            |
-            LPAREN RPAREN
-            |
-            LPAREN ActPars RPAREN
-            |
-            PLUSPLUS
-            |
-            MINUSMINUS
-            ;
+PossibleDesignator ::= (DesignatorYes) Designator | (DesignatorNo) /* epsilon*/;
 
-ActPars ::= ActPars COMMA Expr
+ActPars ::= (ActParams) ActPars COMMA Expr:e
         |
-        Expr
+        (ActParam) Expr:e
         ;
 
-Condition ::= Condition BITOR CondTerm
+Condition ::= (ConditionBITOR) ORBlockDetected BITOR CondTerm
             |
-            CondTerm
+            (NormalCondition) CondTerm
             ;
 
-CondTerm ::= CondTerm BITAND CondFact
+ORBlockDetected ::= (ORBlockDetected) Condition;
+
+CondTerm ::= (CondTermBITAND) CondTerm BITAND CondFact
             |
-            CondFact
+            (NormalCondTerm) CondFact
             ;
 
-CondFact ::= Expr
+
+CondFact ::= (NormalCondFact) Expr:e
             |
-            Expr Relop Expr
+            (RelopCondFact) Expr:e1 Relop Expr:e2
             ;
 
-Expr ::= MINUS Term TermList
+Expr ::= (GeneralExpr) Expr:e Addop Term:t
         |
-        Term TermList
+        (ExprMinusTerm) MINUS Term:t
+        |
+        (ExprTerm) Term:t
         ;
 
-TermList ::= TermList Addop Term
-            |
-            /* epsilon */
-            ;
-
-Term ::= Term Mulop Factor
+Term ::= (TermMulop) Term:term Mulop Factor:fac//multiplication
         |
-        Factor
+        (TermFactor) Factor:fac
         ;
 
-Factor ::= Designator
+Factor ::= (FactorDesignator) Designator:des
         |
-        Designator LPAREN ActPars RPAREN
+        (FactorCall) Designator:des LPAREN FactorCallPossiblePars:possPars RPAREN
         |
-        Designator LPAREN RPAREN
+        (FactorNum) NUMCONST:numValue
         |
-        NUMCONST
+        (FactorChar) CHARCONST:charValue
         |
-        CHARCONST
+        (FactorBool) BOOLCONST:boolValue
         |
-        BOOLCONST
+        (FactorNewArrayExpr) NEW Type LSQUARE Expr:expr RSQUARE
         |
-        NEW Type LSQUARE Expr RSQUARE
+        (FactorNewFunctionParams) NEW Type LPAREN ActPars RPAREN
         |
-        NEW Type LSQUARE RSQUARE
+        (FactorNewFunctionNoParams) NEW Type LPAREN RPAREN
         |
-        NEW Type LPAREN ActPars RPAREN
-        |
-        NEW Type LPAREN RPAREN
-        |
-        LPAREN Expr RPAREN
+        (FactorParenExpr) LPAREN Expr RPAREN
         ;
 
-Designator ::= IDENT COLON COLON IDENT DesignatorHelperList
+FactorCallPossiblePars ::= (FactorCallPossibleParsYes) ActPars | (FactorCallPossibleParsNo) /* epsilon */;
+
+Designator ::= (DesignatorWNamespace) IDENT:namespace COLON COLON IDENT:desName
             |
-            IDENT DesignatorHelperList
+            (DesignatorWONamespace) IDENT:desName
+            |
+            (DesignatorField) Designator DOT IDENT:fieldName
+            |
+            (DesignatorArray) DesignatorArrayName LSQUARE Expr:index RSQUARE
             ;
 
-DesignatorHelperList ::= DesignatorHelperList DOT IDENT
-                    |
-                    DesignatorHelperList LSQUARE Expr RSQUARE
-                    |
-                    /* epsilon */
-                    ;
+DesignatorArrayName ::= (DesignatorArrayName) Designator;
 
-Label ::= IDENT;
+Label ::= (Label) IDENT;
 
-Assignop ::= ASSIGN;
+Assignop ::= (Assignop) ASSIGN
+        ;
 
-Relop ::= EQUAL | NOTEQUAL | GRT | GRTE | LSS | LSSE;
+Relop ::= (RelopEQUAL) EQUAL
+        |
+        (RelopNOTEQUAL) NOTEQUAL
+        |
+        (RelopGRT) GRT
+        |
+        (RelopGRTE) GRTE
+        |
+        (RelopLSS) LSS
+        |
+        (RelopLSSE) LSSE
+        ;
 
-Addop ::= PLUS | MINUS;
+Addop ::= (AddopPLUS) PLUS | (AddopMINUS) MINUS;
 
-Mulop ::= MUL | DIV | MOD ;
+Mulop ::= (MulopMUL) MUL | (MulopDIV) DIV | (MulopMOD) MOD ;

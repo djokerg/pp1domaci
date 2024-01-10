@@ -1,0 +1,348 @@
+INFO  18:02:00,592 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  18:02:00,646 - #2 program
+INFO  18:02:00,646 - #45 test301
+INFO  18:02:00,646 - #3 namespace
+INFO  18:02:00,647 - #45 Konstante
+INFO  18:02:00,647 - #4 {
+INFO  18:02:00,648 - #9 const
+INFO  18:02:00,648 - #45 int
+INFO  18:02:00,648 - #45 nula
+INFO  18:02:00,648 - #33 =
+INFO  18:02:00,648 - #46 0
+INFO  18:02:00,648 - #36 ;
+INFO  18:02:00,649 - #9 const
+INFO  18:02:00,649 - #45 int
+INFO  18:02:00,649 - #45 jedan
+INFO  18:02:00,649 - #33 =
+INFO  18:02:00,650 - #46 1
+INFO  18:02:00,650 - #36 ;
+INFO  18:02:00,650 - #9 const
+INFO  18:02:00,650 - #45 int
+INFO  18:02:00,650 - #45 pet
+INFO  18:02:00,650 - #33 =
+INFO  18:02:00,652 - #46 5
+INFO  18:02:00,652 - #36 ;
+INFO  18:02:00,652 - #9 const
+INFO  18:02:00,652 - #45 char
+INFO  18:02:00,652 - #45 djok
+INFO  18:02:00,652 - #33 =
+INFO  18:02:00,652 - #48 a
+INFO  18:02:00,652 - #36 ;
+INFO  18:02:00,652 - #4 {
+INFO  18:02:00,652 - #5 }
+INFO  18:02:00,653 - #5 }
+INFO  18:02:00,653 - #3 namespace
+INFO  18:02:00,653 - #45 Nizovi
+INFO  18:02:00,653 - #4 {
+INFO  18:02:00,654 - #45 int
+INFO  18:02:00,654 - #45 niz
+INFO  18:02:00,654 - #42 [
+INFO  18:02:00,654 - #43 ]
+INFO  18:02:00,654 - #36 ;
+INFO  18:02:00,655 - #45 char
+INFO  18:02:00,655 - #45 nizch
+INFO  18:02:00,655 - #42 [
+INFO  18:02:00,655 - #43 ]
+INFO  18:02:00,655 - #36 ;
+INFO  18:02:00,655 - #4 {
+INFO  18:02:00,655 - #5 }
+INFO  18:02:00,655 - #5 }
+INFO  18:02:00,655 - #45 int
+INFO  18:02:00,655 - #45 a
+INFO  18:02:00,655 - #38 ,
+INFO  18:02:00,656 - #45 b
+INFO  18:02:00,656 - #36 ;
+INFO  18:02:00,656 - #4 {
+INFO  18:02:00,656 - #45 int
+INFO  18:02:00,656 - #45 sum
+INFO  18:02:00,656 - #40 (
+INFO  18:02:00,656 - #45 int
+INFO  18:02:00,656 - #45 a
+INFO  18:02:00,657 - #38 ,
+INFO  18:02:00,657 - #45 int
+INFO  18:02:00,657 - #45 b
+INFO  18:02:00,657 - #41 )
+INFO  18:02:00,658 - #4 {
+INFO  18:02:00,658 - #14 return
+INFO  18:02:00,658 - #45 a
+INFO  18:02:00,658 - #20 +
+INFO  18:02:00,659 - #45 b
+INFO  18:02:00,659 - #36 ;
+INFO  18:02:00,660 - #5 }
+INFO  18:02:00,660 - #15 void
+INFO  18:02:00,660 - #45 main
+INFO  18:02:00,660 - #40 (
+INFO  18:02:00,660 - #41 )
+INFO  18:02:00,661 - #4 {
+INFO  18:02:00,661 - #10 if
+INFO  18:02:00,661 - #40 (
+INFO  18:02:00,661 - #45 a
+INFO  18:02:00,661 - #25 ==
+INFO  18:02:00,661 - #46 2
+INFO  18:02:00,662 - #41 )
+INFO  18:02:00,662 - #12 print
+INFO  18:02:00,663 - #40 (
+INFO  18:02:00,663 - #48 a
+INFO  18:02:00,663 - #41 )
+INFO  18:02:00,663 - #36 ;
+INFO  18:02:00,663 - #5 }
+INFO  18:02:00,663 - #5 }
+INFO  18:02:00,668 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Namespaces(
+    Namespaces(
+      NoNamespace(
+      ) [NoNamespace]
+      Namespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        DeclarationListConstDecl(
+          DeclarationListConstDecl(
+            DeclarationListConstDecl(
+              DeclarationListConstDecl(
+                NoDeclarationList(
+                ) [NoDeclarationList]
+                ConstDecl(
+                  NormalType(
+                   int
+                  ) [NormalType]
+                 nula
+                  LiteralNUM(
+                   0
+                  ) [LiteralNUM]
+                  NoMultipleConst(
+                  ) [NoMultipleConst]
+                ) [ConstDecl]
+              ) [DeclarationListConstDecl]
+              ConstDecl(
+                NormalType(
+                 int
+                ) [NormalType]
+               jedan
+                LiteralNUM(
+                 1
+                ) [LiteralNUM]
+                NoMultipleConst(
+                ) [NoMultipleConst]
+              ) [ConstDecl]
+            ) [DeclarationListConstDecl]
+            ConstDecl(
+              NormalType(
+               int
+              ) [NormalType]
+             pet
+              LiteralNUM(
+               5
+              ) [LiteralNUM]
+              NoMultipleConst(
+              ) [NoMultipleConst]
+            ) [ConstDecl]
+          ) [DeclarationListConstDecl]
+          ConstDecl(
+            NormalType(
+             char
+            ) [NormalType]
+           djok
+            LiteralCHAR(
+             a
+            ) [LiteralCHAR]
+            NoMultipleConst(
+            ) [NoMultipleConst]
+          ) [ConstDecl]
+        ) [DeclarationListConstDecl]
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Namespace]
+    ) [Namespaces]
+    Namespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      DeclarationListVarDecl(
+        DeclarationListVarDecl(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          VarDeclNormal(
+            NormalType(
+             int
+            ) [NormalType]
+            MultipleVarDeclSingleVar(
+              SingleVar(
+               niz
+                PossibleArrayDeclYes(
+                ) [PossibleArrayDeclYes]
+              ) [SingleVar]
+            ) [MultipleVarDeclSingleVar]
+          ) [VarDeclNormal]
+        ) [DeclarationListVarDecl]
+        VarDeclNormal(
+          NormalType(
+           char
+          ) [NormalType]
+          MultipleVarDeclSingleVar(
+            SingleVar(
+             nizch
+              PossibleArrayDeclYes(
+              ) [PossibleArrayDeclYes]
+            ) [SingleVar]
+          ) [MultipleVarDeclSingleVar]
+        ) [VarDeclNormal]
+      ) [DeclarationListVarDecl]
+      NoMethodDecl(
+      ) [NoMethodDecl]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclarationListVarDecl(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    VarDeclNormal(
+      NormalType(
+       int
+      ) [NormalType]
+      MultipleVarDecls(
+        MultipleVarDeclSingleVar(
+          SingleVar(
+           a
+            NoPossibleArrayDecl(
+            ) [NoPossibleArrayDecl]
+          ) [SingleVar]
+        ) [MultipleVarDeclSingleVar]
+        SingleVar(
+         b
+          NoPossibleArrayDecl(
+          ) [NoPossibleArrayDecl]
+        ) [SingleVar]
+      ) [MultipleVarDecls]
+    ) [VarDeclNormal]
+  ) [DeclarationListVarDecl]
+  MethodDecls(
+    MethodDecls(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodWithType(
+          NormalType(
+           int
+          ) [NormalType]
+         sum
+        ) [MethodWithType]
+        PossibleFormParsDeclared(
+          FormParsList(
+            SignleFromParam(
+              FormParam(
+                NormalType(
+                 int
+                ) [NormalType]
+               a
+                NoPossibleArrayDecl(
+                ) [NoPossibleArrayDecl]
+              ) [FormParam]
+            ) [SignleFromParam]
+            FormParam(
+              NormalType(
+               int
+              ) [NormalType]
+             b
+              NoPossibleArrayDecl(
+              ) [NoPossibleArrayDecl]
+            ) [FormParam]
+          ) [FormParsList]
+        ) [PossibleFormParsDeclared]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStatement(
+          ) [NoStatement]
+          StatementReturnExpr(
+            GeneralExpr(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorWONamespace(
+                     a
+                    ) [DesignatorWONamespace]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+              AddopPLUS(
+              ) [AddopPLUS]
+              TermFactor(
+                FactorDesignator(
+                  DesignatorWONamespace(
+                   b
+                  ) [DesignatorWONamespace]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [GeneralExpr]
+          ) [StatementReturnExpr]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDecls]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoPossibleFormPars(
+      ) [NoPossibleFormPars]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStatement(
+        ) [NoStatement]
+        IfStatement(
+          IfBlock(
+            IfConditionEndDetected(
+              IfStartDetected(
+              ) [IfStartDetected]
+              NormalCondition(
+                NormalCondTerm(
+                  RelopCondFact(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          DesignatorWONamespace(
+                           a
+                          ) [DesignatorWONamespace]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    RelopEQUAL(
+                    ) [RelopEQUAL]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNum(
+                         2
+                        ) [FactorNum]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [RelopCondFact]
+                ) [NormalCondTerm]
+              ) [NormalCondition]
+            ) [IfConditionEndDetected]
+            StatementPrintSingle(
+              ExprTerm(
+                TermFactor(
+                  FactorChar(
+                   a
+                  ) [FactorChar]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [StatementPrintSingle]
+          ) [IfBlock]
+        ) [IfStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDecls]
+) [Program]
+INFO  18:02:00,668 - ===================================
+INFO  18:02:00,684 - Deklarisana promenljiva niz na liniji 15
+INFO  18:02:00,684 - Deklarisana promenljiva nizch na liniji 16
+INFO  18:02:00,684 - Deklarisana promenljiva a na liniji 23
+INFO  18:02:00,684 - Deklarisana promenljiva b na liniji 23
+INFO  18:02:00,684 - Obradjuje se metod sum na liniji 26
+INFO  18:02:00,684 - Obradjuje se metod main na liniji 30
+INFO  18:02:00,684 - ===================================
+INFO  18:02:00,691 - Parsiranje uspesno zavrseno!

@@ -2,6 +2,7 @@
 package rs.ac.bg.etf.pp1;
 
 import java_cup.runtime.Symbol;
+import java.lang.Boolean;
 
 %%
 
@@ -85,8 +86,8 @@ import java_cup.runtime.Symbol;
 
 
 [0-9]+              { return new_symbol(sym.NUMCONST, new Integer (yytext())); }
-"true"  { return new_symbol(sym.BOOLCONST, new Boolean (yytext())); }
-"false"  { return new_symbol(sym.BOOLCONST, new Boolean (yytext())); }
+"true"              { return new_symbol(sym.BOOLCONST, new Boolean ("true")); }
+"false"             { return new_symbol(sym.BOOLCONST, new Boolean ("false")); }
 [a-zA-Z][a-zA-Z0-9_]* 	{return new_symbol (sym.IDENT, yytext()); }
 '[\x20-\x7E]'         { return new_symbol(sym.CHARCONST, new Character ((yytext()).charAt(1))); }
 

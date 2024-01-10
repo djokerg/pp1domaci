@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/11/2023 23:51:7
+// 9/0/2024 16:42:47
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -9,15 +9,11 @@ public abstract class VisitorAdaptor implements Visitor {
 
     public void visit(DeclarationList DeclarationList) { }
     public void visit(PossibleFormPars PossibleFormPars) { }
-    public void visit(Operation Operation) { }
     public void visit(Mulop Mulop) { }
-    public void visit(MethodDecl MethodDecl) { }
     public void visit(Literal Literal) { }
     public void visit(PossibleArrayDecl PossibleArrayDecl) { }
     public void visit(Relop Relop) { }
-    public void visit(TermList TermList) { }
-    public void visit(Namespace Namespace) { }
-    public void visit(Assignop Assignop) { }
+    public void visit(IfFirstPart IfFirstPart) { }
     public void visit(PossibleDesignatorStatementList PossibleDesignatorStatementList) { }
     public void visit(StaticInitializerList StaticInitializerList) { }
     public void visit(OptionalExtends OptionalExtends) { }
@@ -26,153 +22,163 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(Addop Addop) { }
     public void visit(Factor Factor) { }
     public void visit(CondTerm CondTerm) { }
+    public void visit(PossibleDesignator PossibleDesignator) { }
     public void visit(StaticInitializerHelper StaticInitializerHelper) { }
     public void visit(ForLoopHelper ForLoopHelper) { }
     public void visit(Designator Designator) { }
-    public void visit(StaticVarDeclList StaticVarDeclList) { }
     public void visit(Term Term) { }
+    public void visit(StaticVarDeclList StaticVarDeclList) { }
     public void visit(Condition Condition) { }
     public void visit(DesStmtHelper DesStmtHelper) { }
     public void visit(MultipleVarDecl MultipleVarDecl) { }
-    public void visit(Label Label) { }
     public void visit(OtpionalMethodDeclList OtpionalMethodDeclList) { }
     public void visit(VarDeclList VarDeclList) { }
     public void visit(Expr Expr) { }
-    public void visit(DesignatorHelperList DesignatorHelperList) { }
     public void visit(ActPars ActPars) { }
-    public void visit(TypeOrVoid TypeOrVoid) { }
+    public void visit(FactorCallPossiblePars FactorCallPossiblePars) { }
+    public void visit(MethodTypeName MethodTypeName) { }
     public void visit(DesignatorStatement DesignatorStatement) { }
     public void visit(MultipleConstDecl MultipleConstDecl) { }
+    public void visit(IfSecondPart IfSecondPart) { }
     public void visit(Statement Statement) { }
     public void visit(VarDecl VarDecl) { }
     public void visit(Type Type) { }
-    public void visit(ClassDecl ClassDecl) { }
-    public void visit(ConstDecl ConstDecl) { }
-    public void visit(StaticInitializer StaticInitializer) { }
+    public void visit(ElseFirstPart ElseFirstPart) { }
     public void visit(CondFact CondFact) { }
     public void visit(MethodDeclList MethodDeclList) { }
-    public void visit(Program Program) { }
     public void visit(FormPars FormPars) { }
     public void visit(PossibleCondFact PossibleCondFact) { }
-    public void visit(MulopDerived3 MulopDerived3) { visit(); }
-    public void visit(MulopDerived2 MulopDerived2) { visit(); }
-    public void visit(MulopDerived1 MulopDerived1) { visit(); }
-    public void visit(AddopDerived2 AddopDerived2) { visit(); }
-    public void visit(AddopDerived1 AddopDerived1) { visit(); }
-    public void visit(RelopDerived6 RelopDerived6) { visit(); }
-    public void visit(RelopDerived5 RelopDerived5) { visit(); }
-    public void visit(RelopDerived4 RelopDerived4) { visit(); }
-    public void visit(RelopDerived3 RelopDerived3) { visit(); }
-    public void visit(RelopDerived2 RelopDerived2) { visit(); }
-    public void visit(RelopDerived1 RelopDerived1) { visit(); }
-    public void visit(AssignopDerived1 AssignopDerived1) { visit(); }
-    public void visit(LabelDerived1 LabelDerived1) { visit(); }
-    public void visit(DesignatorHelperListDerived3 DesignatorHelperListDerived3) { visit(); }
-    public void visit(DesignatorHelperListDerived2 DesignatorHelperListDerived2) { visit(); }
-    public void visit(DesignatorHelperListDerived1 DesignatorHelperListDerived1) { visit(); }
-    public void visit(DesignatorDerived2 DesignatorDerived2) { visit(); }
-    public void visit(DesignatorDerived1 DesignatorDerived1) { visit(); }
-    public void visit(FactorDerived11 FactorDerived11) { visit(); }
-    public void visit(FactorDerived10 FactorDerived10) { visit(); }
-    public void visit(FactorDerived9 FactorDerived9) { visit(); }
-    public void visit(FactorDerived8 FactorDerived8) { visit(); }
-    public void visit(FactorDerived7 FactorDerived7) { visit(); }
-    public void visit(FactorDerived6 FactorDerived6) { visit(); }
-    public void visit(FactorDerived5 FactorDerived5) { visit(); }
-    public void visit(FactorDerived4 FactorDerived4) { visit(); }
-    public void visit(FactorDerived3 FactorDerived3) { visit(); }
-    public void visit(FactorDerived2 FactorDerived2) { visit(); }
-    public void visit(FactorDerived1 FactorDerived1) { visit(); }
-    public void visit(TermDerived2 TermDerived2) { visit(); }
-    public void visit(TermDerived1 TermDerived1) { visit(); }
-    public void visit(TermListDerived2 TermListDerived2) { visit(); }
-    public void visit(TermListDerived1 TermListDerived1) { visit(); }
-    public void visit(ExprDerived2 ExprDerived2) { visit(); }
-    public void visit(ExprDerived1 ExprDerived1) { visit(); }
-    public void visit(CondFactDerived2 CondFactDerived2) { visit(); }
-    public void visit(CondFactDerived1 CondFactDerived1) { visit(); }
-    public void visit(CondTermDerived2 CondTermDerived2) { visit(); }
-    public void visit(CondTermDerived1 CondTermDerived1) { visit(); }
-    public void visit(ConditionDerived2 ConditionDerived2) { visit(); }
-    public void visit(ConditionDerived1 ConditionDerived1) { visit(); }
-    public void visit(ActParsDerived2 ActParsDerived2) { visit(); }
-    public void visit(ActParsDerived1 ActParsDerived1) { visit(); }
-    public void visit(OperationDerived5 OperationDerived5) { visit(); }
-    public void visit(OperationDerived4 OperationDerived4) { visit(); }
-    public void visit(OperationDerived3 OperationDerived3) { visit(); }
-    public void visit(OperationDerived2 OperationDerived2) { visit(); }
-    public void visit(OperationDerived1 OperationDerived1) { visit(); }
-    public void visit(DesStmtHelperDerived3 DesStmtHelperDerived3) { visit(); }
-    public void visit(DesStmtHelperDerived2 DesStmtHelperDerived2) { visit(); }
-    public void visit(DesStmtHelperDerived1 DesStmtHelperDerived1) { visit(); }
-    public void visit(DesignatorStatementDerived2 DesignatorStatementDerived2) { visit(); }
-    public void visit(DesignatorStatementDerived1 DesignatorStatementDerived1) { visit(); }
-    public void visit(ForLoopHelperDerived2 ForLoopHelperDerived2) { visit(); }
-    public void visit(ForLoopHelperDerived1 ForLoopHelperDerived1) { visit(); }
-    public void visit(PossibleDesignatorStatementListDerived2 PossibleDesignatorStatementListDerived2) { visit(); }
-    public void visit(PossibleDesignatorStatementListDerived1 PossibleDesignatorStatementListDerived1) { visit(); }
-    public void visit(PossibleCondFactDerived2 PossibleCondFactDerived2) { visit(); }
-    public void visit(PossibleCondFactDerived1 PossibleCondFactDerived1) { visit(); }
-    public void visit(StatementDerived12 StatementDerived12) { visit(); }
-    public void visit(StatementDerived11 StatementDerived11) { visit(); }
-    public void visit(StatementDerived10 StatementDerived10) { visit(); }
-    public void visit(StatementDerived9 StatementDerived9) { visit(); }
-    public void visit(StatementDerived8 StatementDerived8) { visit(); }
-    public void visit(StatementDerived7 StatementDerived7) { visit(); }
-    public void visit(StatementDerived6 StatementDerived6) { visit(); }
-    public void visit(StatementDerived5 StatementDerived5) { visit(); }
-    public void visit(StatementDerived4 StatementDerived4) { visit(); }
-    public void visit(StatementDerived3 StatementDerived3) { visit(); }
-    public void visit(StatementDerived2 StatementDerived2) { visit(); }
-    public void visit(StatementDerived1 StatementDerived1) { visit(); }
-    public void visit(StatementListDerived2 StatementListDerived2) { visit(); }
-    public void visit(StatementListDerived1 StatementListDerived1) { visit(); }
-    public void visit(LiteralDerived3 LiteralDerived3) { visit(); }
-    public void visit(LiteralDerived2 LiteralDerived2) { visit(); }
-    public void visit(LiteralDerived1 LiteralDerived1) { visit(); }
-    public void visit(MultipleConstDeclDerived2 MultipleConstDeclDerived2) { visit(); }
-    public void visit(MultipleConstDeclDerived1 MultipleConstDeclDerived1) { visit(); }
-    public void visit(ConstDeclDerived1 ConstDeclDerived1) { visit(); }
-    public void visit(TypeDerived2 TypeDerived2) { visit(); }
-    public void visit(TypeDerived1 TypeDerived1) { visit(); }
-    public void visit(MultipleVarDeclDerived3 MultipleVarDeclDerived3) { visit(); }
-    public void visit(MultipleVarDeclDerived2 MultipleVarDeclDerived2) { visit(); }
-    public void visit(MultipleVarDeclDerived1 MultipleVarDeclDerived1) { visit(); }
-    public void visit(VarDeclDerived2 VarDeclDerived2) { visit(); }
-    public void visit(VarDeclDerived1 VarDeclDerived1) { visit(); }
-    public void visit(VarDeclListDerived2 VarDeclListDerived2) { visit(); }
-    public void visit(VarDeclListDerived1 VarDeclListDerived1) { visit(); }
-    public void visit(DeclarationListDerived4 DeclarationListDerived4) { visit(); }
-    public void visit(DeclarationListDerived3 DeclarationListDerived3) { visit(); }
-    public void visit(DeclarationListDerived2 DeclarationListDerived2) { visit(); }
-    public void visit(DeclarationListDerived1 DeclarationListDerived1) { visit(); }
-    public void visit(PossibleArrayDeclDerived2 PossibleArrayDeclDerived2) { visit(); }
-    public void visit(PossibleArrayDeclDerived1 PossibleArrayDeclDerived1) { visit(); }
-    public void visit(FormParsDerived2 FormParsDerived2) { visit(); }
-    public void visit(FormParsDerived1 FormParsDerived1) { visit(); }
-    public void visit(PossibleFormParsDerived2 PossibleFormParsDerived2) { visit(); }
-    public void visit(PossibleFormParsDerived1 PossibleFormParsDerived1) { visit(); }
-    public void visit(TypeOrVoidDerived2 TypeOrVoidDerived2) { visit(); }
-    public void visit(TypeOrVoidDerived1 TypeOrVoidDerived1) { visit(); }
-    public void visit(MethodDeclDerived1 MethodDeclDerived1) { visit(); }
-    public void visit(MethodDeclListDerived2 MethodDeclListDerived2) { visit(); }
-    public void visit(MethodDeclListDerived1 MethodDeclListDerived1) { visit(); }
-    public void visit(OtpionalMethodDeclListDerived2 OtpionalMethodDeclListDerived2) { visit(); }
-    public void visit(OtpionalMethodDeclListDerived1 OtpionalMethodDeclListDerived1) { visit(); }
-    public void visit(StaticInitializerDerived1 StaticInitializerDerived1) { visit(); }
-    public void visit(StaticInitializerListDerived2 StaticInitializerListDerived2) { visit(); }
-    public void visit(StaticInitializerListDerived1 StaticInitializerListDerived1) { visit(); }
-    public void visit(StaticInitializerHelperDerived2 StaticInitializerHelperDerived2) { visit(); }
-    public void visit(StaticInitializerHelperDerived1 StaticInitializerHelperDerived1) { visit(); }
-    public void visit(StaticVarDeclListDerived2 StaticVarDeclListDerived2) { visit(); }
-    public void visit(StaticVarDeclListDerived1 StaticVarDeclListDerived1) { visit(); }
-    public void visit(OptionalExtendsDerived2 OptionalExtendsDerived2) { visit(); }
-    public void visit(OptionalExtendsDerived1 OptionalExtendsDerived1) { visit(); }
-    public void visit(ClassDeclDerived1 ClassDeclDerived1) { visit(); }
-    public void visit(NamespaceDerived1 NamespaceDerived1) { visit(); }
-    public void visit(NamespaceListDerived2 NamespaceListDerived2) { visit(); }
-    public void visit(NamespaceListDerived1 NamespaceListDerived1) { visit(); }
-    public void visit(ProgramDerived1 ProgramDerived1) { visit(); }
+    public void visit(MulopMOD MulopMOD) { visit(); }
+    public void visit(MulopDIV MulopDIV) { visit(); }
+    public void visit(MulopMUL MulopMUL) { visit(); }
+    public void visit(AddopMINUS AddopMINUS) { visit(); }
+    public void visit(AddopPLUS AddopPLUS) { visit(); }
+    public void visit(RelopLSSE RelopLSSE) { visit(); }
+    public void visit(RelopLSS RelopLSS) { visit(); }
+    public void visit(RelopGRTE RelopGRTE) { visit(); }
+    public void visit(RelopGRT RelopGRT) { visit(); }
+    public void visit(RelopNOTEQUAL RelopNOTEQUAL) { visit(); }
+    public void visit(RelopEQUAL RelopEQUAL) { visit(); }
+    public void visit(Assignop Assignop) { visit(); }
+    public void visit(Label Label) { visit(); }
+    public void visit(DesignatorArrayName DesignatorArrayName) { visit(); }
+    public void visit(DesignatorArray DesignatorArray) { visit(); }
+    public void visit(DesignatorField DesignatorField) { visit(); }
+    public void visit(DesignatorWONamespace DesignatorWONamespace) { visit(); }
+    public void visit(DesignatorWNamespace DesignatorWNamespace) { visit(); }
+    public void visit(FactorCallPossibleParsNo FactorCallPossibleParsNo) { visit(); }
+    public void visit(FactorCallPossibleParsYes FactorCallPossibleParsYes) { visit(); }
+    public void visit(FactorParenExpr FactorParenExpr) { visit(); }
+    public void visit(FactorNewFunctionNoParams FactorNewFunctionNoParams) { visit(); }
+    public void visit(FactorNewFunctionParams FactorNewFunctionParams) { visit(); }
+    public void visit(FactorNewArrayExpr FactorNewArrayExpr) { visit(); }
+    public void visit(FactorBool FactorBool) { visit(); }
+    public void visit(FactorChar FactorChar) { visit(); }
+    public void visit(FactorNum FactorNum) { visit(); }
+    public void visit(FactorCall FactorCall) { visit(); }
+    public void visit(FactorDesignator FactorDesignator) { visit(); }
+    public void visit(TermFactor TermFactor) { visit(); }
+    public void visit(TermMulop TermMulop) { visit(); }
+    public void visit(ExprTerm ExprTerm) { visit(); }
+    public void visit(ExprMinusTerm ExprMinusTerm) { visit(); }
+    public void visit(GeneralExpr GeneralExpr) { visit(); }
+    public void visit(RelopCondFact RelopCondFact) { visit(); }
+    public void visit(NormalCondFact NormalCondFact) { visit(); }
+    public void visit(NormalCondTerm NormalCondTerm) { visit(); }
+    public void visit(CondTermBITAND CondTermBITAND) { visit(); }
+    public void visit(ORBlockDetected ORBlockDetected) { visit(); }
+    public void visit(NormalCondition NormalCondition) { visit(); }
+    public void visit(ConditionBITOR ConditionBITOR) { visit(); }
+    public void visit(ActParam ActParam) { visit(); }
+    public void visit(ActParams ActParams) { visit(); }
+    public void visit(DesignatorNo DesignatorNo) { visit(); }
+    public void visit(DesignatorYes DesignatorYes) { visit(); }
+    public void visit(DesStmtHelperNo DesStmtHelperNo) { visit(); }
+    public void visit(DesStmtHelperYes DesStmtHelperYes) { visit(); }
+    public void visit(DesignatorStatementMultipleAssign DesignatorStatementMultipleAssign) { visit(); }
+    public void visit(DesignatorStmtMinusMinus DesignatorStmtMinusMinus) { visit(); }
+    public void visit(DesignatorStmtPlusPlus DesignatorStmtPlusPlus) { visit(); }
+    public void visit(DesignatorStmtCallArg DesignatorStmtCallArg) { visit(); }
+    public void visit(DesignatorStmtCallNoArg DesignatorStmtCallNoArg) { visit(); }
+    public void visit(DesignatorStmtAssign DesignatorStmtAssign) { visit(); }
+    public void visit(SingleDesignatorStatement SingleDesignatorStatement) { visit(); }
+    public void visit(PossibleDesignatorStatements PossibleDesignatorStatements) { visit(); }
+    public void visit(PossibleCondFactNo PossibleCondFactNo) { visit(); }
+    public void visit(PossibleCondFactYes PossibleCondFactYes) { visit(); }
+    public void visit(ForTailDesignatorStart ForTailDesignatorStart) { visit(); }
+    public void visit(ForStatement ForStatement) { visit(); }
+    public void visit(ForStatementsStart ForStatementsStart) { visit(); }
+    public void visit(ForConditionStart ForConditionStart) { visit(); }
+    public void visit(ForLoopStart ForLoopStart) { visit(); }
+    public void visit(StatementListDetected StatementListDetected) { visit(); }
+    public void visit(IfBlock IfBlock) { visit(); }
+    public void visit(IfConditionEndDetected IfConditionEndDetected) { visit(); }
+    public void visit(IfStartDetected IfStartDetected) { visit(); }
+    public void visit(StatementStmtList StatementStmtList) { visit(); }
+    public void visit(StatementForLoop StatementForLoop) { visit(); }
+    public void visit(StatementPrintMultiple StatementPrintMultiple) { visit(); }
+    public void visit(StatementPrintSingle StatementPrintSingle) { visit(); }
+    public void visit(StatementRead StatementRead) { visit(); }
+    public void visit(StatementReturnExpr StatementReturnExpr) { visit(); }
+    public void visit(StatementRetrun StatementRetrun) { visit(); }
+    public void visit(StatementContinue StatementContinue) { visit(); }
+    public void visit(StatementBreak StatementBreak) { visit(); }
+    public void visit(IfElseStatement IfElseStatement) { visit(); }
+    public void visit(IfStatement IfStatement) { visit(); }
+    public void visit(StatementError StatementError) { visit(); }
+    public void visit(StatementWDesignatorStmt StatementWDesignatorStmt) { visit(); }
+    public void visit(NoStatement NoStatement) { visit(); }
+    public void visit(Statements Statements) { visit(); }
+    public void visit(LiteralCHAR LiteralCHAR) { visit(); }
+    public void visit(LiteralBOOL LiteralBOOL) { visit(); }
+    public void visit(LiteralNUM LiteralNUM) { visit(); }
+    public void visit(NoMultipleConst NoMultipleConst) { visit(); }
+    public void visit(MultipleConstDecls MultipleConstDecls) { visit(); }
+    public void visit(ConstDecl ConstDecl) { visit(); }
+    public void visit(NormalType NormalType) { visit(); }
+    public void visit(TypeWNamespace TypeWNamespace) { visit(); }
+    public void visit(SingleVar SingleVar) { visit(); }
+    public void visit(MultipleVarDeclError MultipleVarDeclError) { visit(); }
+    public void visit(MultipleVarDeclSingleVar MultipleVarDeclSingleVar) { visit(); }
+    public void visit(MultipleVarDecls MultipleVarDecls) { visit(); }
+    public void visit(VarDeclError VarDeclError) { visit(); }
+    public void visit(VarDeclNormal VarDeclNormal) { visit(); }
+    public void visit(NoVarDecl NoVarDecl) { visit(); }
+    public void visit(VarDecls VarDecls) { visit(); }
+    public void visit(NoDeclarationList NoDeclarationList) { visit(); }
+    public void visit(DeclarationListClassDecl DeclarationListClassDecl) { visit(); }
+    public void visit(DeclarationListConstDecl DeclarationListConstDecl) { visit(); }
+    public void visit(DeclarationListVarDecl DeclarationListVarDecl) { visit(); }
+    public void visit(NoPossibleArrayDecl NoPossibleArrayDecl) { visit(); }
+    public void visit(PossibleArrayDeclYes PossibleArrayDeclYes) { visit(); }
+    public void visit(FormParam FormParam) { visit(); }
+    public void visit(SignleFromParam SignleFromParam) { visit(); }
+    public void visit(FormParsList FormParsList) { visit(); }
+    public void visit(NoPossibleFormPars NoPossibleFormPars) { visit(); }
+    public void visit(PossibleFormParsDeclared PossibleFormParsDeclared) { visit(); }
+    public void visit(VoidMethod VoidMethod) { visit(); }
+    public void visit(MethodWithType MethodWithType) { visit(); }
+    public void visit(MethodDecl MethodDecl) { visit(); }
+    public void visit(NoMethodDecl NoMethodDecl) { visit(); }
+    public void visit(MethodDecls MethodDecls) { visit(); }
+    public void visit(NoOptionalMethodDecl NoOptionalMethodDecl) { visit(); }
+    public void visit(OptionalMethodDecls OptionalMethodDecls) { visit(); }
+    public void visit(StaticInitializer StaticInitializer) { visit(); }
+    public void visit(StaticInitializerSingle StaticInitializerSingle) { visit(); }
+    public void visit(StaticInitializers StaticInitializers) { visit(); }
+    public void visit(StaticInitializerHelperNo StaticInitializerHelperNo) { visit(); }
+    public void visit(StaticInitializerHelperYes StaticInitializerHelperYes) { visit(); }
+    public void visit(NoStaticVarDecl NoStaticVarDecl) { visit(); }
+    public void visit(StaticVarDecls StaticVarDecls) { visit(); }
+    public void visit(NoExtends NoExtends) { visit(); }
+    public void visit(Extends Extends) { visit(); }
+    public void visit(ClassDecl ClassDecl) { visit(); }
+    public void visit(NamespaceName NamespaceName) { visit(); }
+    public void visit(Namespace Namespace) { visit(); }
+    public void visit(NoNamespace NoNamespace) { visit(); }
+    public void visit(Namespaces Namespaces) { visit(); }
+    public void visit(ProgName ProgName) { visit(); }
+    public void visit(Program Program) { visit(); }
 
 
     public void visit() { }

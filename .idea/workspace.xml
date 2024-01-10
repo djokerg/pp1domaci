@@ -4,224 +4,592 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e265b7c-202c-4458-9094-a2e49b4a6a6f" name="Changes" comment="Lekser i parser za A nivo zavrseni, slabo testirano">
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703794982313" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703795008902" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703795622854" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703795901785" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796155381" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796192793" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796202333" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796215343" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796280970" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796390303" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796463393" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796643702" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703796756370" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797017885" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797065508" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797100126" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797128998" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797296901" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797376811" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797788553" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797839670" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797855193" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797888299" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797911262" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797928589" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797932056" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703797944723" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801016928" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801023084" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801034271" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801276741" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801360941" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801414690" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703801436755" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703803394406" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703803943458" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperDerived3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelperDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelperDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtendsDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtendsDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclListDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclListDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelperDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelperDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerListDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerListDerived2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclListDerived1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclListDerived2.java" afterDir="false" />
+    <list default="true" id="0e265b7c-202c-4458-9094-a2e49b4a6a6f" name="Changes" comment="Parser fully working with tests, no ressurection from error">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mj_runtime_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/symboltable_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mj-runtime-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/symboltable-1-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703806742731" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703806925378" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703807015497" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703807674935" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703807832329" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703841870909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703841891760" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703841983170" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703842894989" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703842937419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703843016467" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703843165222" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703843184936" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703843837429" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703843979599" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844206022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844224775" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844235775" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844568168" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844575901" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844592615" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703844617574" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703845011404" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703845099215" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703845147429" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703845372774" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703845462395" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703845888418" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703847658013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848058345" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848151893" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848303429" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848346887" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848495104" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848546058" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848570824" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848647607" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703848732800" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703945103105" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703945504927" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703946195251" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703952708289" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703970296342" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703970408074" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703970482613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1703970602117" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704034475831" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704034574706" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704037161605" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704037180198" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704037245736" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704037290101" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704037419158" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704037441841" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704041662310" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704042078680" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704042099892" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704042130267" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704042163236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704042289856" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704043532208" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704043585672" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704047348360" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704047410637" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704047529148" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704047630593" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704047638870" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704047807958" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704105998310" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704106020458" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704106251281" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704110624565" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704110641962" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704111809232" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704111828237" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704112453639" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704112536546" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704112660231" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704112704275" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704112719418" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704112800760" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115133623" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115196974" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115211888" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115240467" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115262218" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115342079" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115650025" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704115693918" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704215236086" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704215403074" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704215422492" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704215552338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704215582423" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704215602579" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704216558500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704216821973" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704216902856" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704216912668" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704216981490" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704216988898" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704217605070" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704217613116" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704217662379" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704217755484" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704217887698" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219170839" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219463847" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219526358" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219542342" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219545929" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219688473" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704219704283" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284045635" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284084347" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284333939" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284376931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284424126" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284469380" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284500305" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284625672" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704284663920" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704285566516" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286235520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286529190" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286553135" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286563739" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286809855" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286894424" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704286914492" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704287002345" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704288933910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704288986723" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704290646996" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704296106054" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302797939" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302822061" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302847427" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302885843" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302961348" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302970196" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704302976237" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303020006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303029848" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303167727" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303425623" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303435743" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303460571" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704303503142" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309068533" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309097650" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309104682" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309122149" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309136282" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309158943" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309164498" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309185434" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309229788" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309247891" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704309254907" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704397284528" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704397353702" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704399615865" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704401118866" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704401158001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704453213879" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704454251220" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704454288902" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704454312688" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704454333360" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704454500685" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704455603022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461129368" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461195846" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461232136" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461680009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461683236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461724763" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461751363" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704461785758" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704462238518" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704463383363" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704463425052" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704463487403" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704463590289" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704463716634" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704463758547" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551693638" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551743208" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551755419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551802708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551845773" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551888068" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704551985745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704553087671" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704553138500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704556196795" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704556250198" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704556263970" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704556329931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704556355770" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704565563651" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704565592343" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704565939163" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704815017980" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704815054226" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704815688167" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704815804029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704818005450" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704818383407" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704818403708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819168137" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819525547" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819540620" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819603661" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819625656" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819720589" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819743520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819767656" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819770036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819812868" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819865773" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819870265" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819936065" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704819948503" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704820034936" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704820049963" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704832436061" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704832461337" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704832500010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704839828496" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704839866996" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704839912890" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704840074338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704840541600" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704876715126" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704877027277" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704877313063" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704877592328" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704878862655" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704878889403" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704878910090" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704879269803" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704879927418" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704880595612" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704880762236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704882673947" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704885702887" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704885720495" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704885983740" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704886047608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704886461171" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704886492728" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704886509105" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704886673867" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704886845149" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704887250012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704887291897" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704887439935" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704887769980" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704887921996" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704887944551" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CounterVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/DumpSymbolTableVisitorDerived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/TabDerived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopMINUS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopPLUS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermBITAND.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionBITOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListClassDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListConstDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListVarDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorArrayName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementMultipleAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtCallArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtCallNoArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtMinusMinus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtPlusPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorWNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorWONamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ElseFirstPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprMinusTerm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprTerm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Extends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorBool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorCallPossiblePars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorCallPossibleParsNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorCallPossibleParsYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDesignator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNewArrayExpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNewFunctionNoParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNewFunctionParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorParenExpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForStatementsStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForTailDesignatorStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/GeneralExpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionEndDetected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfElseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfFirstPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfSecondPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfStartDetected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralBool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralCHAR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralNUM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDecls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodTypeName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodWithType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopMOD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopMUL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclSingleVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Namespaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoDeclarationList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoMethodDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoMultipleConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoOptionalMethodDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoPossibleArrayDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoPossibleFormPars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoStaticVarDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoVarDecl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NormalCondFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NormalCondTerm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NormalCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NormalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ORBlockDetected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalMethodDecls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDeclared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ProgName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopCondFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopEQUAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopGRT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopGRTE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopLSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopLSSE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopNOTEQUAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SignleFromParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleDesignatorStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDetected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementPrintMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementPrintSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementRetrun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementReturnExpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementStmtList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementWDesignatorStmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelperNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelperYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDecls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermMulop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeWNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VoidMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/program.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MJCompiler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MJCompiler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cup_v10k.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cup_v10k.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mj-test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mj-test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/mjlexer.lex" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mjlexer.lex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/mjparser.cup" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mjparser.cup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/mjparser_astbuild.cup" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mjparser_astbuild.cup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/RuleVisitor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Yylex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Yylex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActPars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Addop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Addop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AddopDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Assignop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Assignop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AssignopDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AssignopDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AssignopDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDecl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFactDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFactDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFactDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFactDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFactDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondFactDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTerm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CondTermDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstDeclDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstDeclDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstDeclDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListDerived4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesStmtHelperDerived3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Designator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Designator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorHelperListDerived3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Expr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Factor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Factor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorDerived9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelperDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelperDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormPars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Label.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LabelDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LabelDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LabelDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Literal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Literal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralDerived3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclListDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDeclListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Mulop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Mulop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MulopDerived3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDeclDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDeclDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDeclDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDeclDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDeclDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDeclDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclDerived3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Namespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Namespace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceListDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalNamespace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NamespaceListDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OperationDerived5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtendsDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OptionalExtendsDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/OtpionalMethodDeclListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleArrayDeclDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormPars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ProgramDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ProgramDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ProgramDerived1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Relop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Relop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RelopDerived6.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementDerived9.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerDerived1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelperDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerHelperDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticInitializerListDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StaticVarDeclListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SyntaxNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SyntaxNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Term.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Term.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeDerived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoidDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoidDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoidDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoidDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeDerived2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoidDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeOrVoidDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListDerived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListDerived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListDerived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListDerived2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListDerived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListDerived2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/sym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/sym.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/test/program.mj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test301.mj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test301.mj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test302.mj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test302.mj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test303.mj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test303.mj" afterDir="false" />
     </list>
@@ -230,8 +598,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;djokerg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="754f1015-6881-426f-b898-de8469cddfdb" />
+        <option name="url" value="https://github.com/djokerg/pp1domaci.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -248,11 +637,17 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Ant Target.compile.executor": "Run",
+    "Ant Target.disasm.executor": "Run",
     "Ant Target.lexerGen.executor": "Run",
     "Ant Target.parserGen.executor": "Run",
     "Ant Target.repackage.executor": "Run",
+    "Ant Target.runObj.executor": "Run",
     "Application.MJParserTest.executor": "Run",
     "Application.MJTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JAR Application.Debug.executor": "Run",
+    "JAR Application.Run.executor": "Run",
+    "JAR Application.Unnamed.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -264,18 +659,29 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\tests" />
+      <recent name="C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\lib" />
       <recent name="C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rs.ac.bg.etf.pp1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MJParserTest">
+  <component name="RunManager" selected="JAR Application.Run">
     <configuration name="compile" type="AntRunConfiguration">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="compile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="disasm" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="disasm" />
       <method v="2" />
     </configuration>
     <configuration name="lexerGen" type="AntRunConfiguration">
@@ -288,6 +694,10 @@
     </configuration>
     <configuration name="repackage" type="AntRunConfiguration">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="repackage" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runObj" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="runObj" />
       <method v="2" />
     </configuration>
     <configuration name="MJParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -316,20 +726,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MJCompiler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mj-runtime-1.1.jar" />
+      <option name="PROGRAM_PARAMETERS" value="test/program.obj -debug" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mj-runtime-1.1.jar" />
+      <option name="PROGRAM_PARAMETERS" value="test/program.obj" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Ant Target.disasm" />
+      <item itemvalue="Ant Target.runObj" />
       <item itemvalue="Ant Target.parserGen" />
       <item itemvalue="Ant Target.compile" />
       <item itemvalue="Ant Target.lexerGen" />
       <item itemvalue="Ant Target.repackage" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MJParserTest" />
       <item itemvalue="Application.MJTest" />
+      <item itemvalue="JAR Application.Run" />
+      <item itemvalue="JAR Application.Debug" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MJParserTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MJTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-3183f394aec4-cb300fc7" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -343,7 +789,32 @@
       <workItem from="1703692365889" duration="5055000" />
       <workItem from="1703712114774" duration="5463000" />
       <workItem from="1703753572085" duration="16099000" />
-      <workItem from="1703794304350" duration="7047000" />
+      <workItem from="1703794304350" duration="9719000" />
+      <workItem from="1703841451146" duration="6265000" />
+      <workItem from="1703939343924" duration="3400000" />
+      <workItem from="1703944544172" duration="2388000" />
+      <workItem from="1703950685312" duration="4895000" />
+      <workItem from="1703970252994" duration="4607000" />
+      <workItem from="1704017802820" duration="14574000" />
+      <workItem from="1704105993397" duration="6812000" />
+      <workItem from="1704135090246" duration="121000" />
+      <workItem from="1704189359242" duration="12961000" />
+      <workItem from="1704214134851" duration="5154000" />
+      <workItem from="1704231859348" duration="5032000" />
+      <workItem from="1704278070055" duration="16841000" />
+      <workItem from="1704324091187" duration="17000" />
+      <workItem from="1704376860677" duration="3986000" />
+      <workItem from="1704385952820" duration="11552000" />
+      <workItem from="1704446989051" duration="1340000" />
+      <workItem from="1704453113748" duration="10493000" />
+      <workItem from="1704543354196" duration="9765000" />
+      <workItem from="1704555962290" duration="501000" />
+      <workItem from="1704565478882" duration="457000" />
+      <workItem from="1704577526487" duration="3435000" />
+      <workItem from="1704799424927" duration="7086000" />
+      <workItem from="1704813266116" duration="4754000" />
+      <workItem from="1704832309762" duration="9059000" />
+      <workItem from="1704876694894" duration="8071000" />
     </task>
     <task id="LOCAL-00001" summary="Lekser i parser za A nivo zavrseni, slabo testirano">
       <option name="closed" value="true" />
@@ -353,7 +824,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703781668053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Parser fully working with tests, no ressurection from error">
+      <option name="closed" value="true" />
+      <created>1703804086083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703804086083</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +852,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Lekser i parser za A nivo zavrseni, slabo testirano" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lekser i parser za A nivo zavrseni, slabo testirano" />
+    <MESSAGE value="Parser fully working with tests, no ressurection from error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parser fully working with tests, no ressurection from error" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="designatorStatementMultipleAssign" />
+        <watch expression="designatorStatementMultipleAssign" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
