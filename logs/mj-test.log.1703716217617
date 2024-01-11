@@ -1,7 +1,0 @@
-INFO  23:27:07,922 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
-INFO  23:27:07,927 - #2 program
-INFO  23:27:07,927 - #3 p
-INFO  23:27:07,927 - #5 {
-ERROR 23:27:07,928 - 
-Sintaksna greska na liniji 3
-ERROR 23:27:07,928 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

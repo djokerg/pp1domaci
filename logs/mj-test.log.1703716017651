@@ -1,7 +1,0 @@
-INFO  23:26:41,657 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
-INFO  23:26:41,663 - #2 program
-INFO  23:26:41,664 - #3 p
-INFO  23:26:41,664 - #4 namespace
-ERROR 23:26:41,664 - 
-Sintaksna greska na liniji 2
-ERROR 23:26:41,664 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

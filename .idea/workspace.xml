@@ -4,148 +4,524 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e265b7c-202c-4458-9094-a2e49b4a6a6f" name="Changes" comment="Tests are working,but there are a lot of small changes to do">
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704894223231" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704894251062" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704894268334" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704894470402" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704895073555" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704895188669" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704895310231" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704895329026" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704895345115" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704895652898" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704896177777" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704899607525" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704899638343" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704899745696" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704900558253" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901017750" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901250091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901270664" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901525384" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901648858" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901697225" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704901856086" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704902045027" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704902058842" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704902090644" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704902322261" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704902327790" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704910410512" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704910801598" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704910824258" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704910944579" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911075652" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911245547" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911300569" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911336462" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911404081" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911524572" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911839787" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704911979555" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704912006277" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704912168477" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704912240347" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704912644861" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704912719011" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704913011670" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704913097699" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704913120950" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704913326396" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704913391623" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704916370950" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704916824890" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704916839854" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704916881622" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704917295859" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704917751908" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704917940467" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704917965721" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918211206" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918233896" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918268954" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918294906" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918349854" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918376996" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918785150" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918844558" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704918877277" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704919129187" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704919173652" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704919401692" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704919409710" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704919470201" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704926572201" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704926638033" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704926745119" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704926945059" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704927598748" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928058904" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928201017" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928231486" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928385750" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928425638" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928467702" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928515456" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928782171" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928822044" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928831947" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704928874866" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704929213325" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704929238189" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704929293805" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704929352894" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704930987870" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704931140434" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704931198902" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704931242912" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704931327029" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704931576113" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704931629886" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704963287468" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704963386652" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704963414370" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704963429435" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704963441843" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704963451012" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966044515" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966093852" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966151391" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966283285" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966297729" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966307961" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966319196" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966352126" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966373285" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966398891" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966415105" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966554216" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704966584662" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParamCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParamError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionEndDetectedCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParamCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParamError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVarCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVarError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListYes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVarCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVarError.java" afterDir="false" />
+    <list default="true" id="0e265b7c-202c-4458-9094-a2e49b4a6a6f" name="Changes" comment="Tests and parser error recovery fully working">
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704981802955" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704984313236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704984434959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704984455131" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985289696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985385440" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985408048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985582330" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985746505" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985776662" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704985802718" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704986151308" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mj-test.log.1704986511700" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mj-test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mj-test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/mjparser.cup" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mjparser.cup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/mjparser_astbuild.cup" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mjparser_astbuild.cup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CounterVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703022972415" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703417171881" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703417479996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703418908967" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703449724719" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703449753917" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703672536958" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703673982392" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703674081901" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703674387127" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703674399536" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703675128861" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703680689882" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703712913593" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713253767" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713353890" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713362960" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713506368" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713524668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713596690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713911257" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713928618" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703713935242" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714138867" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714148305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714216624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714231937" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714269543" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714281721" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714290170" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714350113" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714458769" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714465066" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714506048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714582761" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714660544" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703714788508" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715446455" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715463580" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715475722" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715491077" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715517459" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715529323" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715753907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715796319" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715828085" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703715992428" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716001655" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716017651" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716027918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716217617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716230553" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716236978" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716244283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716301961" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716328400" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716353712" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716394281" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703716414905" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703760578362" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703761582189" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703764571219" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703764581536" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703765038679" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703765278154" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703765283484" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703770665028" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703771794218" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703771844942" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703771878607" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703771895067" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703776643740" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703776912692" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703776929450" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780056811" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780066646" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780119669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780134140" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780172602" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780570942" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703780990857" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703781244590" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703781472998" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703781601848" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703794982313" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703795008902" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703795622854" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703795901785" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796155381" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796192793" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796202333" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796215343" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796280970" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796390303" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796463393" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796643702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703796756370" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797017885" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797065508" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797100126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797128998" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797296901" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797376811" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797788553" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797839670" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797855193" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797888299" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797911262" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797928589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797932056" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703797944723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801016928" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801023084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801034271" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801276741" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801360941" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801414690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703801436755" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703803394406" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703803943458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703806742731" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703806925378" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703807015497" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703807674935" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703807832329" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703841870909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703841891760" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703841983170" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703842894989" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703842937419" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703843016467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703843165222" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703843184936" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703843837429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703843979599" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844206022" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844224775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844235775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844568168" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844575901" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844592615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703844617574" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703845011404" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703845099215" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703845147429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703845372774" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703845462395" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703845888418" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703847658013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848058345" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848151893" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848303429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848346887" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848495104" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848546058" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848570824" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848647607" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703848732800" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703945103105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703945504927" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703946195251" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703952708289" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703970296342" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703970408074" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703970482613" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1703970602117" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704034475831" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704034574706" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704037161605" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704037180198" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704037245736" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704037290101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704037419158" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704037441841" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704041662310" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704042078680" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704042099892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704042130267" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704042163236" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704042289856" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704043532208" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704043585672" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704047348360" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704047410637" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704047529148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704047630593" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704047638870" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704047807958" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704105998310" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704106020458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704106251281" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704110624565" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704110641962" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704111809232" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704111828237" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704112453639" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704112536546" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704112660231" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704112704275" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704112719418" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704112800760" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115133623" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115196974" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115211888" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115240467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115262218" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115342079" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115650025" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704115693918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704215236086" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704215403074" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704215422492" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704215552338" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704215582423" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704215602579" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704216558500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704216821973" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704216902856" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704216912668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704216981490" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704216988898" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704217605070" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704217613116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704217662379" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704217755484" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704217887698" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219170839" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219463847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219526358" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219542342" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219545929" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219688473" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704219704283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284045635" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284084347" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284333939" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284376931" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284424126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284469380" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284500305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284625672" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704284663920" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704285566516" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286235520" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286529190" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286553135" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286563739" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286809855" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286894424" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704286914492" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704287002345" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704288933910" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704288986723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704290646996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704296106054" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302797939" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302822061" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302847427" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302885843" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302961348" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302970196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704302976237" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303020006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303029848" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303167727" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303425623" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303435743" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303460571" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704303503142" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309068533" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309097650" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309104682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309122149" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309136282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309158943" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309164498" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309185434" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309229788" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309247891" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704309254907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704397284528" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704397353702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704399615865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704401118866" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704401158001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704453213879" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704454251220" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704454288902" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704454312688" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704454333360" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704454500685" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704455603022" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461129368" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461195846" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461232136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461680009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461683236" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461724763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461751363" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704461785758" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704462238518" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704463383363" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704463425052" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704463487403" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704463590289" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704463716634" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704463758547" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551693638" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551743208" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551755419" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551802708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551845773" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551888068" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704551985745" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704553087671" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704553138500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704556196795" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704556250198" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704556263970" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704556329931" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704556355770" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704565563651" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704565592343" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704565939163" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704815017980" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704815054226" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704815688167" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704815804029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704818005450" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704818383407" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704818403708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819168137" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819525547" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819540620" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819603661" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819625656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819720589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819743520" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819767656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819770036" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819812868" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819865773" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819870265" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819936065" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704819948503" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704820034936" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704820049963" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704832436061" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704832461337" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704832500010" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704839828496" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704839866996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704839912890" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704840074338" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704840541600" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704876715126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704877027277" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704877313063" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704877592328" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704878862655" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704878889403" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704878910090" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704879269803" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704879927418" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704880595612" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704880762236" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704882673947" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704885702887" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704885720495" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704885983740" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704886047608" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704886461171" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704886492728" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704886509105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704886673867" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704886845149" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704887250012" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704887291897" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704887439935" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704887769980" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704887921996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704887944551" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704894223231" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704894251062" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704894268334" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704894470402" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704895073555" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704895188669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704895310231" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704895329026" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704895345115" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704895652898" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704896177777" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704899607525" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704899638343" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704899745696" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704900558253" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901017750" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901250091" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901270664" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901525384" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901648858" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901697225" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704901856086" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704902045027" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704902058842" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704902090644" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704902322261" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704902327790" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704910410512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704910801598" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704910824258" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704910944579" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911075652" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911245547" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911300569" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911336462" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911404081" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911524572" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911839787" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704911979555" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704912006277" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704912168477" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704912240347" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704912644861" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704912719011" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704913011670" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704913097699" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704913120950" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704913326396" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704913391623" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704916370950" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704916824890" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704916839854" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704916881622" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704917295859" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704917751908" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704917940467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704917965721" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918211206" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918233896" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918268954" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918294906" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918349854" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918376996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918785150" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918844558" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704918877277" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704919129187" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704919173652" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704919401692" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704919409710" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704919470201" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704926572201" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704926638033" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704926745119" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704926945059" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704927598748" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928058904" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928201017" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928231486" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928385750" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928425638" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928467702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928515456" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928782171" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928822044" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928831947" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704928874866" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704929213325" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704929238189" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704929293805" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704929352894" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704930987870" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704931140434" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704931198902" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704931242912" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704931327029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704931576113" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704931629886" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704963287468" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704963386652" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704963414370" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704963429435" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704963441843" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704963451012" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966044515" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966093852" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966151391" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966283285" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966297729" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966307961" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966319196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966352126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966373285" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966398891" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966415105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966554216" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966584662" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966901161" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mj-test.log.1704966922434" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Yylex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Yylex.java" afterDir="false" />
@@ -176,7 +552,10 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorNo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementMultipleAssign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementMultipleAssign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtAssign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtAssign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtCallArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtCallArg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtCallNoArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStmtCallNoArg.java" afterDir="false" />
@@ -185,7 +564,6 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorWNamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorWNamespace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorWONamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorWONamespace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorYes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorYes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ElseFirstPart.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprMinusTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprMinusTerm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprTerm.java" afterDir="false" />
@@ -204,23 +582,30 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorParenExpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorParenExpr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopHelper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForLoopStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForStatementsStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForStatementsStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForTailDesignatorStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForTailDesignatorStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParamCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParamCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParamError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParamError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormPars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/GeneralExpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/GeneralExpr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionEndDetected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionEndDetected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionEndDetectedCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionEndDetectedCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfConditionError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfElseStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfElseStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfFirstPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfSecondPart.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfStartDetected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfStartDetected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IfStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParamCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParamCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParamError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastFormParamError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVarCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVarCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVarError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LastSingleVarError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Literal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Literal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralBool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralBool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralCHAR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LiteralCHAR.java" afterDir="false" />
@@ -237,7 +622,6 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleConstDecls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclError.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclSingleVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDeclSingleVar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MultipleVarDecls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Namespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Namespace.java" afterDir="false" />
@@ -270,7 +654,8 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactYes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleCondFactYes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListYes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleDesignatorStatementListYes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormPars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDeclared.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/PossibleFormParsDeclared.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ProgName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ProgName.java" afterDir="false" />
@@ -286,10 +671,11 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SignleFromParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SignleFromParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleDesignatorStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleDesignatorStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVarCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVarCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVarError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleVarError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementContinue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementError.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementForLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDetected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/StatementListDetected.java" afterDir="false" />
@@ -317,16 +703,13 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeWNamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeWNamespace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclError.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclNormal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VoidMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VoidMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/sym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/sym.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/test/program.mj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/program.obj" beforeDir="false" afterPath="$PROJECT_DIR$/test/program.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -369,38 +752,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Ant Target.compile.executor&quot;: &quot;Run&quot;,
-    &quot;Ant Target.disasm.executor&quot;: &quot;Run&quot;,
-    &quot;Ant Target.lexerGen.executor&quot;: &quot;Run&quot;,
-    &quot;Ant Target.parserGen.executor&quot;: &quot;Run&quot;,
-    &quot;Ant Target.repackage.executor&quot;: &quot;Run&quot;,
-    &quot;Ant Target.runObj.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MJParserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MJTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.Debug.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gd200089d/Desktop/pp1domaci/MJCompiler/tests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Ant Target.clean.executor": "Run",
+    "Ant Target.compile.executor": "Run",
+    "Ant Target.disasm.executor": "Run",
+    "Ant Target.lexerGen.executor": "Run",
+    "Ant Target.parserGen.executor": "Run",
+    "Ant Target.repackage.executor": "Run",
+    "Ant Target.runObj.executor": "Run",
+    "Application.MJParserTest.executor": "Run",
+    "Application.MJTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JAR Application.Debug.executor": "Run",
+    "JAR Application.Run.executor": "Run",
+    "JAR Application.Unnamed.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gd200089d/Desktop/pp1domaci/MJCompiler/tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\tests" />
@@ -411,21 +795,13 @@
       <recent name="rs.ac.bg.etf.pp1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MJParserTest">
-    <configuration name="compile" type="AntRunConfiguration">
-      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="compile" />
+  <component name="RunManager" selected="JAR Application.Run">
+    <configuration name="clean" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="delete" />
       <method v="2" />
     </configuration>
     <configuration name="disasm" type="AntRunConfiguration">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="disasm" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lexerGen" type="AntRunConfiguration">
-      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="lexerGen" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parserGen" type="AntRunConfiguration">
-      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="parserGen" />
       <method v="2" />
     </configuration>
     <configuration name="repackage" type="AntRunConfiguration">
@@ -486,11 +862,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Ant Target.clean" />
       <item itemvalue="Ant Target.disasm" />
       <item itemvalue="Ant Target.runObj" />
-      <item itemvalue="Ant Target.parserGen" />
-      <item itemvalue="Ant Target.compile" />
-      <item itemvalue="Ant Target.lexerGen" />
       <item itemvalue="Ant Target.repackage" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MJParserTest" />
@@ -553,7 +927,7 @@
       <workItem from="1704876694894" duration="15567000" />
       <workItem from="1704910399177" duration="7406000" />
       <workItem from="1704925657307" duration="4588000" />
-      <workItem from="1704962762960" duration="3433000" />
+      <workItem from="1704962762960" duration="14242000" />
     </task>
     <task id="LOCAL-00001" summary="Lekser i parser za A nivo zavrseni, slabo testirano">
       <option name="closed" value="true" />
@@ -579,7 +953,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704888026438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tests and parser error recovery fully working">
+      <option name="closed" value="true" />
+      <created>1704967014519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704967014519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,16 +983,26 @@
     <MESSAGE value="Lekser i parser za A nivo zavrseni, slabo testirano" />
     <MESSAGE value="Parser fully working with tests, no ressurection from error" />
     <MESSAGE value="Tests are working,but there are a lot of small changes to do" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests are working,but there are a lot of small changes to do" />
+    <MESSAGE value="Tests and parser error recovery fully working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests and parser error recovery fully working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java</url>
-          <line>334</line>
-          <option name="timeStamp" value="19" />
+          <line>410</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java</url>
+          <line>450</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="23" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

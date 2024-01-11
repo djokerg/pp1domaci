@@ -2,7 +2,6 @@ package rs.ac.bg.etf.pp1;
 
 import org.apache.log4j.Logger;
 import rs.ac.bg.etf.pp1.ast.*;
-import rs.etf.pp1.mj.runtime.Code;
 import rs.etf.pp1.symboltable.concepts.Obj;
 import rs.etf.pp1.symboltable.concepts.Struct;
 
@@ -16,7 +15,6 @@ public class SemanticPass extends VisitorAdaptor {
     List<Struct> currentActParams = new ArrayList<>();
 
     List<Obj> designatorHelperList = new ArrayList<>();
-    boolean returnFound = false;
     boolean errorDetected = false;
     int nVars;
 
@@ -151,18 +149,19 @@ public class SemanticPass extends VisitorAdaptor {
     public void visit(NormalType normalType) {
         Obj typeNode = TabDerived.find(normalType.getTypeName());
         if(typeNode==TabDerived.noObj){
-            report_error("Nije pronadjen tip " + normalType.getTypeName() + " u tabeli simbola ! ", null);
+            report_error("Nije pronadjen tip " + normalType.getTypeName() + " u tabeli simbola ", normalType);
             normalType.struct = TabDerived.noType;
         }
         else {
             if(Obj.Type == typeNode.getKind()){
                 normalType.struct = typeNode.getType();
-                currentType = normalType.struct;
             }else{
-                report_error("Greska: Ime " + normalType.getTypeName() + " ne predstavlja tip!",normalType);
+                report_error("Greska: Ime " + normalType.getTypeName() + " ne predstavlja tip ",normalType);
                 normalType.struct = TabDerived.noType;
+
             }
         }
+        currentType = normalType.struct;
     }
 
     //Variable declarations
@@ -240,7 +239,7 @@ public class SemanticPass extends VisitorAdaptor {
             parType = new Struct(Struct.Array,currentType);
         }
         Obj parNode = TabDerived.insert(Obj.Var, formParam.getParamName(), parType);
-        parNode.setFpPos(currentMethod.getLevel());
+        parNode.setFpPos(currentMethod.getLevel()+1);
         currentMethod.setLevel(currentMethod.getLevel()+1);
         isArray = false;
         currentType = null;
@@ -253,7 +252,7 @@ public class SemanticPass extends VisitorAdaptor {
             parType = new Struct(Struct.Array,currentType);
         }
         Obj parNode = TabDerived.insert(Obj.Var, formParam.getParamName(), parType);
-        parNode.setFpPos(currentMethod.getLevel());
+        parNode.setFpPos(currentMethod.getLevel()+1);
         currentMethod.setLevel(currentMethod.getLevel()+1);
         isArray = false;
         currentType = null;
@@ -326,7 +325,6 @@ public class SemanticPass extends VisitorAdaptor {
         methodDecl.obj = methodDecl.getMethodTypeName().obj;
         TabDerived.chainLocalSymbols(currentMethod);
         TabDerived.closeScope();
-        returnFound = false;
         currentMethod = null;
     }
 
@@ -352,6 +350,9 @@ public class SemanticPass extends VisitorAdaptor {
         Obj des = designatorStmtPlusPlus.getDesignator().obj;
         if(des.getKind() != Obj.Var && des.getKind() != Obj.Elem){
             report_error("Korisceno ime mora biti promenljiva ili element niza",designatorStmtPlusPlus);
+        }
+        if(!des.getType().equals(TabDerived.intType)){
+            report_error("Korisceno ime mora biti celobrojnog tipa",designatorStmtPlusPlus);
         }
     }
 
@@ -408,6 +409,22 @@ public class SemanticPass extends VisitorAdaptor {
             }
             else{
                 designatorWNamespace.obj = desObj;
+                switch(desObj.getKind()){
+                    case Obj.Con:{
+                        report_info("Detektovana upotreba konstante " + desObj.getName(),designatorWNamespace);
+                    }
+                    case Obj.Var:{
+                        if(desObj.getFpPos()>0){
+                            report_info("Detektovana upotreba formalnog parametra " + desObj.getName(),designatorWNamespace);
+                        }else{
+                            if(desObj.getLevel()==0){
+                                report_info("Detektovana upotreba globalne promenljive " + desObj.getName(),designatorWNamespace);
+                            }else{
+                                report_info("Detektovana upotreba lokalne promenljive " + desObj.getName(),designatorWNamespace);
+                            }
+                        }
+                    }
+                }
                 if(desObj.getKind()==Obj.Meth){
                     //poziva se metod, staviti ga na stek poziva
                     calledMethods.push(desObj);
@@ -432,8 +449,25 @@ public class SemanticPass extends VisitorAdaptor {
             }
             else{
                 designatorWONamespace.obj = desObj;
+                //see what is this designator and print its detection
+                switch(desObj.getKind()){
+                    case Obj.Con:{
+                        report_info("Detektovana upotreba konstante " + desObj.getName(),designatorWONamespace);
+                    }
+                    case Obj.Var:{
+                        if(desObj.getFpPos()>0){
+                            report_info("Detektovana upotreba formalnog parametra " + desObj.getName(),designatorWONamespace);
+                        }else{
+                            if(desObj.getLevel()==0){
+                                report_info("Detektovana upotreba globalne promenljive " + desObj.getName(),designatorWONamespace);
+                            }else{
+                                report_info("Detektovana upotreba lokalne promenljive " + desObj.getName(),designatorWONamespace);
+                            }
+                        }
+                    }
+                }
                 if(desObj.getKind()==Obj.Meth){
-                    //poziva se metod, staviti ga na stek poziva
+                    //poziva se metod, staviti ga na stek poziva, ovo se koristi kod provere formalnih i stvarnih parametara
                     calledMethods.push(desObj);
                 }
             }
@@ -445,6 +479,7 @@ public class SemanticPass extends VisitorAdaptor {
 
     public void visit(DesignatorArrayName designatorArrayName){
         //move Expr value and Type to Designator to check
+        report_info("Detektovan pristup elementu niza " + designatorArrayName.getDesignator().obj.getName(),designatorArrayName);
         arrayIndexing = true;
     }
 
@@ -488,7 +523,7 @@ public class SemanticPass extends VisitorAdaptor {
     public void visit(FactorCall factorCall){
         Obj func = factorCall.getDesignator().obj;
         if(Obj.Meth == func.getKind()){
-            report_info("Pronadjen poziv funkcije " + func.getName() + " na liniji " + factorCall.getLine(), null);
+            report_info("Detektovan poziv funkcije " + func.getName() + " na liniji " + factorCall.getLine(), null);
             factorCall.struct = func.getType();
             //skinuti metod sa steka
             Obj method = calledMethods.pop();
@@ -509,7 +544,8 @@ public class SemanticPass extends VisitorAdaptor {
                 currentActParams.clear();
             }
         }else{
-            report_error("Ime " + func.getName() + "nije funkcija !", factorCall);
+            factorCall.struct = TabDerived.noType;
+            report_error("Ime " + func.getName() + " nije funkcija", factorCall);
         }
     }
 
@@ -647,6 +683,9 @@ public class SemanticPass extends VisitorAdaptor {
 
     public void visit(StatementPrintSingle statementPrintSingle){
         Struct e = statementPrintSingle.getExpr().struct;
+        if(e==TabDerived.noType){
+            return;
+        }
         if(!e.equals(TabDerived.intType) && !e.equals(TabDerived.boolType) && !e.equals(TabDerived.charType)){
             report_error("Korisceno ime u metodi print mora biti tipa int, char ili bool", statementPrintSingle);
         }
