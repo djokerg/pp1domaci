@@ -168,7 +168,7 @@ public class SemanticPass extends VisitorAdaptor {
     //Variable declarations
 
      @Override
-     public void visit(VarDeclNormal varDeclNormal){
+     public void visit(VarDecl varDeclNormal){
          //treba da ugasim currentTYpe
          currentType = null;
      }
@@ -177,7 +177,7 @@ public class SemanticPass extends VisitorAdaptor {
         isArray = true;
      }
 
-     public void visit(SingleVar singleVar){
+     public void visit(SingleVarCorrect singleVar){
          //check for namespace
          String varName = singleVar.getVarName();
          if(currentNamespace!=null && currentMethod==null){
@@ -204,9 +204,49 @@ public class SemanticPass extends VisitorAdaptor {
          isArray = false;
      }
 
+     public void visit(LastSingleVarCorrect singleVar){
+         //check for namespace
+         String varName = singleVar.getVarName();
+         if(currentNamespace!=null && currentMethod==null){
+             varName = currentNamespace + "::" + varName;
+         }
+         //check variable constraint for name
+         Obj var = TabDerived.find(varName);
+         if(var!=TabDerived.noObj){
+             //check if its in the same scope
+             if(TabDerived.currentScope.findSymbol(varName) != null){
+                 report_error("Promenljiva sa imenom " + varName + " je vec deklarisana u ovom opsegu",singleVar);
+                 isArray = false;
+                 return;
+             }
+         }
+
+         //check if variable is array
+         Struct varType = currentType;
+         if(isArray){
+             varType = new Struct(Struct.Array,currentType);
+         }
+         report_info("Deklarisana promenljiva "+singleVar.getVarName(),singleVar);
+         Obj varNode = TabDerived.insert(Obj.Var, varName, varType);
+         isArray = false;
+     }
+
      //parameters processing
 
-    public void visit(FormParam formParam){
+    public void visit(FormParamCorrect formParam){
+        //check if parameter is array
+        Struct parType = currentType;
+        if(isArray){
+            parType = new Struct(Struct.Array,currentType);
+        }
+        Obj parNode = TabDerived.insert(Obj.Var, formParam.getParamName(), parType);
+        parNode.setFpPos(currentMethod.getLevel());
+        currentMethod.setLevel(currentMethod.getLevel()+1);
+        isArray = false;
+        currentType = null;
+    }
+
+    public void visit(LastFormParamCorrect formParam){
         //check if parameter is array
         Struct parType = currentType;
         if(isArray){
@@ -536,63 +576,39 @@ public class SemanticPass extends VisitorAdaptor {
             return;
         }
         if(e1.getKind() == Struct.Array || e1.getKind() == Struct.Array){
-//            if(relopCondFact.getRelop().struct.getKind() != Code.eq || relopCondFact.getRelop().struct.getKind() != Code.ne) {
-//                report_error("Korisceni tipovi izraza smeju koristiti samo relacione operatore == ili !=", relopCondFact);
-//                relopCondFact.struct = TabDerived.noType;
-//                return;
-//            }
+            if(!(relopCondFact.getRelop()  instanceof RelopEQUAL) && !(relopCondFact.getRelop() instanceof RelopNOTEQUAL)) {
+                report_error("Korisceni tipovi izraza smeju koristiti samo relacione operatore == ili !=", relopCondFact);
+                relopCondFact.struct = TabDerived.noType;
+                return;
+            }
         }
         relopCondFact.struct = TabDerived.boolType;
     }
 
-//    public void visit(NormalCondFact normalCondFact){
+    public void visit(NormalCondFact normalCondFact){
 //        if(!normalCondFact.getExpr().struct.equals(TabDerived.boolType)){
 //            report_error("Izraz mora biti boolean tipa da bi se koristio u uslovnim operacijama",normalCondFact);
 //            normalCondFact.struct = TabDerived.noType;
 //            return;
 //        }
-//        normalCondFact.struct = normalCondFact.getExpr().struct;
-//    }
-//
-//    public void visit(NormalCondTerm normalCondTerm){
-//        normalCondTerm.struct = normalCondTerm.getCondFact().struct;
-//    }
-//
-//    public void visit(CondTermBITAND condTermBITAND){
-//        condTermBITAND.struct = TabDerived.boolType;
-//    }
-//
-//    public void visit(NormalCondition normalCondition){
-//        normalCondition.struct = normalCondition.getCondTerm().struct;
-//    }
-//
-//    public void visit(ConditionBITOR conditionBITOR){
-//        conditionBITOR.struct = TabDerived.boolType;
-//    }
-//
-//    public void visit(RelopEQUAL relopEQUAL){
-//        relopEQUAL.struct = new Struct(Code.eq);
-//    }
-//
-//    public void visit(RelopNOTEQUAL relopNOTEQUAL){
-//        relopNOTEQUAL.struct = new Struct(Code.ne);
-//    }
-//
-//    public void visit(RelopGRT relopGRT){
-//        relopGRT.struct = new Struct(Code.gt);
-//    }
-//
-//    public void visit(RelopGRTE relopGRTE){
-//        relopGRTE.struct = new Struct(Code.ge);
-//    }
-//
-//    public void visit(RelopLSS relopLSS){
-//        relopLSS.struct = new Struct(Code.lt);
-//    }
-//
-//    public void visit(RelopLSSE relopLSSE){
-//        relopLSSE.struct = new Struct(Code.le);
-//    }
+        normalCondFact.struct = normalCondFact.getExpr().struct;
+    }
+
+    public void visit(NormalCondTerm normalCondTerm){
+        normalCondTerm.struct = normalCondTerm.getCondFact().struct;
+    }
+
+    public void visit(CondTermBITAND condTermBITAND){
+        condTermBITAND.struct = TabDerived.boolType;
+    }
+
+    public void visit(NormalCondition normalCondition){
+        normalCondition.struct = normalCondition.getCondTerm().struct;
+    }
+
+    public void visit(ConditionBITOR conditionBITOR){
+        conditionBITOR.struct = TabDerived.boolType;
+    }
 
     //ForLoop
     public void visit(ForLoopStart forLoopStart){
@@ -694,6 +710,12 @@ public class SemanticPass extends VisitorAdaptor {
     public void visit(DesignatorYes designatorYes){
         designatorHelperList.add(designatorYes.getDesignator().obj);
         //provera da li uopste postoji u tabeli simbola?
+    }
+
+    public void visit(IfConditionEndDetectedCorrect ifConditionEndDetectedCorrect){
+        if(!ifConditionEndDetectedCorrect.getCondition().struct.equals(TabDerived.boolType)){
+            report_error("Uslovni izraz mora biti boolean tipa", ifConditionEndDetectedCorrect);
+        }
     }
 
     public boolean passed(){

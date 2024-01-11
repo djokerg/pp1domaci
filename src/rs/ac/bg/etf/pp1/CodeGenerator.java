@@ -11,7 +11,6 @@ import java.util.Stack;
 
 public class CodeGenerator extends VisitorAdaptor {
     private int mainPc;
-    boolean returnFound = false;
     public int getMainPc(){
         return mainPc;
     }
@@ -97,15 +96,14 @@ public class CodeGenerator extends VisitorAdaptor {
     }
 
     public void visit(MethodDecl methodDecl){
-        if(methodDecl.obj.getType()!=TabDerived.noType && !returnFound){
-//            Code.put(Code.trap);
-//            Code.put(1);
+        if(methodDecl.obj.getType()!=TabDerived.noType){
+            Code.put(Code.trap);
+            Code.put(1);
         }
-        else if(methodDecl.obj.getType()==TabDerived.noType && !returnFound){
+        else if(methodDecl.obj.getType()==TabDerived.noType){
             Code.put(Code.exit);
             Code.put(Code.return_);
         }
-        returnFound = false;
     }
 
     public void visit(DesignatorStmtAssign designatorStmtAssign){
@@ -114,6 +112,10 @@ public class CodeGenerator extends VisitorAdaptor {
 
     public void visit(DesignatorStmtPlusPlus designatorStmtPlusPlus){
         //check this for array elements
+        if(designatorStmtPlusPlus.getDesignator().obj.getKind()==Obj.Elem){
+            //i have to duplicate array adr and index for store
+            Code.put(Code.dup2);
+        }
         Code.load(designatorStmtPlusPlus.getDesignator().obj);
         Code.loadConst(1);
         Code.put(Code.add);
@@ -121,6 +123,10 @@ public class CodeGenerator extends VisitorAdaptor {
     }
 
     public void visit(DesignatorStmtMinusMinus designatorStmtMinusMinus){
+        if(designatorStmtMinusMinus.getDesignator().obj.getKind()==Obj.Elem){
+            //i have to duplicate array adr and index for store
+            Code.put(Code.dup2);
+        }
         Code.load(designatorStmtMinusMinus.getDesignator().obj);
         Code.loadConst(1);
         Code.put(Code.sub);
@@ -213,19 +219,24 @@ public class CodeGenerator extends VisitorAdaptor {
     }
 
     public void visit(StatementReturnExpr statementReturnExpr){
-        returnFound = true;
         Code.put(Code.exit);
         Code.put(Code.return_);
     }
 
     public void visit(StatementRetrun statementRetrun){
-        returnFound = true;
         Code.put(Code.exit);
         Code.put(Code.return_);//check this
     }
 
     public void visit(FactorCall factorCall){
         if("ord".equals(factorCall.getDesignator().obj.getName())){
+            return;
+        }
+        if("chr".equals(factorCall.getDesignator().obj.getName())){
+            return;
+        }
+        if("len".equals(factorCall.getDesignator().obj.getName())){
+            Code.put(Code.arraylength);
             return;
         }
         int dest_adr = factorCall.getDesignator().obj.getAdr() - Code.pc;
@@ -351,7 +362,7 @@ public class CodeGenerator extends VisitorAdaptor {
 
     //last OR Block End
 
-    public void visit(IfConditionEndDetected ifConditionEndDetected){
+    public void visit(IfConditionEndDetectedCorrect ifConditionEndDetectedCorrect){
         //this is last OR block, so i have to patch the rest of OR blocks to jump there because this is also begin of then part
         //BEGINING OF THEN BLOCK
 
@@ -470,7 +481,7 @@ public class CodeGenerator extends VisitorAdaptor {
         Code.loadConst(designators.size()+1);//+1 for the last designator
         Code.putFalseJump(Code.lt,0);
         int adr = Code.pc-2;
-        Code.loadConst(1);
+        Code.loadConst(2);
         Code.put(Code.trap);
         Code.fixup(adr);
         //here i can put code for array paste

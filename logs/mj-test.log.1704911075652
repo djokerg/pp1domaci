@@ -1,0 +1,3668 @@
+INFO  19:22:24,582 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\tests\test303.mj
+INFO  19:22:24,638 - #2 program
+INFO  19:22:24,638 - #45 test_303
+INFO  19:22:24,638 - #3 namespace
+INFO  19:22:24,639 - #45 Predmeti
+INFO  19:22:24,639 - #4 {
+INFO  19:22:24,640 - #7 class
+INFO  19:22:24,640 - #45 Predmet
+INFO  19:22:24,640 - #4 {
+INFO  19:22:24,641 - #45 int
+INFO  19:22:24,642 - #45 tezina
+INFO  19:22:24,643 - #36 ;
+INFO  19:22:24,644 - #45 char
+INFO  19:22:24,644 - #45 vrsta
+INFO  19:22:24,644 - #36 ;
+INFO  19:22:24,644 - #4 {
+INFO  19:22:24,644 - #15 void
+INFO  19:22:24,645 - #45 postaviTezinu
+INFO  19:22:24,645 - #40 (
+INFO  19:22:24,645 - #45 int
+INFO  19:22:24,645 - #45 tezina
+INFO  19:22:24,645 - #41 )
+INFO  19:22:24,646 - #4 {
+INFO  19:22:24,646 - #45 this
+INFO  19:22:24,647 - #39 .
+INFO  19:22:24,647 - #45 tezina
+INFO  19:22:24,647 - #33 =
+INFO  19:22:24,647 - #45 tezina
+INFO  19:22:24,648 - #36 ;
+INFO  19:22:24,648 - #5 }
+INFO  19:22:24,648 - #15 void
+INFO  19:22:24,649 - #45 ucitajTezinu
+INFO  19:22:24,649 - #40 (
+INFO  19:22:24,649 - #41 )
+INFO  19:22:24,650 - #4 {
+INFO  19:22:24,650 - #13 read
+INFO  19:22:24,650 - #40 (
+INFO  19:22:24,650 - #45 tezina
+INFO  19:22:24,650 - #41 )
+INFO  19:22:24,650 - #36 ;
+INFO  19:22:24,650 - #5 }
+INFO  19:22:24,650 - #45 int
+INFO  19:22:24,650 - #45 zapremina
+INFO  19:22:24,650 - #40 (
+INFO  19:22:24,650 - #41 )
+INFO  19:22:24,650 - #4 {
+INFO  19:22:24,650 - #14 return
+INFO  19:22:24,650 - #46 0
+INFO  19:22:24,650 - #36 ;
+INFO  19:22:24,650 - #5 }
+INFO  19:22:24,650 - #45 int
+INFO  19:22:24,651 - #45 Q
+INFO  19:22:24,651 - #40 (
+INFO  19:22:24,651 - #41 )
+INFO  19:22:24,651 - #4 {
+INFO  19:22:24,651 - #14 return
+INFO  19:22:24,651 - #45 zapremina
+INFO  19:22:24,651 - #40 (
+INFO  19:22:24,651 - #41 )
+INFO  19:22:24,652 - #22 *
+INFO  19:22:24,652 - #45 tezina
+INFO  19:22:24,653 - #36 ;
+INFO  19:22:24,653 - #5 }
+INFO  19:22:24,653 - #15 void
+INFO  19:22:24,653 - #45 postaviVrstu
+INFO  19:22:24,654 - #40 (
+INFO  19:22:24,654 - #45 char
+INFO  19:22:24,654 - #45 vrsta
+INFO  19:22:24,654 - #41 )
+INFO  19:22:24,654 - #4 {
+INFO  19:22:24,654 - #45 this
+INFO  19:22:24,654 - #39 .
+INFO  19:22:24,654 - #45 vrsta
+INFO  19:22:24,654 - #33 =
+INFO  19:22:24,654 - #45 vrsta
+INFO  19:22:24,654 - #36 ;
+INFO  19:22:24,654 - #5 }
+INFO  19:22:24,654 - #45 char
+INFO  19:22:24,654 - #45 dohvVrstu
+INFO  19:22:24,654 - #40 (
+INFO  19:22:24,654 - #41 )
+INFO  19:22:24,654 - #4 {
+INFO  19:22:24,654 - #14 return
+INFO  19:22:24,654 - #45 vrsta
+INFO  19:22:24,654 - #36 ;
+INFO  19:22:24,654 - #5 }
+INFO  19:22:24,654 - #45 int
+INFO  19:22:24,654 - #45 dohvTezinu
+INFO  19:22:24,654 - #40 (
+INFO  19:22:24,654 - #41 )
+INFO  19:22:24,655 - #4 {
+INFO  19:22:24,655 - #14 return
+INFO  19:22:24,655 - #45 tezina
+INFO  19:22:24,655 - #36 ;
+INFO  19:22:24,655 - #5 }
+INFO  19:22:24,655 - #15 void
+INFO  19:22:24,655 - #45 ispisi
+INFO  19:22:24,655 - #40 (
+INFO  19:22:24,655 - #41 )
+INFO  19:22:24,655 - #4 {
+INFO  19:22:24,655 - #12 print
+INFO  19:22:24,655 - #40 (
+INFO  19:22:24,655 - #45 vrsta
+INFO  19:22:24,655 - #41 )
+INFO  19:22:24,655 - #36 ;
+INFO  19:22:24,655 - #12 print
+INFO  19:22:24,655 - #40 (
+INFO  19:22:24,655 - #45 Q
+INFO  19:22:24,655 - #40 (
+INFO  19:22:24,655 - #41 )
+INFO  19:22:24,655 - #41 )
+INFO  19:22:24,655 - #36 ;
+INFO  19:22:24,655 - #5 }
+INFO  19:22:24,656 - #5 }
+INFO  19:22:24,656 - #5 }
+INFO  19:22:24,656 - #7 class
+INFO  19:22:24,658 - #45 Sfera
+INFO  19:22:24,658 - #16 extends
+INFO  19:22:24,658 - #45 Predmet
+INFO  19:22:24,658 - #4 {
+INFO  19:22:24,658 - #45 int
+INFO  19:22:24,658 - #45 r
+INFO  19:22:24,658 - #36 ;
+INFO  19:22:24,658 - #4 {
+INFO  19:22:24,658 - #15 void
+INFO  19:22:24,658 - #45 postaviPoluprecnik
+INFO  19:22:24,658 - #40 (
+INFO  19:22:24,658 - #45 int
+INFO  19:22:24,658 - #45 r
+INFO  19:22:24,658 - #41 )
+INFO  19:22:24,658 - #4 {
+INFO  19:22:24,658 - #45 this
+INFO  19:22:24,658 - #39 .
+INFO  19:22:24,658 - #45 r
+INFO  19:22:24,658 - #33 =
+INFO  19:22:24,658 - #45 r
+INFO  19:22:24,658 - #36 ;
+INFO  19:22:24,658 - #5 }
+INFO  19:22:24,658 - #45 int
+INFO  19:22:24,658 - #45 zapremina
+INFO  19:22:24,659 - #40 (
+INFO  19:22:24,659 - #41 )
+INFO  19:22:24,659 - #45 int
+INFO  19:22:24,659 - #45 z
+INFO  19:22:24,659 - #36 ;
+INFO  19:22:24,659 - #4 {
+INFO  19:22:24,659 - #45 z
+INFO  19:22:24,659 - #33 =
+INFO  19:22:24,659 - #45 cinilac
+INFO  19:22:24,659 - #36 ;
+INFO  19:22:24,659 - #14 return
+INFO  19:22:24,659 - #45 z
+INFO  19:22:24,659 - #22 *
+INFO  19:22:24,659 - #40 (
+INFO  19:22:24,659 - #45 r
+INFO  19:22:24,659 - #23 /
+INFO  19:22:24,659 - #45 delilac
+INFO  19:22:24,660 - #41 )
+INFO  19:22:24,660 - #36 ;
+INFO  19:22:24,660 - #5 }
+INFO  19:22:24,660 - #5 }
+INFO  19:22:24,660 - #5 }
+INFO  19:22:24,660 - #7 class
+INFO  19:22:24,660 - #45 Kvadar
+INFO  19:22:24,660 - #16 extends
+INFO  19:22:24,660 - #45 Predmet
+INFO  19:22:24,660 - #4 {
+INFO  19:22:24,660 - #45 int
+INFO  19:22:24,660 - #45 a
+INFO  19:22:24,660 - #38 ,
+INFO  19:22:24,660 - #45 b
+INFO  19:22:24,660 - #38 ,
+INFO  19:22:24,660 - #45 c
+INFO  19:22:24,660 - #36 ;
+INFO  19:22:24,660 - #4 {
+INFO  19:22:24,660 - #15 void
+INFO  19:22:24,661 - #45 postaviStranice
+INFO  19:22:24,661 - #40 (
+INFO  19:22:24,661 - #45 int
+INFO  19:22:24,661 - #45 a
+INFO  19:22:24,661 - #38 ,
+INFO  19:22:24,661 - #45 int
+INFO  19:22:24,661 - #45 b
+INFO  19:22:24,661 - #38 ,
+INFO  19:22:24,661 - #45 int
+INFO  19:22:24,661 - #45 c
+INFO  19:22:24,661 - #41 )
+INFO  19:22:24,661 - #4 {
+INFO  19:22:24,661 - #45 this
+INFO  19:22:24,661 - #39 .
+INFO  19:22:24,661 - #45 a
+INFO  19:22:24,661 - #33 =
+INFO  19:22:24,661 - #45 a
+INFO  19:22:24,661 - #36 ;
+INFO  19:22:24,661 - #45 this
+INFO  19:22:24,661 - #39 .
+INFO  19:22:24,661 - #45 b
+INFO  19:22:24,661 - #33 =
+INFO  19:22:24,661 - #45 b
+INFO  19:22:24,661 - #36 ;
+INFO  19:22:24,661 - #45 this
+INFO  19:22:24,661 - #39 .
+INFO  19:22:24,661 - #45 c
+INFO  19:22:24,661 - #33 =
+INFO  19:22:24,661 - #45 c
+INFO  19:22:24,661 - #36 ;
+INFO  19:22:24,661 - #5 }
+INFO  19:22:24,661 - #45 int
+INFO  19:22:24,661 - #45 zapremina
+INFO  19:22:24,661 - #40 (
+INFO  19:22:24,661 - #41 )
+INFO  19:22:24,662 - #45 int
+INFO  19:22:24,662 - #45 z
+INFO  19:22:24,662 - #36 ;
+INFO  19:22:24,662 - #4 {
+INFO  19:22:24,662 - #45 z
+INFO  19:22:24,662 - #33 =
+INFO  19:22:24,662 - #45 a
+INFO  19:22:24,662 - #22 *
+INFO  19:22:24,662 - #45 b
+INFO  19:22:24,662 - #22 *
+INFO  19:22:24,662 - #45 c
+INFO  19:22:24,662 - #36 ;
+INFO  19:22:24,662 - #14 return
+INFO  19:22:24,662 - #45 z
+INFO  19:22:24,662 - #36 ;
+INFO  19:22:24,662 - #5 }
+INFO  19:22:24,662 - #5 }
+INFO  19:22:24,662 - #5 }
+INFO  19:22:24,662 - #4 {
+INFO  19:22:24,662 - #5 }
+INFO  19:22:24,662 - #5 }
+INFO  19:22:24,662 - #9 const
+INFO  19:22:24,663 - #45 int
+INFO  19:22:24,663 - #45 cinilac
+INFO  19:22:24,663 - #33 =
+INFO  19:22:24,663 - #46 4
+INFO  19:22:24,663 - #38 ,
+INFO  19:22:24,664 - #45 delilac
+INFO  19:22:24,664 - #33 =
+INFO  19:22:24,664 - #46 3
+INFO  19:22:24,664 - #36 ;
+INFO  19:22:24,664 - #7 class
+INFO  19:22:24,665 - #45 ProstiBrojevi
+INFO  19:22:24,665 - #4 {
+INFO  19:22:24,665 - #19 static
+INFO  19:22:24,665 - #45 int
+INFO  19:22:24,665 - #45 prosti
+INFO  19:22:24,665 - #42 [
+INFO  19:22:24,665 - #43 ]
+INFO  19:22:24,665 - #36 ;
+INFO  19:22:24,665 - #19 static
+INFO  19:22:24,666 - #45 int
+INFO  19:22:24,666 - #45 X
+INFO  19:22:24,666 - #38 ,
+INFO  19:22:24,666 - #45 i
+INFO  19:22:24,666 - #38 ,
+INFO  19:22:24,666 - #45 j
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #19 static
+INFO  19:22:24,666 - #45 bool
+INFO  19:22:24,666 - #45 flag
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #19 static
+INFO  19:22:24,666 - #4 {
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,666 - #40 (
+INFO  19:22:24,666 - #48 s
+INFO  19:22:24,666 - #41 )
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,666 - #40 (
+INFO  19:22:24,666 - #48 t
+INFO  19:22:24,666 - #41 )
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,666 - #40 (
+INFO  19:22:24,666 - #48 a
+INFO  19:22:24,666 - #41 )
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,666 - #40 (
+INFO  19:22:24,666 - #48 t
+INFO  19:22:24,666 - #41 )
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,666 - #40 (
+INFO  19:22:24,666 - #48 i
+INFO  19:22:24,666 - #41 )
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,666 - #40 (
+INFO  19:22:24,666 - #48 c
+INFO  19:22:24,666 - #41 )
+INFO  19:22:24,666 - #36 ;
+INFO  19:22:24,666 - #12 print
+INFO  19:22:24,667 - #40 (
+INFO  19:22:24,667 - #45 eol
+INFO  19:22:24,667 - #41 )
+INFO  19:22:24,667 - #36 ;
+INFO  19:22:24,667 - #45 prosti
+INFO  19:22:24,667 - #33 =
+INFO  19:22:24,667 - #11 new
+INFO  19:22:24,667 - #45 int
+INFO  19:22:24,667 - #42 [
+INFO  19:22:24,667 - #46 10
+INFO  19:22:24,667 - #43 ]
+INFO  19:22:24,667 - #36 ;
+INFO  19:22:24,667 - #18 for
+INFO  19:22:24,667 - #40 (
+INFO  19:22:24,667 - #45 X
+INFO  19:22:24,667 - #33 =
+INFO  19:22:24,667 - #46 0
+INFO  19:22:24,668 - #38 ,
+INFO  19:22:24,668 - #45 i
+INFO  19:22:24,668 - #33 =
+INFO  19:22:24,668 - #46 2
+INFO  19:22:24,668 - #36 ;
+INFO  19:22:24,668 - #45 X
+INFO  19:22:24,668 - #29 <
+INFO  19:22:24,668 - #46 10
+INFO  19:22:24,669 - #36 ;
+INFO  19:22:24,669 - #45 i
+INFO  19:22:24,670 - #34 ++
+INFO  19:22:24,670 - #41 )
+INFO  19:22:24,670 - #4 {
+INFO  19:22:24,671 - #45 flag
+INFO  19:22:24,671 - #33 =
+INFO  19:22:24,671 - #47 true
+INFO  19:22:24,671 - #36 ;
+INFO  19:22:24,671 - #18 for
+INFO  19:22:24,671 - #40 (
+INFO  19:22:24,671 - #45 j
+INFO  19:22:24,671 - #33 =
+INFO  19:22:24,671 - #46 2
+INFO  19:22:24,671 - #36 ;
+INFO  19:22:24,671 - #45 j
+INFO  19:22:24,671 - #29 <
+INFO  19:22:24,672 - #45 i
+INFO  19:22:24,672 - #36 ;
+INFO  19:22:24,672 - #45 j
+INFO  19:22:24,672 - #34 ++
+INFO  19:22:24,672 - #41 )
+INFO  19:22:24,672 - #4 {
+INFO  19:22:24,672 - #10 if
+INFO  19:22:24,672 - #40 (
+INFO  19:22:24,672 - #45 i
+INFO  19:22:24,672 - #24 %
+INFO  19:22:24,672 - #45 j
+INFO  19:22:24,672 - #25 ==
+INFO  19:22:24,672 - #46 0
+INFO  19:22:24,673 - #41 )
+INFO  19:22:24,673 - #4 {
+INFO  19:22:24,673 - #45 flag
+INFO  19:22:24,673 - #33 =
+INFO  19:22:24,673 - #47 false
+INFO  19:22:24,673 - #36 ;
+INFO  19:22:24,673 - #6 break
+INFO  19:22:24,673 - #36 ;
+INFO  19:22:24,673 - #5 }
+INFO  19:22:24,674 - #5 }
+INFO  19:22:24,674 - #10 if
+INFO  19:22:24,675 - #40 (
+INFO  19:22:24,675 - #45 flag
+INFO  19:22:24,675 - #41 )
+INFO  19:22:24,675 - #4 {
+INFO  19:22:24,675 - #45 prosti
+INFO  19:22:24,675 - #42 [
+INFO  19:22:24,676 - #45 X
+INFO  19:22:24,676 - #43 ]
+INFO  19:22:24,676 - #33 =
+INFO  19:22:24,676 - #45 i
+INFO  19:22:24,676 - #36 ;
+INFO  19:22:24,676 - #45 X
+INFO  19:22:24,676 - #34 ++
+INFO  19:22:24,676 - #36 ;
+INFO  19:22:24,676 - #5 }
+INFO  19:22:24,676 - #5 }
+INFO  19:22:24,676 - #5 }
+INFO  19:22:24,676 - #5 }
+INFO  19:22:24,677 - #45 int
+INFO  19:22:24,677 - #45 zapreminaK
+INFO  19:22:24,677 - #38 ,
+INFO  19:22:24,677 - #45 zapreminaS
+INFO  19:22:24,677 - #36 ;
+INFO  19:22:24,677 - #45 int
+INFO  19:22:24,677 - #45 tezinaK
+INFO  19:22:24,677 - #38 ,
+INFO  19:22:24,677 - #45 tezinaS
+INFO  19:22:24,677 - #36 ;
+INFO  19:22:24,677 - #4 {
+INFO  19:22:24,677 - #15 void
+INFO  19:22:24,677 - #45 ispis
+INFO  19:22:24,677 - #40 (
+INFO  19:22:24,677 - #45 Predmeti
+INFO  19:22:24,677 - #37 :
+INFO  19:22:24,677 - #37 :
+INFO  19:22:24,677 - #45 Predmet
+INFO  19:22:24,677 - #45 p
+INFO  19:22:24,677 - #41 )
+INFO  19:22:24,677 - #4 {
+INFO  19:22:24,677 - #45 p
+INFO  19:22:24,677 - #39 .
+INFO  19:22:24,677 - #45 ispisi
+INFO  19:22:24,677 - #40 (
+INFO  19:22:24,677 - #41 )
+INFO  19:22:24,677 - #36 ;
+INFO  19:22:24,677 - #12 print
+INFO  19:22:24,677 - #40 (
+INFO  19:22:24,677 - #45 eol
+INFO  19:22:24,677 - #41 )
+INFO  19:22:24,677 - #36 ;
+INFO  19:22:24,677 - #12 print
+INFO  19:22:24,677 - #40 (
+INFO  19:22:24,677 - #45 p
+INFO  19:22:24,677 - #39 .
+INFO  19:22:24,677 - #45 dohvTezinu
+INFO  19:22:24,677 - #40 (
+INFO  19:22:24,677 - #41 )
+INFO  19:22:24,677 - #41 )
+INFO  19:22:24,677 - #36 ;
+INFO  19:22:24,677 - #5 }
+INFO  19:22:24,677 - #15 void
+INFO  19:22:24,677 - #45 main
+INFO  19:22:24,677 - #40 (
+INFO  19:22:24,678 - #41 )
+INFO  19:22:24,678 - #45 Predmeti
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #45 Predmet
+INFO  19:22:24,678 - #45 predmeti
+INFO  19:22:24,678 - #42 [
+INFO  19:22:24,678 - #43 ]
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #45 int
+INFO  19:22:24,678 - #45 i
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #45 Predmeti
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #45 Sfera
+INFO  19:22:24,678 - #45 s1
+INFO  19:22:24,678 - #38 ,
+INFO  19:22:24,678 - #45 s2
+INFO  19:22:24,678 - #38 ,
+INFO  19:22:24,678 - #45 s3
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #45 Predmeti
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #45 Kvadar
+INFO  19:22:24,678 - #45 k1
+INFO  19:22:24,678 - #38 ,
+INFO  19:22:24,678 - #45 k2
+INFO  19:22:24,678 - #38 ,
+INFO  19:22:24,678 - #45 k3
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #45 int
+INFO  19:22:24,678 - #45 t
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #4 {
+INFO  19:22:24,678 - #10 if
+INFO  19:22:24,678 - #40 (
+INFO  19:22:24,678 - #45 ProstiBrojevi
+INFO  19:22:24,678 - #39 .
+INFO  19:22:24,678 - #45 prosti
+INFO  19:22:24,678 - #42 [
+INFO  19:22:24,678 - #46 9
+INFO  19:22:24,678 - #43 ]
+INFO  19:22:24,678 - #25 ==
+INFO  19:22:24,678 - #46 29
+INFO  19:22:24,678 - #41 )
+INFO  19:22:24,678 - #12 print
+INFO  19:22:24,678 - #40 (
+INFO  19:22:24,678 - #46 1
+INFO  19:22:24,678 - #41 )
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #8 else
+INFO  19:22:24,678 - #12 print
+INFO  19:22:24,678 - #40 (
+INFO  19:22:24,678 - #46 0
+INFO  19:22:24,678 - #41 )
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,678 - #45 predmeti
+INFO  19:22:24,678 - #33 =
+INFO  19:22:24,678 - #11 new
+INFO  19:22:24,678 - #45 Predmeti
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #37 :
+INFO  19:22:24,678 - #45 Predmet
+INFO  19:22:24,678 - #42 [
+INFO  19:22:24,678 - #46 6
+INFO  19:22:24,678 - #43 ]
+INFO  19:22:24,678 - #36 ;
+INFO  19:22:24,679 - #45 s1
+INFO  19:22:24,679 - #33 =
+INFO  19:22:24,679 - #11 new
+INFO  19:22:24,679 - #45 Predmeti
+INFO  19:22:24,679 - #37 :
+INFO  19:22:24,679 - #37 :
+INFO  19:22:24,679 - #45 Sfera
+INFO  19:22:24,679 - #40 (
+INFO  19:22:24,679 - #41 )
+INFO  19:22:24,679 - #36 ;
+INFO  19:22:24,679 - #45 s1
+INFO  19:22:24,679 - #39 .
+INFO  19:22:24,679 - #45 postaviPoluprecnik
+INFO  19:22:24,679 - #40 (
+INFO  19:22:24,679 - #46 1
+INFO  19:22:24,679 - #41 )
+INFO  19:22:24,679 - #36 ;
+INFO  19:22:24,679 - #45 s1
+INFO  19:22:24,679 - #39 .
+INFO  19:22:24,679 - #45 postaviVrstu
+INFO  19:22:24,679 - #40 (
+INFO  19:22:24,679 - #48 s
+INFO  19:22:24,679 - #41 )
+INFO  19:22:24,679 - #36 ;
+INFO  19:22:24,679 - #45 s2
+INFO  19:22:24,679 - #33 =
+INFO  19:22:24,679 - #11 new
+INFO  19:22:24,679 - #45 Sfera
+INFO  19:22:24,679 - #40 (
+INFO  19:22:24,679 - #41 )
+INFO  19:22:24,679 - #36 ;
+INFO  19:22:24,679 - #45 s2
+INFO  19:22:24,679 - #39 .
+INFO  19:22:24,679 - #45 postaviPoluprecnik
+INFO  19:22:24,679 - #40 (
+INFO  19:22:24,679 - #46 2
+INFO  19:22:24,679 - #41 )
+INFO  19:22:24,679 - #36 ;
+INFO  19:22:24,679 - #45 s2
+INFO  19:22:24,679 - #39 .
+INFO  19:22:24,679 - #45 postaviVrstu
+INFO  19:22:24,679 - #40 (
+INFO  19:22:24,679 - #48 s
+INFO  19:22:24,680 - #41 )
+INFO  19:22:24,680 - #36 ;
+INFO  19:22:24,680 - #45 s3
+INFO  19:22:24,680 - #33 =
+INFO  19:22:24,680 - #11 new
+INFO  19:22:24,680 - #45 Sfera
+INFO  19:22:24,680 - #40 (
+INFO  19:22:24,680 - #41 )
+INFO  19:22:24,680 - #36 ;
+INFO  19:22:24,680 - #45 s3
+INFO  19:22:24,680 - #39 .
+INFO  19:22:24,680 - #45 postaviPoluprecnik
+INFO  19:22:24,680 - #40 (
+INFO  19:22:24,680 - #46 3
+INFO  19:22:24,680 - #41 )
+INFO  19:22:24,680 - #36 ;
+INFO  19:22:24,680 - #45 s3
+INFO  19:22:24,680 - #39 .
+INFO  19:22:24,680 - #45 postaviVrstu
+INFO  19:22:24,680 - #40 (
+INFO  19:22:24,680 - #48 s
+INFO  19:22:24,680 - #41 )
+INFO  19:22:24,680 - #36 ;
+INFO  19:22:24,680 - #45 k3
+INFO  19:22:24,680 - #33 =
+INFO  19:22:24,680 - #11 new
+INFO  19:22:24,680 - #45 Kvadar
+INFO  19:22:24,680 - #40 (
+INFO  19:22:24,680 - #41 )
+INFO  19:22:24,680 - #36 ;
+INFO  19:22:24,680 - #45 k3
+INFO  19:22:24,680 - #39 .
+INFO  19:22:24,680 - #45 postaviStranice
+INFO  19:22:24,680 - #40 (
+INFO  19:22:24,680 - #46 1
+INFO  19:22:24,680 - #38 ,
+INFO  19:22:24,680 - #46 2
+INFO  19:22:24,680 - #38 ,
+INFO  19:22:24,681 - #46 3
+INFO  19:22:24,681 - #41 )
+INFO  19:22:24,681 - #36 ;
+INFO  19:22:24,681 - #45 k3
+INFO  19:22:24,681 - #39 .
+INFO  19:22:24,681 - #45 postaviVrstu
+INFO  19:22:24,681 - #40 (
+INFO  19:22:24,681 - #48 k
+INFO  19:22:24,681 - #41 )
+INFO  19:22:24,681 - #36 ;
+INFO  19:22:24,681 - #45 k1
+INFO  19:22:24,681 - #33 =
+INFO  19:22:24,681 - #11 new
+INFO  19:22:24,681 - #45 Kvadar
+INFO  19:22:24,681 - #40 (
+INFO  19:22:24,681 - #41 )
+INFO  19:22:24,681 - #36 ;
+INFO  19:22:24,681 - #45 k1
+INFO  19:22:24,681 - #39 .
+INFO  19:22:24,681 - #45 postaviStranice
+INFO  19:22:24,681 - #40 (
+INFO  19:22:24,681 - #46 2
+INFO  19:22:24,681 - #38 ,
+INFO  19:22:24,681 - #46 3
+INFO  19:22:24,682 - #38 ,
+INFO  19:22:24,682 - #46 4
+INFO  19:22:24,682 - #41 )
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 k1
+INFO  19:22:24,682 - #39 .
+INFO  19:22:24,682 - #45 postaviVrstu
+INFO  19:22:24,682 - #40 (
+INFO  19:22:24,682 - #48 k
+INFO  19:22:24,682 - #41 )
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 k2
+INFO  19:22:24,682 - #33 =
+INFO  19:22:24,682 - #11 new
+INFO  19:22:24,682 - #45 Kvadar
+INFO  19:22:24,682 - #40 (
+INFO  19:22:24,682 - #41 )
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 k2
+INFO  19:22:24,682 - #39 .
+INFO  19:22:24,682 - #45 postaviStranice
+INFO  19:22:24,682 - #40 (
+INFO  19:22:24,682 - #46 3
+INFO  19:22:24,682 - #38 ,
+INFO  19:22:24,682 - #46 4
+INFO  19:22:24,682 - #38 ,
+INFO  19:22:24,682 - #46 5
+INFO  19:22:24,682 - #41 )
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 k2
+INFO  19:22:24,682 - #39 .
+INFO  19:22:24,682 - #45 postaviVrstu
+INFO  19:22:24,682 - #40 (
+INFO  19:22:24,682 - #48 k
+INFO  19:22:24,682 - #41 )
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 predmeti
+INFO  19:22:24,682 - #42 [
+INFO  19:22:24,682 - #46 0
+INFO  19:22:24,682 - #43 ]
+INFO  19:22:24,682 - #33 =
+INFO  19:22:24,682 - #45 s1
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 predmeti
+INFO  19:22:24,682 - #42 [
+INFO  19:22:24,682 - #46 2
+INFO  19:22:24,682 - #43 ]
+INFO  19:22:24,682 - #33 =
+INFO  19:22:24,682 - #45 s2
+INFO  19:22:24,682 - #36 ;
+INFO  19:22:24,682 - #45 predmeti
+INFO  19:22:24,683 - #42 [
+INFO  19:22:24,683 - #46 4
+INFO  19:22:24,683 - #43 ]
+INFO  19:22:24,683 - #33 =
+INFO  19:22:24,683 - #45 s3
+INFO  19:22:24,683 - #36 ;
+INFO  19:22:24,683 - #45 predmeti
+INFO  19:22:24,683 - #42 [
+INFO  19:22:24,684 - #46 1
+INFO  19:22:24,684 - #43 ]
+INFO  19:22:24,684 - #33 =
+INFO  19:22:24,684 - #45 k1
+INFO  19:22:24,684 - #36 ;
+INFO  19:22:24,684 - #45 predmeti
+INFO  19:22:24,684 - #42 [
+INFO  19:22:24,684 - #46 3
+INFO  19:22:24,684 - #43 ]
+INFO  19:22:24,684 - #33 =
+INFO  19:22:24,684 - #45 k2
+INFO  19:22:24,684 - #36 ;
+INFO  19:22:24,684 - #45 predmeti
+INFO  19:22:24,684 - #42 [
+INFO  19:22:24,684 - #46 5
+INFO  19:22:24,684 - #43 ]
+INFO  19:22:24,684 - #33 =
+INFO  19:22:24,684 - #45 k3
+INFO  19:22:24,684 - #36 ;
+INFO  19:22:24,684 - #13 read
+INFO  19:22:24,684 - #40 (
+INFO  19:22:24,684 - #45 t
+INFO  19:22:24,684 - #41 )
+INFO  19:22:24,684 - #36 ;
+INFO  19:22:24,684 - #18 for
+INFO  19:22:24,684 - #40 (
+INFO  19:22:24,684 - #45 i
+INFO  19:22:24,684 - #33 =
+INFO  19:22:24,684 - #46 0
+INFO  19:22:24,684 - #36 ;
+INFO  19:22:24,684 - #45 i
+INFO  19:22:24,685 - #29 <
+INFO  19:22:24,685 - #46 6
+INFO  19:22:24,685 - #36 ;
+INFO  19:22:24,685 - #45 i
+INFO  19:22:24,685 - #34 ++
+INFO  19:22:24,685 - #41 )
+INFO  19:22:24,685 - #4 {
+INFO  19:22:24,685 - #45 predmeti
+INFO  19:22:24,685 - #42 [
+INFO  19:22:24,685 - #45 i
+INFO  19:22:24,685 - #43 ]
+INFO  19:22:24,685 - #39 .
+INFO  19:22:24,685 - #45 postaviTezinu
+INFO  19:22:24,685 - #40 (
+INFO  19:22:24,685 - #45 t
+INFO  19:22:24,685 - #41 )
+INFO  19:22:24,685 - #36 ;
+INFO  19:22:24,685 - #5 }
+INFO  19:22:24,685 - #45 zapreminaS
+INFO  19:22:24,685 - #33 =
+INFO  19:22:24,685 - #46 0
+INFO  19:22:24,685 - #36 ;
+INFO  19:22:24,685 - #45 tezinaS
+INFO  19:22:24,685 - #33 =
+INFO  19:22:24,685 - #46 0
+INFO  19:22:24,685 - #36 ;
+INFO  19:22:24,685 - #18 for
+INFO  19:22:24,685 - #40 (
+INFO  19:22:24,685 - #45 i
+INFO  19:22:24,685 - #33 =
+INFO  19:22:24,685 - #46 1
+INFO  19:22:24,685 - #36 ;
+INFO  19:22:24,685 - #45 i
+INFO  19:22:24,685 - #29 <
+INFO  19:22:24,685 - #46 6
+INFO  19:22:24,685 - #36 ;
+INFO  19:22:24,685 - #41 )
+ERROR 19:22:24,685 - 
+Sintaksna greska na liniji 141
+INFO  19:22:24,685 - #4 {
+INFO  19:22:24,685 - #10 if
+INFO  19:22:24,685 - #40 (
+INFO  19:22:24,686 - #45 i
+INFO  19:22:24,686 - #24 %
+INFO  19:22:24,686 - #46 2
+INFO  19:22:24,686 - #25 ==
+INFO  19:22:24,686 - #46 0
+INFO  19:22:24,686 - #41 )
+INFO  19:22:24,686 - #4 {
+INFO  19:22:24,686 - #45 i
+INFO  19:22:24,686 - #34 ++
+INFO  19:22:24,686 - #36 ;
+INFO  19:22:24,687 - #17 continue
+INFO  19:22:24,687 - #36 ;
+INFO  19:22:24,687 - #5 }
+INFO  19:22:24,687 - #45 zapreminaS
+INFO  19:22:24,687 - #33 =
+INFO  19:22:24,687 - #45 zapreminaS
+INFO  19:22:24,687 - #20 +
+INFO  19:22:24,687 - #45 predmeti
+INFO  19:22:24,687 - #42 [
+INFO  19:22:24,687 - #45 i
+INFO  19:22:24,687 - #21 -
+INFO  19:22:24,687 - #46 1
+INFO  19:22:24,687 - #43 ]
+INFO  19:22:24,687 - #39 .
+INFO  19:22:24,687 - #45 zapremina
+INFO  19:22:24,687 - #40 (
+INFO  19:22:24,687 - #41 )
+INFO  19:22:24,687 - #36 ;
+INFO  19:22:24,687 - #45 tezinaS
+INFO  19:22:24,687 - #33 =
+INFO  19:22:24,687 - #45 tezinaS
+INFO  19:22:24,687 - #20 +
+INFO  19:22:24,687 - #45 predmeti
+INFO  19:22:24,687 - #42 [
+INFO  19:22:24,687 - #45 i
+INFO  19:22:24,687 - #21 -
+INFO  19:22:24,687 - #46 1
+INFO  19:22:24,687 - #43 ]
+INFO  19:22:24,687 - #39 .
+INFO  19:22:24,687 - #45 Q
+INFO  19:22:24,687 - #40 (
+INFO  19:22:24,687 - #41 )
+INFO  19:22:24,687 - #36 ;
+INFO  19:22:24,687 - #45 ispis
+INFO  19:22:24,687 - #40 (
+INFO  19:22:24,687 - #45 predmeti
+ERROR 19:22:24,687 - Izvrsen oporavak(iskaz dodele) do ; u liniji 141
+INFO  19:22:24,689 - #42 [
+INFO  19:22:24,689 - #45 i
+INFO  19:22:24,689 - #21 -
+INFO  19:22:24,689 - #46 1
+INFO  19:22:24,690 - #43 ]
+INFO  19:22:24,691 - #41 )
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,691 - #45 i
+INFO  19:22:24,691 - #34 ++
+INFO  19:22:24,691 - #36 ;
+ERROR 19:22:24,691 - 
+Sintaksna greska na liniji 149
+INFO  19:22:24,691 - #5 }
+INFO  19:22:24,691 - #45 zapreminaK
+INFO  19:22:24,691 - #33 =
+INFO  19:22:24,691 - #46 0
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,691 - #45 tezinaK
+INFO  19:22:24,691 - #33 =
+INFO  19:22:24,691 - #46 0
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,691 - #45 i
+INFO  19:22:24,691 - #33 =
+INFO  19:22:24,691 - #46 1
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,691 - #18 for
+INFO  19:22:24,691 - #40 (
+INFO  19:22:24,691 - #45 i
+INFO  19:22:24,691 - #33 =
+INFO  19:22:24,691 - #46 1
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,691 - #45 i
+INFO  19:22:24,691 - #29 <
+INFO  19:22:24,691 - #46 6
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,691 - #41 )
+INFO  19:22:24,691 - #4 {
+INFO  19:22:24,691 - #10 if
+INFO  19:22:24,691 - #40 (
+ERROR 19:22:24,691 - Izvrsen oporavak(iskaz dodele) do ; u liniji 148
+INFO  19:22:24,691 - #45 i
+INFO  19:22:24,691 - #24 %
+INFO  19:22:24,691 - #46 2
+INFO  19:22:24,691 - #25 ==
+INFO  19:22:24,691 - #46 1
+INFO  19:22:24,691 - #41 )
+INFO  19:22:24,691 - #4 {
+INFO  19:22:24,691 - #45 i
+INFO  19:22:24,691 - #34 ++
+INFO  19:22:24,691 - #36 ;
+INFO  19:22:24,692 - #17 continue
+INFO  19:22:24,692 - #36 ;
+INFO  19:22:24,692 - #5 }
+INFO  19:22:24,693 - #45 zapreminaS
+INFO  19:22:24,693 - #33 =
+INFO  19:22:24,693 - #45 zapreminaS
+INFO  19:22:24,693 - #20 +
+INFO  19:22:24,693 - #45 predmeti
+INFO  19:22:24,693 - #42 [
+INFO  19:22:24,693 - #45 i
+INFO  19:22:24,693 - #21 -
+INFO  19:22:24,694 - #46 1
+INFO  19:22:24,694 - #43 ]
+INFO  19:22:24,694 - #39 .
+INFO  19:22:24,694 - #45 zapremina
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #45 tezinaS
+INFO  19:22:24,694 - #33 =
+INFO  19:22:24,694 - #45 tezinaS
+INFO  19:22:24,694 - #20 +
+INFO  19:22:24,694 - #45 predmeti
+INFO  19:22:24,694 - #42 [
+INFO  19:22:24,694 - #45 i
+INFO  19:22:24,694 - #21 -
+INFO  19:22:24,694 - #46 1
+INFO  19:22:24,694 - #43 ]
+INFO  19:22:24,694 - #39 .
+INFO  19:22:24,694 - #45 Q
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #45 ispis
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #45 predmeti
+INFO  19:22:24,694 - #42 [
+INFO  19:22:24,694 - #45 i
+INFO  19:22:24,694 - #21 -
+INFO  19:22:24,694 - #46 1
+INFO  19:22:24,694 - #43 ]
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #45 i
+INFO  19:22:24,694 - #34 ++
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #5 }
+INFO  19:22:24,694 - #12 print
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #45 zapreminaS
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #12 print
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #45 eol
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #12 print
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #45 zapreminaK
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #12 print
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #45 eol
+INFO  19:22:24,694 - #41 )
+INFO  19:22:24,694 - #36 ;
+INFO  19:22:24,694 - #12 print
+INFO  19:22:24,694 - #40 (
+INFO  19:22:24,694 - #45 tezinaS
+INFO  19:22:24,695 - #41 )
+INFO  19:22:24,695 - #36 ;
+INFO  19:22:24,695 - #12 print
+INFO  19:22:24,695 - #40 (
+INFO  19:22:24,695 - #45 eol
+INFO  19:22:24,695 - #41 )
+INFO  19:22:24,695 - #36 ;
+INFO  19:22:24,695 - #12 print
+INFO  19:22:24,695 - #40 (
+INFO  19:22:24,695 - #45 tezinaK
+INFO  19:22:24,695 - #41 )
+INFO  19:22:24,695 - #36 ;
+INFO  19:22:24,695 - #12 print
+INFO  19:22:24,695 - #40 (
+INFO  19:22:24,695 - #45 eol
+INFO  19:22:24,695 - #41 )
+INFO  19:22:24,695 - #36 ;
+INFO  19:22:24,695 - #5 }
+INFO  19:22:24,695 - #5 }
+INFO  19:22:24,721 - Program(
+  ProgName(
+   test_303
+  ) [ProgName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       Predmeti
+      ) [NamespaceName]
+      DeclarationListClassDecl(
+        DeclarationListClassDecl(
+          DeclarationListClassDecl(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ClassDecl(
+             Predmet
+              NoExtends(
+              ) [NoExtends]
+              NoStaticVarDecl(
+              ) [NoStaticVarDecl]
+              StaticInitializerHelperNo(
+              ) [StaticInitializerHelperNo]
+              VarDecls(
+                VarDecls(
+                  NoVarDecl(
+                  ) [NoVarDecl]
+                  VarDeclNormal(
+                    NormalType(
+                     int
+                    ) [NormalType]
+                    MultipleVarDeclSingleVar(
+                      SingleVar(
+                       tezina
+                        NoPossibleArrayDecl(
+                        ) [NoPossibleArrayDecl]
+                      ) [SingleVar]
+                    ) [MultipleVarDeclSingleVar]
+                  ) [VarDeclNormal]
+                ) [VarDecls]
+                VarDeclNormal(
+                  NormalType(
+                   char
+                  ) [NormalType]
+                  MultipleVarDeclSingleVar(
+                    SingleVar(
+                     vrsta
+                      NoPossibleArrayDecl(
+                      ) [NoPossibleArrayDecl]
+                    ) [SingleVar]
+                  ) [MultipleVarDeclSingleVar]
+                ) [VarDeclNormal]
+              ) [VarDecls]
+              OptionalMethodDecls(
+                MethodDecls(
+                  MethodDecls(
+                    MethodDecls(
+                      MethodDecls(
+                        MethodDecls(
+                          MethodDecls(
+                            MethodDecls(
+                              MethodDecls(
+                                NoMethodDecl(
+                                ) [NoMethodDecl]
+                                MethodDecl(
+                                  VoidMethod(
+                                   postaviTezinu
+                                  ) [VoidMethod]
+                                  PossibleFormParsDeclared(
+                                    SignleFromParam(
+                                      FormParam(
+                                        NormalType(
+                                         int
+                                        ) [NormalType]
+                                       tezina
+                                        NoPossibleArrayDecl(
+                                        ) [NoPossibleArrayDecl]
+                                      ) [FormParam]
+                                    ) [SignleFromParam]
+                                  ) [PossibleFormParsDeclared]
+                                  NoVarDecl(
+                                  ) [NoVarDecl]
+                                  Statements(
+                                    NoStatement(
+                                    ) [NoStatement]
+                                    StatementWDesignatorStmt(
+                                      DesignatorStmtAssign(
+                                        DesignatorField(
+                                          DesignatorWONamespace(
+                                           this
+                                          ) [DesignatorWONamespace]
+                                         tezina
+                                        ) [DesignatorField]
+                                        Assignop(
+                                        ) [Assignop]
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              DesignatorWONamespace(
+                                               tezina
+                                              ) [DesignatorWONamespace]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorStmtAssign]
+                                    ) [StatementWDesignatorStmt]
+                                  ) [Statements]
+                                ) [MethodDecl]
+                              ) [MethodDecls]
+                              MethodDecl(
+                                VoidMethod(
+                                 ucitajTezinu
+                                ) [VoidMethod]
+                                NoPossibleFormPars(
+                                ) [NoPossibleFormPars]
+                                NoVarDecl(
+                                ) [NoVarDecl]
+                                Statements(
+                                  NoStatement(
+                                  ) [NoStatement]
+                                  StatementRead(
+                                    DesignatorWONamespace(
+                                     tezina
+                                    ) [DesignatorWONamespace]
+                                  ) [StatementRead]
+                                ) [Statements]
+                              ) [MethodDecl]
+                            ) [MethodDecls]
+                            MethodDecl(
+                              MethodWithType(
+                                NormalType(
+                                 int
+                                ) [NormalType]
+                               zapremina
+                              ) [MethodWithType]
+                              NoPossibleFormPars(
+                              ) [NoPossibleFormPars]
+                              NoVarDecl(
+                              ) [NoVarDecl]
+                              Statements(
+                                NoStatement(
+                                ) [NoStatement]
+                                StatementReturnExpr(
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorNum(
+                                       0
+                                      ) [FactorNum]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [StatementReturnExpr]
+                              ) [Statements]
+                            ) [MethodDecl]
+                          ) [MethodDecls]
+                          MethodDecl(
+                            MethodWithType(
+                              NormalType(
+                               int
+                              ) [NormalType]
+                             Q
+                            ) [MethodWithType]
+                            NoPossibleFormPars(
+                            ) [NoPossibleFormPars]
+                            NoVarDecl(
+                            ) [NoVarDecl]
+                            Statements(
+                              NoStatement(
+                              ) [NoStatement]
+                              StatementReturnExpr(
+                                ExprTerm(
+                                  TermMulop(
+                                    TermFactor(
+                                      FactorCall(
+                                        DesignatorWONamespace(
+                                         zapremina
+                                        ) [DesignatorWONamespace]
+                                        FactorCallPossibleParsNo(
+                                        ) [FactorCallPossibleParsNo]
+                                      ) [FactorCall]
+                                    ) [TermFactor]
+                                    MulopMUL(
+                                    ) [MulopMUL]
+                                    FactorDesignator(
+                                      DesignatorWONamespace(
+                                       tezina
+                                      ) [DesignatorWONamespace]
+                                    ) [FactorDesignator]
+                                  ) [TermMulop]
+                                ) [ExprTerm]
+                              ) [StatementReturnExpr]
+                            ) [Statements]
+                          ) [MethodDecl]
+                        ) [MethodDecls]
+                        MethodDecl(
+                          VoidMethod(
+                           postaviVrstu
+                          ) [VoidMethod]
+                          PossibleFormParsDeclared(
+                            SignleFromParam(
+                              FormParam(
+                                NormalType(
+                                 char
+                                ) [NormalType]
+                               vrsta
+                                NoPossibleArrayDecl(
+                                ) [NoPossibleArrayDecl]
+                              ) [FormParam]
+                            ) [SignleFromParam]
+                          ) [PossibleFormParsDeclared]
+                          NoVarDecl(
+                          ) [NoVarDecl]
+                          Statements(
+                            NoStatement(
+                            ) [NoStatement]
+                            StatementWDesignatorStmt(
+                              DesignatorStmtAssign(
+                                DesignatorField(
+                                  DesignatorWONamespace(
+                                   this
+                                  ) [DesignatorWONamespace]
+                                 vrsta
+                                ) [DesignatorField]
+                                Assignop(
+                                ) [Assignop]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      DesignatorWONamespace(
+                                       vrsta
+                                      ) [DesignatorWONamespace]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [DesignatorStmtAssign]
+                            ) [StatementWDesignatorStmt]
+                          ) [Statements]
+                        ) [MethodDecl]
+                      ) [MethodDecls]
+                      MethodDecl(
+                        MethodWithType(
+                          NormalType(
+                           char
+                          ) [NormalType]
+                         dohvVrstu
+                        ) [MethodWithType]
+                        NoPossibleFormPars(
+                        ) [NoPossibleFormPars]
+                        NoVarDecl(
+                        ) [NoVarDecl]
+                        Statements(
+                          NoStatement(
+                          ) [NoStatement]
+                          StatementReturnExpr(
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  DesignatorWONamespace(
+                                   vrsta
+                                  ) [DesignatorWONamespace]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [StatementReturnExpr]
+                        ) [Statements]
+                      ) [MethodDecl]
+                    ) [MethodDecls]
+                    MethodDecl(
+                      MethodWithType(
+                        NormalType(
+                         int
+                        ) [NormalType]
+                       dohvTezinu
+                      ) [MethodWithType]
+                      NoPossibleFormPars(
+                      ) [NoPossibleFormPars]
+                      NoVarDecl(
+                      ) [NoVarDecl]
+                      Statements(
+                        NoStatement(
+                        ) [NoStatement]
+                        StatementReturnExpr(
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 tezina
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [StatementReturnExpr]
+                      ) [Statements]
+                    ) [MethodDecl]
+                  ) [MethodDecls]
+                  MethodDecl(
+                    VoidMethod(
+                     ispisi
+                    ) [VoidMethod]
+                    NoPossibleFormPars(
+                    ) [NoPossibleFormPars]
+                    NoVarDecl(
+                    ) [NoVarDecl]
+                    Statements(
+                      Statements(
+                        NoStatement(
+                        ) [NoStatement]
+                        StatementPrintSingle(
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 vrsta
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [StatementPrintSingle]
+                      ) [Statements]
+                      StatementPrintSingle(
+                        ExprTerm(
+                          TermFactor(
+                            FactorCall(
+                              DesignatorWONamespace(
+                               Q
+                              ) [DesignatorWONamespace]
+                              FactorCallPossibleParsNo(
+                              ) [FactorCallPossibleParsNo]
+                            ) [FactorCall]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [StatementPrintSingle]
+                    ) [Statements]
+                  ) [MethodDecl]
+                ) [MethodDecls]
+              ) [OptionalMethodDecls]
+            ) [ClassDecl]
+          ) [DeclarationListClassDecl]
+          ClassDecl(
+           Sfera
+            Extends(
+              NormalType(
+               Predmet
+              ) [NormalType]
+            ) [Extends]
+            NoStaticVarDecl(
+            ) [NoStaticVarDecl]
+            StaticInitializerHelperNo(
+            ) [StaticInitializerHelperNo]
+            VarDecls(
+              NoVarDecl(
+              ) [NoVarDecl]
+              VarDeclNormal(
+                NormalType(
+                 int
+                ) [NormalType]
+                MultipleVarDeclSingleVar(
+                  SingleVar(
+                   r
+                    NoPossibleArrayDecl(
+                    ) [NoPossibleArrayDecl]
+                  ) [SingleVar]
+                ) [MultipleVarDeclSingleVar]
+              ) [VarDeclNormal]
+            ) [VarDecls]
+            OptionalMethodDecls(
+              MethodDecls(
+                MethodDecls(
+                  NoMethodDecl(
+                  ) [NoMethodDecl]
+                  MethodDecl(
+                    VoidMethod(
+                     postaviPoluprecnik
+                    ) [VoidMethod]
+                    PossibleFormParsDeclared(
+                      SignleFromParam(
+                        FormParam(
+                          NormalType(
+                           int
+                          ) [NormalType]
+                         r
+                          NoPossibleArrayDecl(
+                          ) [NoPossibleArrayDecl]
+                        ) [FormParam]
+                      ) [SignleFromParam]
+                    ) [PossibleFormParsDeclared]
+                    NoVarDecl(
+                    ) [NoVarDecl]
+                    Statements(
+                      NoStatement(
+                      ) [NoStatement]
+                      StatementWDesignatorStmt(
+                        DesignatorStmtAssign(
+                          DesignatorField(
+                            DesignatorWONamespace(
+                             this
+                            ) [DesignatorWONamespace]
+                           r
+                          ) [DesignatorField]
+                          Assignop(
+                          ) [Assignop]
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 r
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [DesignatorStmtAssign]
+                      ) [StatementWDesignatorStmt]
+                    ) [Statements]
+                  ) [MethodDecl]
+                ) [MethodDecls]
+                MethodDecl(
+                  MethodWithType(
+                    NormalType(
+                     int
+                    ) [NormalType]
+                   zapremina
+                  ) [MethodWithType]
+                  NoPossibleFormPars(
+                  ) [NoPossibleFormPars]
+                  VarDecls(
+                    NoVarDecl(
+                    ) [NoVarDecl]
+                    VarDeclNormal(
+                      NormalType(
+                       int
+                      ) [NormalType]
+                      MultipleVarDeclSingleVar(
+                        SingleVar(
+                         z
+                          NoPossibleArrayDecl(
+                          ) [NoPossibleArrayDecl]
+                        ) [SingleVar]
+                      ) [MultipleVarDeclSingleVar]
+                    ) [VarDeclNormal]
+                  ) [VarDecls]
+                  Statements(
+                    Statements(
+                      NoStatement(
+                      ) [NoStatement]
+                      StatementWDesignatorStmt(
+                        DesignatorStmtAssign(
+                          DesignatorWONamespace(
+                           z
+                          ) [DesignatorWONamespace]
+                          Assignop(
+                          ) [Assignop]
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 cinilac
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [DesignatorStmtAssign]
+                      ) [StatementWDesignatorStmt]
+                    ) [Statements]
+                    StatementReturnExpr(
+                      ExprTerm(
+                        TermMulop(
+                          TermFactor(
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               z
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                          MulopMUL(
+                          ) [MulopMUL]
+                          FactorParenExpr(
+                            ExprTerm(
+                              TermMulop(
+                                TermFactor(
+                                  FactorDesignator(
+                                    DesignatorWONamespace(
+                                     r
+                                    ) [DesignatorWONamespace]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                                MulopDIV(
+                                ) [MulopDIV]
+                                FactorDesignator(
+                                  DesignatorWONamespace(
+                                   delilac
+                                  ) [DesignatorWONamespace]
+                                ) [FactorDesignator]
+                              ) [TermMulop]
+                            ) [ExprTerm]
+                          ) [FactorParenExpr]
+                        ) [TermMulop]
+                      ) [ExprTerm]
+                    ) [StatementReturnExpr]
+                  ) [Statements]
+                ) [MethodDecl]
+              ) [MethodDecls]
+            ) [OptionalMethodDecls]
+          ) [ClassDecl]
+        ) [DeclarationListClassDecl]
+        ClassDecl(
+         Kvadar
+          Extends(
+            NormalType(
+             Predmet
+            ) [NormalType]
+          ) [Extends]
+          NoStaticVarDecl(
+          ) [NoStaticVarDecl]
+          StaticInitializerHelperNo(
+          ) [StaticInitializerHelperNo]
+          VarDecls(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDeclNormal(
+              NormalType(
+               int
+              ) [NormalType]
+              MultipleVarDecls(
+                MultipleVarDecls(
+                  MultipleVarDeclSingleVar(
+                    SingleVar(
+                     a
+                      NoPossibleArrayDecl(
+                      ) [NoPossibleArrayDecl]
+                    ) [SingleVar]
+                  ) [MultipleVarDeclSingleVar]
+                  SingleVar(
+                   b
+                    NoPossibleArrayDecl(
+                    ) [NoPossibleArrayDecl]
+                  ) [SingleVar]
+                ) [MultipleVarDecls]
+                SingleVar(
+                 c
+                  NoPossibleArrayDecl(
+                  ) [NoPossibleArrayDecl]
+                ) [SingleVar]
+              ) [MultipleVarDecls]
+            ) [VarDeclNormal]
+          ) [VarDecls]
+          OptionalMethodDecls(
+            MethodDecls(
+              MethodDecls(
+                NoMethodDecl(
+                ) [NoMethodDecl]
+                MethodDecl(
+                  VoidMethod(
+                   postaviStranice
+                  ) [VoidMethod]
+                  PossibleFormParsDeclared(
+                    FormParsList(
+                      FormParsList(
+                        SignleFromParam(
+                          FormParam(
+                            NormalType(
+                             int
+                            ) [NormalType]
+                           a
+                            NoPossibleArrayDecl(
+                            ) [NoPossibleArrayDecl]
+                          ) [FormParam]
+                        ) [SignleFromParam]
+                        FormParam(
+                          NormalType(
+                           int
+                          ) [NormalType]
+                         b
+                          NoPossibleArrayDecl(
+                          ) [NoPossibleArrayDecl]
+                        ) [FormParam]
+                      ) [FormParsList]
+                      FormParam(
+                        NormalType(
+                         int
+                        ) [NormalType]
+                       c
+                        NoPossibleArrayDecl(
+                        ) [NoPossibleArrayDecl]
+                      ) [FormParam]
+                    ) [FormParsList]
+                  ) [PossibleFormParsDeclared]
+                  NoVarDecl(
+                  ) [NoVarDecl]
+                  Statements(
+                    Statements(
+                      Statements(
+                        NoStatement(
+                        ) [NoStatement]
+                        StatementWDesignatorStmt(
+                          DesignatorStmtAssign(
+                            DesignatorField(
+                              DesignatorWONamespace(
+                               this
+                              ) [DesignatorWONamespace]
+                             a
+                            ) [DesignatorField]
+                            Assignop(
+                            ) [Assignop]
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  DesignatorWONamespace(
+                                   a
+                                  ) [DesignatorWONamespace]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [DesignatorStmtAssign]
+                        ) [StatementWDesignatorStmt]
+                      ) [Statements]
+                      StatementWDesignatorStmt(
+                        DesignatorStmtAssign(
+                          DesignatorField(
+                            DesignatorWONamespace(
+                             this
+                            ) [DesignatorWONamespace]
+                           b
+                          ) [DesignatorField]
+                          Assignop(
+                          ) [Assignop]
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 b
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [DesignatorStmtAssign]
+                      ) [StatementWDesignatorStmt]
+                    ) [Statements]
+                    StatementWDesignatorStmt(
+                      DesignatorStmtAssign(
+                        DesignatorField(
+                          DesignatorWONamespace(
+                           this
+                          ) [DesignatorWONamespace]
+                         c
+                        ) [DesignatorField]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               c
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorStmtAssign]
+                    ) [StatementWDesignatorStmt]
+                  ) [Statements]
+                ) [MethodDecl]
+              ) [MethodDecls]
+              MethodDecl(
+                MethodWithType(
+                  NormalType(
+                   int
+                  ) [NormalType]
+                 zapremina
+                ) [MethodWithType]
+                NoPossibleFormPars(
+                ) [NoPossibleFormPars]
+                VarDecls(
+                  NoVarDecl(
+                  ) [NoVarDecl]
+                  VarDeclNormal(
+                    NormalType(
+                     int
+                    ) [NormalType]
+                    MultipleVarDeclSingleVar(
+                      SingleVar(
+                       z
+                        NoPossibleArrayDecl(
+                        ) [NoPossibleArrayDecl]
+                      ) [SingleVar]
+                    ) [MultipleVarDeclSingleVar]
+                  ) [VarDeclNormal]
+                ) [VarDecls]
+                Statements(
+                  Statements(
+                    NoStatement(
+                    ) [NoStatement]
+                    StatementWDesignatorStmt(
+                      DesignatorStmtAssign(
+                        DesignatorWONamespace(
+                         z
+                        ) [DesignatorWONamespace]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          TermMulop(
+                            TermMulop(
+                              TermFactor(
+                                FactorDesignator(
+                                  DesignatorWONamespace(
+                                   a
+                                  ) [DesignatorWONamespace]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                              MulopMUL(
+                              ) [MulopMUL]
+                              FactorDesignator(
+                                DesignatorWONamespace(
+                                 b
+                                ) [DesignatorWONamespace]
+                              ) [FactorDesignator]
+                            ) [TermMulop]
+                            MulopMUL(
+                            ) [MulopMUL]
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               c
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermMulop]
+                        ) [ExprTerm]
+                      ) [DesignatorStmtAssign]
+                    ) [StatementWDesignatorStmt]
+                  ) [Statements]
+                  StatementReturnExpr(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          DesignatorWONamespace(
+                           z
+                          ) [DesignatorWONamespace]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [StatementReturnExpr]
+                ) [Statements]
+              ) [MethodDecl]
+            ) [MethodDecls]
+          ) [OptionalMethodDecls]
+        ) [ClassDecl]
+      ) [DeclarationListClassDecl]
+      NoMethodDecl(
+      ) [NoMethodDecl]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclarationListVarDecl(
+    DeclarationListVarDecl(
+      DeclarationListClassDecl(
+        DeclarationListConstDecl(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          ConstDecl(
+            NormalType(
+             int
+            ) [NormalType]
+           cinilac
+            LiteralNUM(
+             4
+            ) [LiteralNUM]
+            MultipleConstDecls(
+              NoMultipleConst(
+              ) [NoMultipleConst]
+             delilac
+              LiteralNUM(
+               3
+              ) [LiteralNUM]
+            ) [MultipleConstDecls]
+          ) [ConstDecl]
+        ) [DeclarationListConstDecl]
+        ClassDecl(
+         ProstiBrojevi
+          NoExtends(
+          ) [NoExtends]
+          StaticVarDecls(
+            StaticVarDecls(
+              StaticVarDecls(
+                NoStaticVarDecl(
+                ) [NoStaticVarDecl]
+                VarDeclNormal(
+                  NormalType(
+                   int
+                  ) [NormalType]
+                  MultipleVarDeclSingleVar(
+                    SingleVar(
+                     prosti
+                      PossibleArrayDeclYes(
+                      ) [PossibleArrayDeclYes]
+                    ) [SingleVar]
+                  ) [MultipleVarDeclSingleVar]
+                ) [VarDeclNormal]
+              ) [StaticVarDecls]
+              VarDeclNormal(
+                NormalType(
+                 int
+                ) [NormalType]
+                MultipleVarDecls(
+                  MultipleVarDecls(
+                    MultipleVarDeclSingleVar(
+                      SingleVar(
+                       X
+                        NoPossibleArrayDecl(
+                        ) [NoPossibleArrayDecl]
+                      ) [SingleVar]
+                    ) [MultipleVarDeclSingleVar]
+                    SingleVar(
+                     i
+                      NoPossibleArrayDecl(
+                      ) [NoPossibleArrayDecl]
+                    ) [SingleVar]
+                  ) [MultipleVarDecls]
+                  SingleVar(
+                   j
+                    NoPossibleArrayDecl(
+                    ) [NoPossibleArrayDecl]
+                  ) [SingleVar]
+                ) [MultipleVarDecls]
+              ) [VarDeclNormal]
+            ) [StaticVarDecls]
+            VarDeclNormal(
+              NormalType(
+               bool
+              ) [NormalType]
+              MultipleVarDeclSingleVar(
+                SingleVar(
+                 flag
+                  NoPossibleArrayDecl(
+                  ) [NoPossibleArrayDecl]
+                ) [SingleVar]
+              ) [MultipleVarDeclSingleVar]
+            ) [VarDeclNormal]
+          ) [StaticVarDecls]
+          StaticInitializerHelperYes(
+            StaticInitializerSingle(
+              StaticInitializer(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  NoStatement(
+                                  ) [NoStatement]
+                                  StatementPrintSingle(
+                                    ExprTerm(
+                                      TermFactor(
+                                        FactorChar(
+                                         s
+                                        ) [FactorChar]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [StatementPrintSingle]
+                                ) [Statements]
+                                StatementPrintSingle(
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorChar(
+                                       t
+                                      ) [FactorChar]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [StatementPrintSingle]
+                              ) [Statements]
+                              StatementPrintSingle(
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorChar(
+                                     a
+                                    ) [FactorChar]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [StatementPrintSingle]
+                            ) [Statements]
+                            StatementPrintSingle(
+                              ExprTerm(
+                                TermFactor(
+                                  FactorChar(
+                                   t
+                                  ) [FactorChar]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [StatementPrintSingle]
+                          ) [Statements]
+                          StatementPrintSingle(
+                            ExprTerm(
+                              TermFactor(
+                                FactorChar(
+                                 i
+                                ) [FactorChar]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [StatementPrintSingle]
+                        ) [Statements]
+                        StatementPrintSingle(
+                          ExprTerm(
+                            TermFactor(
+                              FactorChar(
+                               c
+                              ) [FactorChar]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [StatementPrintSingle]
+                      ) [Statements]
+                      StatementPrintSingle(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               eol
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [StatementPrintSingle]
+                    ) [Statements]
+                    StatementWDesignatorStmt(
+                      DesignatorStmtAssign(
+                        DesignatorWONamespace(
+                         prosti
+                        ) [DesignatorWONamespace]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNewArrayExpr(
+                              NormalType(
+                               int
+                              ) [NormalType]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorNum(
+                                   10
+                                  ) [FactorNum]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [FactorNewArrayExpr]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorStmtAssign]
+                    ) [StatementWDesignatorStmt]
+                  ) [Statements]
+                  StatementForLoop(
+                    ForLoopStart(
+                    ) [ForLoopStart]
+                    PossibleDesignatorStatements(
+                      SingleDesignatorStatement(
+                        DesignatorStmtAssign(
+                          DesignatorWONamespace(
+                           X
+                          ) [DesignatorWONamespace]
+                          Assignop(
+                          ) [Assignop]
+                          ExprTerm(
+                            TermFactor(
+                              FactorNum(
+                               0
+                              ) [FactorNum]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [DesignatorStmtAssign]
+                      ) [SingleDesignatorStatement]
+                      DesignatorStmtAssign(
+                        DesignatorWONamespace(
+                         i
+                        ) [DesignatorWONamespace]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorStmtAssign]
+                    ) [PossibleDesignatorStatements]
+                    ForConditionStart(
+                    ) [ForConditionStart]
+                    PossibleCondFactYes(
+                      RelopCondFact(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               X
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                        RelopLSS(
+                        ) [RelopLSS]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNum(
+                             10
+                            ) [FactorNum]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [RelopCondFact]
+                    ) [PossibleCondFactYes]
+                    ForTailDesignatorStart(
+                    ) [ForTailDesignatorStart]
+                    SingleDesignatorStatement(
+                      DesignatorStmtPlusPlus(
+                        DesignatorWONamespace(
+                         i
+                        ) [DesignatorWONamespace]
+                      ) [DesignatorStmtPlusPlus]
+                    ) [SingleDesignatorStatement]
+                    ForStatementsStart(
+                    ) [ForStatementsStart]
+                    ForStatement(
+                      StatementStmtList(
+                        StatementListDetected(
+                        ) [StatementListDetected]
+                        Statements(
+                          Statements(
+                            Statements(
+                              NoStatement(
+                              ) [NoStatement]
+                              StatementWDesignatorStmt(
+                                DesignatorStmtAssign(
+                                  DesignatorWONamespace(
+                                   flag
+                                  ) [DesignatorWONamespace]
+                                  Assignop(
+                                  ) [Assignop]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorBool(
+                                       true
+                                      ) [FactorBool]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [DesignatorStmtAssign]
+                              ) [StatementWDesignatorStmt]
+                            ) [Statements]
+                            StatementForLoop(
+                              ForLoopStart(
+                              ) [ForLoopStart]
+                              SingleDesignatorStatement(
+                                DesignatorStmtAssign(
+                                  DesignatorWONamespace(
+                                   j
+                                  ) [DesignatorWONamespace]
+                                  Assignop(
+                                  ) [Assignop]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorNum(
+                                       2
+                                      ) [FactorNum]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [DesignatorStmtAssign]
+                              ) [SingleDesignatorStatement]
+                              ForConditionStart(
+                              ) [ForConditionStart]
+                              PossibleCondFactYes(
+                                RelopCondFact(
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        DesignatorWONamespace(
+                                         j
+                                        ) [DesignatorWONamespace]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                  RelopLSS(
+                                  ) [RelopLSS]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        DesignatorWONamespace(
+                                         i
+                                        ) [DesignatorWONamespace]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [RelopCondFact]
+                              ) [PossibleCondFactYes]
+                              ForTailDesignatorStart(
+                              ) [ForTailDesignatorStart]
+                              SingleDesignatorStatement(
+                                DesignatorStmtPlusPlus(
+                                  DesignatorWONamespace(
+                                   j
+                                  ) [DesignatorWONamespace]
+                                ) [DesignatorStmtPlusPlus]
+                              ) [SingleDesignatorStatement]
+                              ForStatementsStart(
+                              ) [ForStatementsStart]
+                              ForStatement(
+                                StatementStmtList(
+                                  StatementListDetected(
+                                  ) [StatementListDetected]
+                                  Statements(
+                                    NoStatement(
+                                    ) [NoStatement]
+                                    IfStatement(
+                                      IfBlock(
+                                        IfConditionEndDetected(
+                                          IfStartDetected(
+                                          ) [IfStartDetected]
+                                          NormalCondition(
+                                            NormalCondTerm(
+                                              RelopCondFact(
+                                                ExprTerm(
+                                                  TermMulop(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        DesignatorWONamespace(
+                                                         i
+                                                        ) [DesignatorWONamespace]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                    MulopMOD(
+                                                    ) [MulopMOD]
+                                                    FactorDesignator(
+                                                      DesignatorWONamespace(
+                                                       j
+                                                      ) [DesignatorWONamespace]
+                                                    ) [FactorDesignator]
+                                                  ) [TermMulop]
+                                                ) [ExprTerm]
+                                                RelopEQUAL(
+                                                ) [RelopEQUAL]
+                                                ExprTerm(
+                                                  TermFactor(
+                                                    FactorNum(
+                                                     0
+                                                    ) [FactorNum]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                              ) [RelopCondFact]
+                                            ) [NormalCondTerm]
+                                          ) [NormalCondition]
+                                        ) [IfConditionEndDetected]
+                                        StatementStmtList(
+                                          StatementListDetected(
+                                          ) [StatementListDetected]
+                                          Statements(
+                                            Statements(
+                                              NoStatement(
+                                              ) [NoStatement]
+                                              StatementWDesignatorStmt(
+                                                DesignatorStmtAssign(
+                                                  DesignatorWONamespace(
+                                                   flag
+                                                  ) [DesignatorWONamespace]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorBool(
+                                                       false
+                                                      ) [FactorBool]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [DesignatorStmtAssign]
+                                              ) [StatementWDesignatorStmt]
+                                            ) [Statements]
+                                            StatementBreak(
+                                            ) [StatementBreak]
+                                          ) [Statements]
+                                        ) [StatementStmtList]
+                                      ) [IfBlock]
+                                    ) [IfStatement]
+                                  ) [Statements]
+                                ) [StatementStmtList]
+                              ) [ForStatement]
+                            ) [StatementForLoop]
+                          ) [Statements]
+                          IfStatement(
+                            IfBlock(
+                              IfConditionEndDetected(
+                                IfStartDetected(
+                                ) [IfStartDetected]
+                                NormalCondition(
+                                  NormalCondTerm(
+                                    NormalCondFact(
+                                      ExprTerm(
+                                        TermFactor(
+                                          FactorDesignator(
+                                            DesignatorWONamespace(
+                                             flag
+                                            ) [DesignatorWONamespace]
+                                          ) [FactorDesignator]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [NormalCondFact]
+                                  ) [NormalCondTerm]
+                                ) [NormalCondition]
+                              ) [IfConditionEndDetected]
+                              StatementStmtList(
+                                StatementListDetected(
+                                ) [StatementListDetected]
+                                Statements(
+                                  Statements(
+                                    NoStatement(
+                                    ) [NoStatement]
+                                    StatementWDesignatorStmt(
+                                      DesignatorStmtAssign(
+                                        DesignatorArray(
+                                          DesignatorArrayName(
+                                            DesignatorWONamespace(
+                                             prosti
+                                            ) [DesignatorWONamespace]
+                                          ) [DesignatorArrayName]
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                DesignatorWONamespace(
+                                                 X
+                                                ) [DesignatorWONamespace]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [DesignatorArray]
+                                        Assignop(
+                                        ) [Assignop]
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              DesignatorWONamespace(
+                                               i
+                                              ) [DesignatorWONamespace]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorStmtAssign]
+                                    ) [StatementWDesignatorStmt]
+                                  ) [Statements]
+                                  StatementWDesignatorStmt(
+                                    DesignatorStmtPlusPlus(
+                                      DesignatorWONamespace(
+                                       X
+                                      ) [DesignatorWONamespace]
+                                    ) [DesignatorStmtPlusPlus]
+                                  ) [StatementWDesignatorStmt]
+                                ) [Statements]
+                              ) [StatementStmtList]
+                            ) [IfBlock]
+                          ) [IfStatement]
+                        ) [Statements]
+                      ) [StatementStmtList]
+                    ) [ForStatement]
+                  ) [StatementForLoop]
+                ) [Statements]
+              ) [StaticInitializer]
+            ) [StaticInitializerSingle]
+          ) [StaticInitializerHelperYes]
+          NoVarDecl(
+          ) [NoVarDecl]
+          NoOptionalMethodDecl(
+          ) [NoOptionalMethodDecl]
+        ) [ClassDecl]
+      ) [DeclarationListClassDecl]
+      VarDeclNormal(
+        NormalType(
+         int
+        ) [NormalType]
+        MultipleVarDecls(
+          MultipleVarDeclSingleVar(
+            SingleVar(
+             zapreminaK
+              NoPossibleArrayDecl(
+              ) [NoPossibleArrayDecl]
+            ) [SingleVar]
+          ) [MultipleVarDeclSingleVar]
+          SingleVar(
+           zapreminaS
+            NoPossibleArrayDecl(
+            ) [NoPossibleArrayDecl]
+          ) [SingleVar]
+        ) [MultipleVarDecls]
+      ) [VarDeclNormal]
+    ) [DeclarationListVarDecl]
+    VarDeclNormal(
+      NormalType(
+       int
+      ) [NormalType]
+      MultipleVarDecls(
+        MultipleVarDeclSingleVar(
+          SingleVar(
+           tezinaK
+            NoPossibleArrayDecl(
+            ) [NoPossibleArrayDecl]
+          ) [SingleVar]
+        ) [MultipleVarDeclSingleVar]
+        SingleVar(
+         tezinaS
+          NoPossibleArrayDecl(
+          ) [NoPossibleArrayDecl]
+        ) [SingleVar]
+      ) [MultipleVarDecls]
+    ) [VarDeclNormal]
+  ) [DeclarationListVarDecl]
+  MethodDecls(
+    MethodDecls(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        VoidMethod(
+         ispis
+        ) [VoidMethod]
+        PossibleFormParsDeclared(
+          SignleFromParam(
+            FormParam(
+              TypeWNamespace(
+               Predmeti
+               Predmet
+              ) [TypeWNamespace]
+             p
+              NoPossibleArrayDecl(
+              ) [NoPossibleArrayDecl]
+            ) [FormParam]
+          ) [SignleFromParam]
+        ) [PossibleFormParsDeclared]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            Statements(
+              NoStatement(
+              ) [NoStatement]
+              StatementWDesignatorStmt(
+                DesignatorStmtCallNoArg(
+                  DesignatorField(
+                    DesignatorWONamespace(
+                     p
+                    ) [DesignatorWONamespace]
+                   ispisi
+                  ) [DesignatorField]
+                ) [DesignatorStmtCallNoArg]
+              ) [StatementWDesignatorStmt]
+            ) [Statements]
+            StatementPrintSingle(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorWONamespace(
+                     eol
+                    ) [DesignatorWONamespace]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [StatementPrintSingle]
+          ) [Statements]
+          StatementPrintSingle(
+            ExprTerm(
+              TermFactor(
+                FactorCall(
+                  DesignatorField(
+                    DesignatorWONamespace(
+                     p
+                    ) [DesignatorWONamespace]
+                   dohvTezinu
+                  ) [DesignatorField]
+                  FactorCallPossibleParsNo(
+                  ) [FactorCallPossibleParsNo]
+                ) [FactorCall]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [StatementPrintSingle]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDecls]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoPossibleFormPars(
+      ) [NoPossibleFormPars]
+      VarDecls(
+        VarDecls(
+          VarDecls(
+            VarDecls(
+              VarDecls(
+                NoVarDecl(
+                ) [NoVarDecl]
+                VarDeclNormal(
+                  TypeWNamespace(
+                   Predmeti
+                   Predmet
+                  ) [TypeWNamespace]
+                  MultipleVarDeclSingleVar(
+                    SingleVar(
+                     predmeti
+                      PossibleArrayDeclYes(
+                      ) [PossibleArrayDeclYes]
+                    ) [SingleVar]
+                  ) [MultipleVarDeclSingleVar]
+                ) [VarDeclNormal]
+              ) [VarDecls]
+              VarDeclNormal(
+                NormalType(
+                 int
+                ) [NormalType]
+                MultipleVarDeclSingleVar(
+                  SingleVar(
+                   i
+                    NoPossibleArrayDecl(
+                    ) [NoPossibleArrayDecl]
+                  ) [SingleVar]
+                ) [MultipleVarDeclSingleVar]
+              ) [VarDeclNormal]
+            ) [VarDecls]
+            VarDeclNormal(
+              TypeWNamespace(
+               Predmeti
+               Sfera
+              ) [TypeWNamespace]
+              MultipleVarDecls(
+                MultipleVarDecls(
+                  MultipleVarDeclSingleVar(
+                    SingleVar(
+                     s1
+                      NoPossibleArrayDecl(
+                      ) [NoPossibleArrayDecl]
+                    ) [SingleVar]
+                  ) [MultipleVarDeclSingleVar]
+                  SingleVar(
+                   s2
+                    NoPossibleArrayDecl(
+                    ) [NoPossibleArrayDecl]
+                  ) [SingleVar]
+                ) [MultipleVarDecls]
+                SingleVar(
+                 s3
+                  NoPossibleArrayDecl(
+                  ) [NoPossibleArrayDecl]
+                ) [SingleVar]
+              ) [MultipleVarDecls]
+            ) [VarDeclNormal]
+          ) [VarDecls]
+          VarDeclNormal(
+            TypeWNamespace(
+             Predmeti
+             Kvadar
+            ) [TypeWNamespace]
+            MultipleVarDecls(
+              MultipleVarDecls(
+                MultipleVarDeclSingleVar(
+                  SingleVar(
+                   k1
+                    NoPossibleArrayDecl(
+                    ) [NoPossibleArrayDecl]
+                  ) [SingleVar]
+                ) [MultipleVarDeclSingleVar]
+                SingleVar(
+                 k2
+                  NoPossibleArrayDecl(
+                  ) [NoPossibleArrayDecl]
+                ) [SingleVar]
+              ) [MultipleVarDecls]
+              SingleVar(
+               k3
+                NoPossibleArrayDecl(
+                ) [NoPossibleArrayDecl]
+              ) [SingleVar]
+            ) [MultipleVarDecls]
+          ) [VarDeclNormal]
+        ) [VarDecls]
+        VarDeclNormal(
+          NormalType(
+           int
+          ) [NormalType]
+          MultipleVarDeclSingleVar(
+            SingleVar(
+             t
+              NoPossibleArrayDecl(
+              ) [NoPossibleArrayDecl]
+            ) [SingleVar]
+          ) [MultipleVarDeclSingleVar]
+        ) [VarDeclNormal]
+      ) [VarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  Statements(
+                                                                    Statements(
+                                                                      Statements(
+                                                                        Statements(
+                                                                          Statements(
+                                                                            Statements(
+                                                                              Statements(
+                                                                                Statements(
+                                                                                  Statements(
+                                                                                    NoStatement(
+                                                                                    ) [NoStatement]
+                                                                                    IfElseStatement(
+                                                                                      IfBlock(
+                                                                                        IfConditionEndDetected(
+                                                                                          IfStartDetected(
+                                                                                          ) [IfStartDetected]
+                                                                                          NormalCondition(
+                                                                                            NormalCondTerm(
+                                                                                              RelopCondFact(
+                                                                                                ExprTerm(
+                                                                                                  TermFactor(
+                                                                                                    FactorDesignator(
+                                                                                                      DesignatorArray(
+                                                                                                        DesignatorArrayName(
+                                                                                                          DesignatorField(
+                                                                                                            DesignatorWONamespace(
+                                                                                                             ProstiBrojevi
+                                                                                                            ) [DesignatorWONamespace]
+                                                                                                           prosti
+                                                                                                          ) [DesignatorField]
+                                                                                                        ) [DesignatorArrayName]
+                                                                                                        ExprTerm(
+                                                                                                          TermFactor(
+                                                                                                            FactorNum(
+                                                                                                             9
+                                                                                                            ) [FactorNum]
+                                                                                                          ) [TermFactor]
+                                                                                                        ) [ExprTerm]
+                                                                                                      ) [DesignatorArray]
+                                                                                                    ) [FactorDesignator]
+                                                                                                  ) [TermFactor]
+                                                                                                ) [ExprTerm]
+                                                                                                RelopEQUAL(
+                                                                                                ) [RelopEQUAL]
+                                                                                                ExprTerm(
+                                                                                                  TermFactor(
+                                                                                                    FactorNum(
+                                                                                                     29
+                                                                                                    ) [FactorNum]
+                                                                                                  ) [TermFactor]
+                                                                                                ) [ExprTerm]
+                                                                                              ) [RelopCondFact]
+                                                                                            ) [NormalCondTerm]
+                                                                                          ) [NormalCondition]
+                                                                                        ) [IfConditionEndDetected]
+                                                                                        StatementPrintSingle(
+                                                                                          ExprTerm(
+                                                                                            TermFactor(
+                                                                                              FactorNum(
+                                                                                               1
+                                                                                              ) [FactorNum]
+                                                                                            ) [TermFactor]
+                                                                                          ) [ExprTerm]
+                                                                                        ) [StatementPrintSingle]
+                                                                                      ) [IfBlock]
+                                                                                      StatementPrintSingle(
+                                                                                        ExprTerm(
+                                                                                          TermFactor(
+                                                                                            FactorNum(
+                                                                                             0
+                                                                                            ) [FactorNum]
+                                                                                          ) [TermFactor]
+                                                                                        ) [ExprTerm]
+                                                                                      ) [StatementPrintSingle]
+                                                                                    ) [IfElseStatement]
+                                                                                  ) [Statements]
+                                                                                  StatementWDesignatorStmt(
+                                                                                    DesignatorStmtAssign(
+                                                                                      DesignatorWONamespace(
+                                                                                       predmeti
+                                                                                      ) [DesignatorWONamespace]
+                                                                                      Assignop(
+                                                                                      ) [Assignop]
+                                                                                      ExprTerm(
+                                                                                        TermFactor(
+                                                                                          FactorNewArrayExpr(
+                                                                                            TypeWNamespace(
+                                                                                             Predmeti
+                                                                                             Predmet
+                                                                                            ) [TypeWNamespace]
+                                                                                            ExprTerm(
+                                                                                              TermFactor(
+                                                                                                FactorNum(
+                                                                                                 6
+                                                                                                ) [FactorNum]
+                                                                                              ) [TermFactor]
+                                                                                            ) [ExprTerm]
+                                                                                          ) [FactorNewArrayExpr]
+                                                                                        ) [TermFactor]
+                                                                                      ) [ExprTerm]
+                                                                                    ) [DesignatorStmtAssign]
+                                                                                  ) [StatementWDesignatorStmt]
+                                                                                ) [Statements]
+                                                                                StatementWDesignatorStmt(
+                                                                                  DesignatorStmtAssign(
+                                                                                    DesignatorWONamespace(
+                                                                                     s1
+                                                                                    ) [DesignatorWONamespace]
+                                                                                    Assignop(
+                                                                                    ) [Assignop]
+                                                                                    ExprTerm(
+                                                                                      TermFactor(
+                                                                                        FactorNewFunctionNoParams(
+                                                                                          TypeWNamespace(
+                                                                                           Predmeti
+                                                                                           Sfera
+                                                                                          ) [TypeWNamespace]
+                                                                                        ) [FactorNewFunctionNoParams]
+                                                                                      ) [TermFactor]
+                                                                                    ) [ExprTerm]
+                                                                                  ) [DesignatorStmtAssign]
+                                                                                ) [StatementWDesignatorStmt]
+                                                                              ) [Statements]
+                                                                              StatementWDesignatorStmt(
+                                                                                DesignatorStmtCallArg(
+                                                                                  DesignatorField(
+                                                                                    DesignatorWONamespace(
+                                                                                     s1
+                                                                                    ) [DesignatorWONamespace]
+                                                                                   postaviPoluprecnik
+                                                                                  ) [DesignatorField]
+                                                                                  ActParam(
+                                                                                    ExprTerm(
+                                                                                      TermFactor(
+                                                                                        FactorNum(
+                                                                                         1
+                                                                                        ) [FactorNum]
+                                                                                      ) [TermFactor]
+                                                                                    ) [ExprTerm]
+                                                                                  ) [ActParam]
+                                                                                ) [DesignatorStmtCallArg]
+                                                                              ) [StatementWDesignatorStmt]
+                                                                            ) [Statements]
+                                                                            StatementWDesignatorStmt(
+                                                                              DesignatorStmtCallArg(
+                                                                                DesignatorField(
+                                                                                  DesignatorWONamespace(
+                                                                                   s1
+                                                                                  ) [DesignatorWONamespace]
+                                                                                 postaviVrstu
+                                                                                ) [DesignatorField]
+                                                                                ActParam(
+                                                                                  ExprTerm(
+                                                                                    TermFactor(
+                                                                                      FactorChar(
+                                                                                       s
+                                                                                      ) [FactorChar]
+                                                                                    ) [TermFactor]
+                                                                                  ) [ExprTerm]
+                                                                                ) [ActParam]
+                                                                              ) [DesignatorStmtCallArg]
+                                                                            ) [StatementWDesignatorStmt]
+                                                                          ) [Statements]
+                                                                          StatementWDesignatorStmt(
+                                                                            DesignatorStmtAssign(
+                                                                              DesignatorWONamespace(
+                                                                               s2
+                                                                              ) [DesignatorWONamespace]
+                                                                              Assignop(
+                                                                              ) [Assignop]
+                                                                              ExprTerm(
+                                                                                TermFactor(
+                                                                                  FactorNewFunctionNoParams(
+                                                                                    NormalType(
+                                                                                     Sfera
+                                                                                    ) [NormalType]
+                                                                                  ) [FactorNewFunctionNoParams]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprTerm]
+                                                                            ) [DesignatorStmtAssign]
+                                                                          ) [StatementWDesignatorStmt]
+                                                                        ) [Statements]
+                                                                        StatementWDesignatorStmt(
+                                                                          DesignatorStmtCallArg(
+                                                                            DesignatorField(
+                                                                              DesignatorWONamespace(
+                                                                               s2
+                                                                              ) [DesignatorWONamespace]
+                                                                             postaviPoluprecnik
+                                                                            ) [DesignatorField]
+                                                                            ActParam(
+                                                                              ExprTerm(
+                                                                                TermFactor(
+                                                                                  FactorNum(
+                                                                                   2
+                                                                                  ) [FactorNum]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprTerm]
+                                                                            ) [ActParam]
+                                                                          ) [DesignatorStmtCallArg]
+                                                                        ) [StatementWDesignatorStmt]
+                                                                      ) [Statements]
+                                                                      StatementWDesignatorStmt(
+                                                                        DesignatorStmtCallArg(
+                                                                          DesignatorField(
+                                                                            DesignatorWONamespace(
+                                                                             s2
+                                                                            ) [DesignatorWONamespace]
+                                                                           postaviVrstu
+                                                                          ) [DesignatorField]
+                                                                          ActParam(
+                                                                            ExprTerm(
+                                                                              TermFactor(
+                                                                                FactorChar(
+                                                                                 s
+                                                                                ) [FactorChar]
+                                                                              ) [TermFactor]
+                                                                            ) [ExprTerm]
+                                                                          ) [ActParam]
+                                                                        ) [DesignatorStmtCallArg]
+                                                                      ) [StatementWDesignatorStmt]
+                                                                    ) [Statements]
+                                                                    StatementWDesignatorStmt(
+                                                                      DesignatorStmtAssign(
+                                                                        DesignatorWONamespace(
+                                                                         s3
+                                                                        ) [DesignatorWONamespace]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        ExprTerm(
+                                                                          TermFactor(
+                                                                            FactorNewFunctionNoParams(
+                                                                              NormalType(
+                                                                               Sfera
+                                                                              ) [NormalType]
+                                                                            ) [FactorNewFunctionNoParams]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprTerm]
+                                                                      ) [DesignatorStmtAssign]
+                                                                    ) [StatementWDesignatorStmt]
+                                                                  ) [Statements]
+                                                                  StatementWDesignatorStmt(
+                                                                    DesignatorStmtCallArg(
+                                                                      DesignatorField(
+                                                                        DesignatorWONamespace(
+                                                                         s3
+                                                                        ) [DesignatorWONamespace]
+                                                                       postaviPoluprecnik
+                                                                      ) [DesignatorField]
+                                                                      ActParam(
+                                                                        ExprTerm(
+                                                                          TermFactor(
+                                                                            FactorNum(
+                                                                             3
+                                                                            ) [FactorNum]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprTerm]
+                                                                      ) [ActParam]
+                                                                    ) [DesignatorStmtCallArg]
+                                                                  ) [StatementWDesignatorStmt]
+                                                                ) [Statements]
+                                                                StatementWDesignatorStmt(
+                                                                  DesignatorStmtCallArg(
+                                                                    DesignatorField(
+                                                                      DesignatorWONamespace(
+                                                                       s3
+                                                                      ) [DesignatorWONamespace]
+                                                                     postaviVrstu
+                                                                    ) [DesignatorField]
+                                                                    ActParam(
+                                                                      ExprTerm(
+                                                                        TermFactor(
+                                                                          FactorChar(
+                                                                           s
+                                                                          ) [FactorChar]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprTerm]
+                                                                    ) [ActParam]
+                                                                  ) [DesignatorStmtCallArg]
+                                                                ) [StatementWDesignatorStmt]
+                                                              ) [Statements]
+                                                              StatementWDesignatorStmt(
+                                                                DesignatorStmtAssign(
+                                                                  DesignatorWONamespace(
+                                                                   k3
+                                                                  ) [DesignatorWONamespace]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  ExprTerm(
+                                                                    TermFactor(
+                                                                      FactorNewFunctionNoParams(
+                                                                        NormalType(
+                                                                         Kvadar
+                                                                        ) [NormalType]
+                                                                      ) [FactorNewFunctionNoParams]
+                                                                    ) [TermFactor]
+                                                                  ) [ExprTerm]
+                                                                ) [DesignatorStmtAssign]
+                                                              ) [StatementWDesignatorStmt]
+                                                            ) [Statements]
+                                                            StatementWDesignatorStmt(
+                                                              DesignatorStmtCallArg(
+                                                                DesignatorField(
+                                                                  DesignatorWONamespace(
+                                                                   k3
+                                                                  ) [DesignatorWONamespace]
+                                                                 postaviStranice
+                                                                ) [DesignatorField]
+                                                                ActParams(
+                                                                  ActParams(
+                                                                    ActParam(
+                                                                      ExprTerm(
+                                                                        TermFactor(
+                                                                          FactorNum(
+                                                                           1
+                                                                          ) [FactorNum]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprTerm]
+                                                                    ) [ActParam]
+                                                                    ExprTerm(
+                                                                      TermFactor(
+                                                                        FactorNum(
+                                                                         2
+                                                                        ) [FactorNum]
+                                                                      ) [TermFactor]
+                                                                    ) [ExprTerm]
+                                                                  ) [ActParams]
+                                                                  ExprTerm(
+                                                                    TermFactor(
+                                                                      FactorNum(
+                                                                       3
+                                                                      ) [FactorNum]
+                                                                    ) [TermFactor]
+                                                                  ) [ExprTerm]
+                                                                ) [ActParams]
+                                                              ) [DesignatorStmtCallArg]
+                                                            ) [StatementWDesignatorStmt]
+                                                          ) [Statements]
+                                                          StatementWDesignatorStmt(
+                                                            DesignatorStmtCallArg(
+                                                              DesignatorField(
+                                                                DesignatorWONamespace(
+                                                                 k3
+                                                                ) [DesignatorWONamespace]
+                                                               postaviVrstu
+                                                              ) [DesignatorField]
+                                                              ActParam(
+                                                                ExprTerm(
+                                                                  TermFactor(
+                                                                    FactorChar(
+                                                                     k
+                                                                    ) [FactorChar]
+                                                                  ) [TermFactor]
+                                                                ) [ExprTerm]
+                                                              ) [ActParam]
+                                                            ) [DesignatorStmtCallArg]
+                                                          ) [StatementWDesignatorStmt]
+                                                        ) [Statements]
+                                                        StatementWDesignatorStmt(
+                                                          DesignatorStmtAssign(
+                                                            DesignatorWONamespace(
+                                                             k1
+                                                            ) [DesignatorWONamespace]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            ExprTerm(
+                                                              TermFactor(
+                                                                FactorNewFunctionNoParams(
+                                                                  NormalType(
+                                                                   Kvadar
+                                                                  ) [NormalType]
+                                                                ) [FactorNewFunctionNoParams]
+                                                              ) [TermFactor]
+                                                            ) [ExprTerm]
+                                                          ) [DesignatorStmtAssign]
+                                                        ) [StatementWDesignatorStmt]
+                                                      ) [Statements]
+                                                      StatementWDesignatorStmt(
+                                                        DesignatorStmtCallArg(
+                                                          DesignatorField(
+                                                            DesignatorWONamespace(
+                                                             k1
+                                                            ) [DesignatorWONamespace]
+                                                           postaviStranice
+                                                          ) [DesignatorField]
+                                                          ActParams(
+                                                            ActParams(
+                                                              ActParam(
+                                                                ExprTerm(
+                                                                  TermFactor(
+                                                                    FactorNum(
+                                                                     2
+                                                                    ) [FactorNum]
+                                                                  ) [TermFactor]
+                                                                ) [ExprTerm]
+                                                              ) [ActParam]
+                                                              ExprTerm(
+                                                                TermFactor(
+                                                                  FactorNum(
+                                                                   3
+                                                                  ) [FactorNum]
+                                                                ) [TermFactor]
+                                                              ) [ExprTerm]
+                                                            ) [ActParams]
+                                                            ExprTerm(
+                                                              TermFactor(
+                                                                FactorNum(
+                                                                 4
+                                                                ) [FactorNum]
+                                                              ) [TermFactor]
+                                                            ) [ExprTerm]
+                                                          ) [ActParams]
+                                                        ) [DesignatorStmtCallArg]
+                                                      ) [StatementWDesignatorStmt]
+                                                    ) [Statements]
+                                                    StatementWDesignatorStmt(
+                                                      DesignatorStmtCallArg(
+                                                        DesignatorField(
+                                                          DesignatorWONamespace(
+                                                           k1
+                                                          ) [DesignatorWONamespace]
+                                                         postaviVrstu
+                                                        ) [DesignatorField]
+                                                        ActParam(
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorChar(
+                                                               k
+                                                              ) [FactorChar]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [ActParam]
+                                                      ) [DesignatorStmtCallArg]
+                                                    ) [StatementWDesignatorStmt]
+                                                  ) [Statements]
+                                                  StatementWDesignatorStmt(
+                                                    DesignatorStmtAssign(
+                                                      DesignatorWONamespace(
+                                                       k2
+                                                      ) [DesignatorWONamespace]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      ExprTerm(
+                                                        TermFactor(
+                                                          FactorNewFunctionNoParams(
+                                                            NormalType(
+                                                             Kvadar
+                                                            ) [NormalType]
+                                                          ) [FactorNewFunctionNoParams]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [DesignatorStmtAssign]
+                                                  ) [StatementWDesignatorStmt]
+                                                ) [Statements]
+                                                StatementWDesignatorStmt(
+                                                  DesignatorStmtCallArg(
+                                                    DesignatorField(
+                                                      DesignatorWONamespace(
+                                                       k2
+                                                      ) [DesignatorWONamespace]
+                                                     postaviStranice
+                                                    ) [DesignatorField]
+                                                    ActParams(
+                                                      ActParams(
+                                                        ActParam(
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorNum(
+                                                               3
+                                                              ) [FactorNum]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [ActParam]
+                                                        ExprTerm(
+                                                          TermFactor(
+                                                            FactorNum(
+                                                             4
+                                                            ) [FactorNum]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [ActParams]
+                                                      ExprTerm(
+                                                        TermFactor(
+                                                          FactorNum(
+                                                           5
+                                                          ) [FactorNum]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [ActParams]
+                                                  ) [DesignatorStmtCallArg]
+                                                ) [StatementWDesignatorStmt]
+                                              ) [Statements]
+                                              StatementWDesignatorStmt(
+                                                DesignatorStmtCallArg(
+                                                  DesignatorField(
+                                                    DesignatorWONamespace(
+                                                     k2
+                                                    ) [DesignatorWONamespace]
+                                                   postaviVrstu
+                                                  ) [DesignatorField]
+                                                  ActParam(
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorChar(
+                                                         k
+                                                        ) [FactorChar]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [ActParam]
+                                                ) [DesignatorStmtCallArg]
+                                              ) [StatementWDesignatorStmt]
+                                            ) [Statements]
+                                            StatementWDesignatorStmt(
+                                              DesignatorStmtAssign(
+                                                DesignatorArray(
+                                                  DesignatorArrayName(
+                                                    DesignatorWONamespace(
+                                                     predmeti
+                                                    ) [DesignatorWONamespace]
+                                                  ) [DesignatorArrayName]
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorNum(
+                                                       0
+                                                      ) [FactorNum]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [DesignatorArray]
+                                                Assignop(
+                                                ) [Assignop]
+                                                ExprTerm(
+                                                  TermFactor(
+                                                    FactorDesignator(
+                                                      DesignatorWONamespace(
+                                                       s1
+                                                      ) [DesignatorWONamespace]
+                                                    ) [FactorDesignator]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                              ) [DesignatorStmtAssign]
+                                            ) [StatementWDesignatorStmt]
+                                          ) [Statements]
+                                          StatementWDesignatorStmt(
+                                            DesignatorStmtAssign(
+                                              DesignatorArray(
+                                                DesignatorArrayName(
+                                                  DesignatorWONamespace(
+                                                   predmeti
+                                                  ) [DesignatorWONamespace]
+                                                ) [DesignatorArrayName]
+                                                ExprTerm(
+                                                  TermFactor(
+                                                    FactorNum(
+                                                     2
+                                                    ) [FactorNum]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                              ) [DesignatorArray]
+                                              Assignop(
+                                              ) [Assignop]
+                                              ExprTerm(
+                                                TermFactor(
+                                                  FactorDesignator(
+                                                    DesignatorWONamespace(
+                                                     s2
+                                                    ) [DesignatorWONamespace]
+                                                  ) [FactorDesignator]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [DesignatorStmtAssign]
+                                          ) [StatementWDesignatorStmt]
+                                        ) [Statements]
+                                        StatementWDesignatorStmt(
+                                          DesignatorStmtAssign(
+                                            DesignatorArray(
+                                              DesignatorArrayName(
+                                                DesignatorWONamespace(
+                                                 predmeti
+                                                ) [DesignatorWONamespace]
+                                              ) [DesignatorArrayName]
+                                              ExprTerm(
+                                                TermFactor(
+                                                  FactorNum(
+                                                   4
+                                                  ) [FactorNum]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [DesignatorArray]
+                                            Assignop(
+                                            ) [Assignop]
+                                            ExprTerm(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  DesignatorWONamespace(
+                                                   s3
+                                                  ) [DesignatorWONamespace]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [DesignatorStmtAssign]
+                                        ) [StatementWDesignatorStmt]
+                                      ) [Statements]
+                                      StatementWDesignatorStmt(
+                                        DesignatorStmtAssign(
+                                          DesignatorArray(
+                                            DesignatorArrayName(
+                                              DesignatorWONamespace(
+                                               predmeti
+                                              ) [DesignatorWONamespace]
+                                            ) [DesignatorArrayName]
+                                            ExprTerm(
+                                              TermFactor(
+                                                FactorNum(
+                                                 1
+                                                ) [FactorNum]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [DesignatorArray]
+                                          Assignop(
+                                          ) [Assignop]
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                DesignatorWONamespace(
+                                                 k1
+                                                ) [DesignatorWONamespace]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [DesignatorStmtAssign]
+                                      ) [StatementWDesignatorStmt]
+                                    ) [Statements]
+                                    StatementWDesignatorStmt(
+                                      DesignatorStmtAssign(
+                                        DesignatorArray(
+                                          DesignatorArrayName(
+                                            DesignatorWONamespace(
+                                             predmeti
+                                            ) [DesignatorWONamespace]
+                                          ) [DesignatorArrayName]
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorNum(
+                                               3
+                                              ) [FactorNum]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [DesignatorArray]
+                                        Assignop(
+                                        ) [Assignop]
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              DesignatorWONamespace(
+                                               k2
+                                              ) [DesignatorWONamespace]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorStmtAssign]
+                                    ) [StatementWDesignatorStmt]
+                                  ) [Statements]
+                                  StatementWDesignatorStmt(
+                                    DesignatorStmtAssign(
+                                      DesignatorArray(
+                                        DesignatorArrayName(
+                                          DesignatorWONamespace(
+                                           predmeti
+                                          ) [DesignatorWONamespace]
+                                        ) [DesignatorArrayName]
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorNum(
+                                             5
+                                            ) [FactorNum]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorArray]
+                                      Assignop(
+                                      ) [Assignop]
+                                      ExprTerm(
+                                        TermFactor(
+                                          FactorDesignator(
+                                            DesignatorWONamespace(
+                                             k3
+                                            ) [DesignatorWONamespace]
+                                          ) [FactorDesignator]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [DesignatorStmtAssign]
+                                  ) [StatementWDesignatorStmt]
+                                ) [Statements]
+                                StatementRead(
+                                  DesignatorWONamespace(
+                                   t
+                                  ) [DesignatorWONamespace]
+                                ) [StatementRead]
+                              ) [Statements]
+                              StatementForLoop(
+                                ForLoopStart(
+                                ) [ForLoopStart]
+                                SingleDesignatorStatement(
+                                  DesignatorStmtAssign(
+                                    DesignatorWONamespace(
+                                     i
+                                    ) [DesignatorWONamespace]
+                                    Assignop(
+                                    ) [Assignop]
+                                    ExprTerm(
+                                      TermFactor(
+                                        FactorNum(
+                                         0
+                                        ) [FactorNum]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [DesignatorStmtAssign]
+                                ) [SingleDesignatorStatement]
+                                ForConditionStart(
+                                ) [ForConditionStart]
+                                PossibleCondFactYes(
+                                  RelopCondFact(
+                                    ExprTerm(
+                                      TermFactor(
+                                        FactorDesignator(
+                                          DesignatorWONamespace(
+                                           i
+                                          ) [DesignatorWONamespace]
+                                        ) [FactorDesignator]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                    RelopLSS(
+                                    ) [RelopLSS]
+                                    ExprTerm(
+                                      TermFactor(
+                                        FactorNum(
+                                         6
+                                        ) [FactorNum]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [RelopCondFact]
+                                ) [PossibleCondFactYes]
+                                ForTailDesignatorStart(
+                                ) [ForTailDesignatorStart]
+                                SingleDesignatorStatement(
+                                  DesignatorStmtPlusPlus(
+                                    DesignatorWONamespace(
+                                     i
+                                    ) [DesignatorWONamespace]
+                                  ) [DesignatorStmtPlusPlus]
+                                ) [SingleDesignatorStatement]
+                                ForStatementsStart(
+                                ) [ForStatementsStart]
+                                ForStatement(
+                                  StatementStmtList(
+                                    StatementListDetected(
+                                    ) [StatementListDetected]
+                                    Statements(
+                                      NoStatement(
+                                      ) [NoStatement]
+                                      StatementWDesignatorStmt(
+                                        DesignatorStmtCallArg(
+                                          DesignatorField(
+                                            DesignatorArray(
+                                              DesignatorArrayName(
+                                                DesignatorWONamespace(
+                                                 predmeti
+                                                ) [DesignatorWONamespace]
+                                              ) [DesignatorArrayName]
+                                              ExprTerm(
+                                                TermFactor(
+                                                  FactorDesignator(
+                                                    DesignatorWONamespace(
+                                                     i
+                                                    ) [DesignatorWONamespace]
+                                                  ) [FactorDesignator]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [DesignatorArray]
+                                           postaviTezinu
+                                          ) [DesignatorField]
+                                          ActParam(
+                                            ExprTerm(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  DesignatorWONamespace(
+                                                   t
+                                                  ) [DesignatorWONamespace]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [ActParam]
+                                        ) [DesignatorStmtCallArg]
+                                      ) [StatementWDesignatorStmt]
+                                    ) [Statements]
+                                  ) [StatementStmtList]
+                                ) [ForStatement]
+                              ) [StatementForLoop]
+                            ) [Statements]
+                            StatementWDesignatorStmt(
+                              DesignatorStmtAssign(
+                                DesignatorWONamespace(
+                                 zapreminaS
+                                ) [DesignatorWONamespace]
+                                Assignop(
+                                ) [Assignop]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorNum(
+                                     0
+                                    ) [FactorNum]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [DesignatorStmtAssign]
+                            ) [StatementWDesignatorStmt]
+                          ) [Statements]
+                          StatementWDesignatorStmt(
+                            DesignatorStmtAssign(
+                              DesignatorWONamespace(
+                               tezinaS
+                              ) [DesignatorWONamespace]
+                              Assignop(
+                              ) [Assignop]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorNum(
+                                   0
+                                  ) [FactorNum]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [DesignatorStmtAssign]
+                          ) [StatementWDesignatorStmt]
+                        ) [Statements]
+                        StatementForLoop(
+                          ForLoopStart(
+                          ) [ForLoopStart]
+                          SingleDesignatorStatement(
+                            DesignatorStmtAssignError(
+                            ) [DesignatorStmtAssignError]
+                          ) [SingleDesignatorStatement]
+                          ForConditionStart(
+                          ) [ForConditionStart]
+                          PossibleCondFactYes(
+                            NormalCondFact(
+                              ExprTerm(
+                                TermFactor(
+                                  FactorCall(
+                                    DesignatorWONamespace(
+                                     ispis
+                                    ) [DesignatorWONamespace]
+                                    FactorCallPossibleParsYes(
+                                      ActParam(
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              DesignatorArray(
+                                                DesignatorArrayName(
+                                                  DesignatorWONamespace(
+                                                   predmeti
+                                                  ) [DesignatorWONamespace]
+                                                ) [DesignatorArrayName]
+                                                GeneralExpr(
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        DesignatorWONamespace(
+                                                         i
+                                                        ) [DesignatorWONamespace]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                  AddopMINUS(
+                                                  ) [AddopMINUS]
+                                                  TermFactor(
+                                                    FactorNum(
+                                                     1
+                                                    ) [FactorNum]
+                                                  ) [TermFactor]
+                                                ) [GeneralExpr]
+                                              ) [DesignatorArray]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [ActParam]
+                                    ) [FactorCallPossibleParsYes]
+                                  ) [FactorCall]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [NormalCondFact]
+                          ) [PossibleCondFactYes]
+                          ForTailDesignatorStart(
+                          ) [ForTailDesignatorStart]
+                          SingleDesignatorStatement(
+                            DesignatorStmtAssignError(
+                            ) [DesignatorStmtAssignError]
+                          ) [SingleDesignatorStatement]
+                          ForStatementsStart(
+                          ) [ForStatementsStart]
+                          ForStatement(
+                            StatementStmtList(
+                              StatementListDetected(
+                              ) [StatementListDetected]
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        NoStatement(
+                                        ) [NoStatement]
+                                        IfStatement(
+                                          IfBlock(
+                                            IfConditionEndDetected(
+                                              IfStartDetected(
+                                              ) [IfStartDetected]
+                                              NormalCondition(
+                                                NormalCondTerm(
+                                                  RelopCondFact(
+                                                    ExprTerm(
+                                                      TermMulop(
+                                                        TermFactor(
+                                                          FactorDesignator(
+                                                            DesignatorWONamespace(
+                                                             i
+                                                            ) [DesignatorWONamespace]
+                                                          ) [FactorDesignator]
+                                                        ) [TermFactor]
+                                                        MulopMOD(
+                                                        ) [MulopMOD]
+                                                        FactorNum(
+                                                         2
+                                                        ) [FactorNum]
+                                                      ) [TermMulop]
+                                                    ) [ExprTerm]
+                                                    RelopEQUAL(
+                                                    ) [RelopEQUAL]
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorNum(
+                                                         1
+                                                        ) [FactorNum]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [RelopCondFact]
+                                                ) [NormalCondTerm]
+                                              ) [NormalCondition]
+                                            ) [IfConditionEndDetected]
+                                            StatementStmtList(
+                                              StatementListDetected(
+                                              ) [StatementListDetected]
+                                              Statements(
+                                                Statements(
+                                                  NoStatement(
+                                                  ) [NoStatement]
+                                                  StatementWDesignatorStmt(
+                                                    DesignatorStmtPlusPlus(
+                                                      DesignatorWONamespace(
+                                                       i
+                                                      ) [DesignatorWONamespace]
+                                                    ) [DesignatorStmtPlusPlus]
+                                                  ) [StatementWDesignatorStmt]
+                                                ) [Statements]
+                                                StatementContinue(
+                                                ) [StatementContinue]
+                                              ) [Statements]
+                                            ) [StatementStmtList]
+                                          ) [IfBlock]
+                                        ) [IfStatement]
+                                      ) [Statements]
+                                      StatementWDesignatorStmt(
+                                        DesignatorStmtAssign(
+                                          DesignatorWONamespace(
+                                           zapreminaS
+                                          ) [DesignatorWONamespace]
+                                          Assignop(
+                                          ) [Assignop]
+                                          GeneralExpr(
+                                            ExprTerm(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  DesignatorWONamespace(
+                                                   zapreminaS
+                                                  ) [DesignatorWONamespace]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                            AddopPLUS(
+                                            ) [AddopPLUS]
+                                            TermFactor(
+                                              FactorCall(
+                                                DesignatorField(
+                                                  DesignatorArray(
+                                                    DesignatorArrayName(
+                                                      DesignatorWONamespace(
+                                                       predmeti
+                                                      ) [DesignatorWONamespace]
+                                                    ) [DesignatorArrayName]
+                                                    GeneralExpr(
+                                                      ExprTerm(
+                                                        TermFactor(
+                                                          FactorDesignator(
+                                                            DesignatorWONamespace(
+                                                             i
+                                                            ) [DesignatorWONamespace]
+                                                          ) [FactorDesignator]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                      AddopMINUS(
+                                                      ) [AddopMINUS]
+                                                      TermFactor(
+                                                        FactorNum(
+                                                         1
+                                                        ) [FactorNum]
+                                                      ) [TermFactor]
+                                                    ) [GeneralExpr]
+                                                  ) [DesignatorArray]
+                                                 zapremina
+                                                ) [DesignatorField]
+                                                FactorCallPossibleParsNo(
+                                                ) [FactorCallPossibleParsNo]
+                                              ) [FactorCall]
+                                            ) [TermFactor]
+                                          ) [GeneralExpr]
+                                        ) [DesignatorStmtAssign]
+                                      ) [StatementWDesignatorStmt]
+                                    ) [Statements]
+                                    StatementWDesignatorStmt(
+                                      DesignatorStmtAssign(
+                                        DesignatorWONamespace(
+                                         tezinaS
+                                        ) [DesignatorWONamespace]
+                                        Assignop(
+                                        ) [Assignop]
+                                        GeneralExpr(
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                DesignatorWONamespace(
+                                                 tezinaS
+                                                ) [DesignatorWONamespace]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                          AddopPLUS(
+                                          ) [AddopPLUS]
+                                          TermFactor(
+                                            FactorCall(
+                                              DesignatorField(
+                                                DesignatorArray(
+                                                  DesignatorArrayName(
+                                                    DesignatorWONamespace(
+                                                     predmeti
+                                                    ) [DesignatorWONamespace]
+                                                  ) [DesignatorArrayName]
+                                                  GeneralExpr(
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorDesignator(
+                                                          DesignatorWONamespace(
+                                                           i
+                                                          ) [DesignatorWONamespace]
+                                                        ) [FactorDesignator]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                    AddopMINUS(
+                                                    ) [AddopMINUS]
+                                                    TermFactor(
+                                                      FactorNum(
+                                                       1
+                                                      ) [FactorNum]
+                                                    ) [TermFactor]
+                                                  ) [GeneralExpr]
+                                                ) [DesignatorArray]
+                                               Q
+                                              ) [DesignatorField]
+                                              FactorCallPossibleParsNo(
+                                              ) [FactorCallPossibleParsNo]
+                                            ) [FactorCall]
+                                          ) [TermFactor]
+                                        ) [GeneralExpr]
+                                      ) [DesignatorStmtAssign]
+                                    ) [StatementWDesignatorStmt]
+                                  ) [Statements]
+                                  StatementWDesignatorStmt(
+                                    DesignatorStmtCallArg(
+                                      DesignatorWONamespace(
+                                       ispis
+                                      ) [DesignatorWONamespace]
+                                      ActParam(
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              DesignatorArray(
+                                                DesignatorArrayName(
+                                                  DesignatorWONamespace(
+                                                   predmeti
+                                                  ) [DesignatorWONamespace]
+                                                ) [DesignatorArrayName]
+                                                GeneralExpr(
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        DesignatorWONamespace(
+                                                         i
+                                                        ) [DesignatorWONamespace]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                  AddopMINUS(
+                                                  ) [AddopMINUS]
+                                                  TermFactor(
+                                                    FactorNum(
+                                                     1
+                                                    ) [FactorNum]
+                                                  ) [TermFactor]
+                                                ) [GeneralExpr]
+                                              ) [DesignatorArray]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [ActParam]
+                                    ) [DesignatorStmtCallArg]
+                                  ) [StatementWDesignatorStmt]
+                                ) [Statements]
+                                StatementWDesignatorStmt(
+                                  DesignatorStmtPlusPlus(
+                                    DesignatorWONamespace(
+                                     i
+                                    ) [DesignatorWONamespace]
+                                  ) [DesignatorStmtPlusPlus]
+                                ) [StatementWDesignatorStmt]
+                              ) [Statements]
+                            ) [StatementStmtList]
+                          ) [ForStatement]
+                        ) [StatementForLoop]
+                      ) [Statements]
+                      StatementPrintSingle(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              DesignatorWONamespace(
+                               zapreminaS
+                              ) [DesignatorWONamespace]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [StatementPrintSingle]
+                    ) [Statements]
+                    StatementPrintSingle(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            DesignatorWONamespace(
+                             eol
+                            ) [DesignatorWONamespace]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [StatementPrintSingle]
+                  ) [Statements]
+                  StatementPrintSingle(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          DesignatorWONamespace(
+                           zapreminaK
+                          ) [DesignatorWONamespace]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [StatementPrintSingle]
+                ) [Statements]
+                StatementPrintSingle(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        DesignatorWONamespace(
+                         eol
+                        ) [DesignatorWONamespace]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [StatementPrintSingle]
+              ) [Statements]
+              StatementPrintSingle(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      DesignatorWONamespace(
+                       tezinaS
+                      ) [DesignatorWONamespace]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [StatementPrintSingle]
+            ) [Statements]
+            StatementPrintSingle(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorWONamespace(
+                     eol
+                    ) [DesignatorWONamespace]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [StatementPrintSingle]
+          ) [Statements]
+          StatementPrintSingle(
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  DesignatorWONamespace(
+                   tezinaK
+                  ) [DesignatorWONamespace]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [StatementPrintSingle]
+        ) [Statements]
+        StatementPrintSingle(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                DesignatorWONamespace(
+                 eol
+                ) [DesignatorWONamespace]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+        ) [StatementPrintSingle]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDecls]
+) [Program]
+INFO  19:22:24,730 - ===================================
+INFO  19:22:24,733 - Deklarisana promenljiva tezina na liniji 9
+INFO  19:22:24,734 - Deklarisana promenljiva vrsta na liniji 10
+INFO  19:22:24,734 - Obradjuje se metod Predmeti::postaviTezinu na liniji 12
+ERROR 19:22:24,734 - Ne postoji deklarisana promenljiva ili metod sa imenom this - Semanticka greska na liniji 12

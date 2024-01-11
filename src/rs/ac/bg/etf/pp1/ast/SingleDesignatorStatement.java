@@ -1,11 +1,11 @@
 // generated with ast extension for cup
 // version 0.8
-// 9/0/2024 16:42:47
+// 11/0/2024 10:52:27
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class SingleDesignatorStatement extends PossibleDesignatorStatementList {
+public class SingleDesignatorStatement extends DesignatorStatementList {
 
     private DesignatorStatement DesignatorStatement;
 

@@ -30,6 +30,7 @@ parser code {:
     }
 
     public void report_error(String message, Object info) {
+        errorDetected = true;
     	StringBuilder msg = new StringBuilder(message);
     	if (info instanceof Symbol)
             msg.append (" na liniji ").append(((Symbol)info).left);
@@ -53,15 +54,15 @@ scan with {:
 
 nonterminal NamespaceList, Namespace, MethodDeclList, PossibleFormPars, FormPars, PossibleArrayDecl, DeclarationList, VarDeclList, VarDecl, ConstDecl, MultipleConstDecl, StaticInitializer, StatementList, Statement, DesignatorStatement, ActPars, Label, Assignop, Addop, Mulop, DesStmtHelper;
 
-nonterminal PossibleDesignatorStatementList, PossibleCondFact, ForLoopHelper, MultipleVarDecl, SingleVar;
+nonterminal PossibleDesignatorStatementList, PossibleCondFact, MultipleVarDecl, SingleVar;
 nonterminal ClassDecl, OptionalExtends, StaticVarDeclList, StaticInitializerList, OtpionalMethodDeclList, StaticInitializerHelper;
 nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, Literal, MethodDecl, MethodTypeName, Designator;
-nonterminal NamespaceName, FactorCallPossiblePars, FormParam, ForLoopStart, PossibleDesignator, DesignatorArrayName, IfFirstPart, IfSecondPart, ElseFirstPart, StatementListDetected, ForConditionStart, ForTailDesignatorStart, ForStatementsStart;
+nonterminal NamespaceName, FactorCallPossiblePars, FormParam, ForLoopStart, PossibleDesignator, DesignatorArrayName, StatementListDetected, ForConditionStart, ForTailDesignatorStart, ForStatementsStart;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Term, Factor, Condition, CondTerm, CondFact;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Relop;
 
-nonterminal IfStartDetected, ORBlockDetected, IfConditionEndDetected, IfBlock, ForStatement;
-
+nonterminal IfStartDetected, ORBlockDetected, IfConditionEndDetected, IfBlock, ForStatement, DesignatorStatementList;
+nonterminal LastSingleVar, LastFormParam;
 terminal PROG, NAMESPACE, LBRACE, RBRACE;
 terminal BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ,RETURN, VOID, EXTENDS, CONTINUE, FOR, STATIC;
 terminal PLUS, MINUS, MUL, DIV, MOD, EQUAL, NOTEQUAL, GRT, GRTE, LSS, LSSE, BITAND, BITOR, ASSIGN, PLUSPLUS, MINUSMINUS;
@@ -129,14 +130,27 @@ MethodDecl ::= (MethodDecl) MethodTypeName LPAREN PossibleFormPars RPAREN VarDec
 
 MethodTypeName ::= (MethodWithType) Type IDENT:methodName | (VoidMethod) VOID IDENT:methodName;
 
-PossibleFormPars ::= (PossibleFormParsDeclared) FormPars | (NoPossibleFormPars) /* epsilon */;
+PossibleFormPars ::= (PossibleFormParsDeclared) FormPars
+                |
+                (NoPossibleFormPars) /* epsilon */
+                ;
 
-FormPars ::= (FormParsList) FormPars COMMA FormParam
+FormPars ::= (FormParsList) FormPars COMMA LastFormParam
             |
             (SignleFromParam) FormParam
             ;
 
-FormParam ::= (FormParam) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray;
+LastFormParam ::= (LastFormParamCorrect) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray
+            |
+            (LastFormParamError) error:l
+            {: parser.report_error("Izvrsen oporavak do ) u liniji " +lleft, null); :}
+            ;
+
+FormParam ::= (FormParamCorrect) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray
+            |
+            (FormParamError) error:l
+            {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :}
+            ;
 
 PossibleArrayDecl ::= (PossibleArrayDeclYes)  LSQUARE RSQUARE | (NoPossibleArrayDecl) /* epislon */;
 
@@ -154,22 +168,25 @@ VarDeclList ::= (VarDecls) VarDeclList VarDecl
                 (NoVarDecl) /* epsilon */
                 ;
 
-VarDecl ::= (VarDeclNormal) Type:varType MultipleVarDecl:mulitpleVars SEMI
+VarDecl ::= (VarDecl) Type:varType MultipleVarDecl:mulitpleVars SEMI
+                ;
+
+MultipleVarDecl ::= (MultipleVarDecls) MultipleVarDecl COMMA LastSingleVar
                 |
-                (VarDeclError) error SEMI:l
+                (MultipleVarDeclSingleVar) SingleVar
+                ;
+
+LastSingleVar ::= (LastSingleVarCorrect) IDENT:varName PossibleArrayDecl:possibleArray
+                |
+                (LastSingleVarError) error:l
                 {: parser.report_error("Izvrsen oporavak do ; u liniji " +lleft, null); :}
                 ;
 
-MultipleVarDecl ::= (MultipleVarDecls) MultipleVarDecl COMMA SingleVar
-                |
-                (MultipleVarDeclSingleVar) SingleVar
-                |
-                (MultipleVarDeclError) error:l
-                {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :}
-                ;
-
-SingleVar ::= (SingleVar) IDENT:varName PossibleArrayDecl:possibleArray
-                ;
+SingleVar ::= (SingleVarCorrect) IDENT:varName PossibleArrayDecl:possibleArray
+            |
+            (SingleVarError) error:l
+            {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :}
+            ;
 
 Type ::= (TypeWNamespace) IDENT:namespace COLON COLON IDENT:typeName
         |
@@ -191,9 +208,6 @@ StatementList ::= (Statements) StatementList Statement
                 ;
 
 Statement ::=  (StatementWDesignatorStmt) DesignatorStatement SEMI
-            |
-            (StatementError) error Expr SEMI:l
-            {: parser.report_error("Izvrsen oporavak(iskaz dodele) do ; u liniji " +lleft, null); :}
             |
             (IfStatement) IfBlock
             |
@@ -220,7 +234,10 @@ Statement ::=  (StatementWDesignatorStmt) DesignatorStatement SEMI
 //all helpert for if-else
 IfStartDetected ::= (IfStartDetected) IF;
 
-IfConditionEndDetected ::= (IfConditionEndDetected) IfStartDetected LPAREN Condition RPAREN;
+IfConditionEndDetected ::= (IfConditionEndDetectedCorrect) IfStartDetected LPAREN Condition RPAREN
+                        |
+                        (IfConditionError) IfStartDetected LPAREN error:l {: parser.report_error("Izvrsen oporavak do ) u liniji " + lleft, null); :} RPAREN
+                        ;
 
 IfBlock ::= (IfBlock) IfConditionEndDetected Statement;
 
@@ -238,12 +255,17 @@ ForTailDesignatorStart ::= (ForTailDesignatorStart) SEMI;
 
 PossibleCondFact ::= (PossibleCondFactYes) CondFact | (PossibleCondFactNo) /* epsilon */;
 
-PossibleDesignatorStatementList ::= (PossibleDesignatorStatements) PossibleDesignatorStatementList COMMA DesignatorStatement
+DesignatorStatementList ::= (DesignatorStatements) DesignatorStatementList COMMA DesignatorStatement
                                     |
                                     (SingleDesignatorStatement) DesignatorStatement
                                     ;
 
+PossibleDesignatorStatementList ::= (PossibleDesignatorStatementListYes) DesignatorStatementList | (PossibleDesignatorStatementListNo) /* epsilon*/ ;
+
 DesignatorStatement ::= (DesignatorStmtAssign) Designator Assignop Expr
+                    |
+                    (DesignatorStatementError) error:l
+                    {: parser.report_error("Izvrsen oporavak do ; u liniji " +lleft, null); :}
                     |
                     (DesignatorStmtCallNoArg) Designator LPAREN RPAREN
                     |

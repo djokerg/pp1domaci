@@ -30,6 +30,7 @@ parser code {:
     }
 
     public void report_error(String message, Object info) {
+        errorDetected = true;
     	StringBuilder msg = new StringBuilder(message);
     	if (info instanceof Symbol)
             msg.append (" na liniji ").append(((Symbol)info).left);
@@ -75,7 +76,6 @@ nonterminal DesStmtHelper DesStmtHelper;
 
 nonterminal PossibleDesignatorStatementList PossibleDesignatorStatementList;
 nonterminal PossibleCondFact PossibleCondFact;
-nonterminal ForLoopHelper ForLoopHelper;
 nonterminal MultipleVarDecl MultipleVarDecl;
 nonterminal SingleVar SingleVar;
 nonterminal ClassDecl ClassDecl;
@@ -91,9 +91,6 @@ nonterminal FormParam FormParam;
 nonterminal ForLoopStart ForLoopStart;
 nonterminal PossibleDesignator PossibleDesignator;
 nonterminal DesignatorArrayName DesignatorArrayName;
-nonterminal IfFirstPart IfFirstPart;
-nonterminal IfSecondPart IfSecondPart;
-nonterminal ElseFirstPart ElseFirstPart;
 nonterminal StatementListDetected StatementListDetected;
 nonterminal ForConditionStart ForConditionStart;
 nonterminal ForTailDesignatorStart ForTailDesignatorStart;
@@ -106,7 +103,9 @@ nonterminal ORBlockDetected ORBlockDetected;
 nonterminal IfConditionEndDetected IfConditionEndDetected;
 nonterminal IfBlock IfBlock;
 nonterminal ForStatement ForStatement;
-
+nonterminal DesignatorStatementList DesignatorStatementList;
+nonterminal LastSingleVar LastSingleVar;
+nonterminal LastFormParam LastFormParam;
 terminal PROG, NAMESPACE, LBRACE, RBRACE;
 terminal BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ,RETURN, VOID, EXTENDS, CONTINUE, FOR, STATIC;
 terminal PLUS, MINUS, MUL, DIV, MOD, EQUAL, NOTEQUAL, GRT, GRTE, LSS, LSSE, BITAND, BITOR, ASSIGN, PLUSPLUS, MINUSMINUS;
@@ -174,14 +173,27 @@ MethodDecl ::= (MethodDecl) MethodTypeName:M1 LPAREN PossibleFormPars:P2 RPAREN 
 
 MethodTypeName ::= (MethodWithType) Type:T1 IDENT:methodName {: RESULT=new MethodWithType(T1, methodName); RESULT.setLine(T1left); :} | (VoidMethod) VOID IDENT:methodName {: RESULT=new VoidMethod(methodName); RESULT.setLine(methodNameleft); :};
 
-PossibleFormPars ::= (PossibleFormParsDeclared) FormPars:F1 {: RESULT=new PossibleFormParsDeclared(F1); RESULT.setLine(F1left); :} | (NoPossibleFormPars) {: RESULT=new NoPossibleFormPars(); :} /* epsilon */;
+PossibleFormPars ::= (PossibleFormParsDeclared) FormPars:F1 {: RESULT=new PossibleFormParsDeclared(F1); RESULT.setLine(F1left); :}
+                |
+                (NoPossibleFormPars) {: RESULT=new NoPossibleFormPars(); :} /* epsilon */
+                ;
 
-FormPars ::= (FormParsList) FormPars:F1 COMMA FormParam:F2 {: RESULT=new FormParsList(F1, F2); RESULT.setLine(F1left); :}
+FormPars ::= (FormParsList) FormPars:F1 COMMA LastFormParam:L2 {: RESULT=new FormParsList(F1, L2); RESULT.setLine(F1left); :}
             |
             (SignleFromParam) FormParam:F1 {: RESULT=new SignleFromParam(F1); RESULT.setLine(F1left); :}
             ;
 
-FormParam ::= (FormParam) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray {: RESULT=new FormParam(tip, paramName, possibleArray); RESULT.setLine(tipleft); :};
+LastFormParam ::= (LastFormParamCorrect) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray {: RESULT=new LastFormParamCorrect(tip, paramName, possibleArray); RESULT.setLine(tipleft); :}
+            |
+            (LastFormParamError) error:l
+            {: parser.report_error("Izvrsen oporavak do ) u liniji " +lleft, null); :} {: RESULT=new LastFormParamError(); :}
+            ;
+
+FormParam ::= (FormParamCorrect) Type:tip IDENT:paramName PossibleArrayDecl:possibleArray {: RESULT=new FormParamCorrect(tip, paramName, possibleArray); RESULT.setLine(tipleft); :}
+            |
+            (FormParamError) error:l
+            {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :} {: RESULT=new FormParamError(); :}
+            ;
 
 PossibleArrayDecl ::= (PossibleArrayDeclYes)  LSQUARE RSQUARE {: RESULT=new PossibleArrayDeclYes(); :} | (NoPossibleArrayDecl) {: RESULT=new NoPossibleArrayDecl(); :} /* epislon */;
 
@@ -199,22 +211,25 @@ VarDeclList ::= (VarDecls) VarDeclList:V1 VarDecl:V2 {: RESULT=new VarDecls(V1, 
                 (NoVarDecl) {: RESULT=new NoVarDecl(); :} /* epsilon */
                 ;
 
-VarDecl ::= (VarDeclNormal) Type:varType MultipleVarDecl:mulitpleVars SEMI {: RESULT=new VarDeclNormal(varType, mulitpleVars); RESULT.setLine(varTypeleft); :}
-                |
-                (VarDeclError) error SEMI:l
-                {: parser.report_error("Izvrsen oporavak do ; u liniji " +lleft, null); :} {: RESULT=new VarDeclError(); :}
+VarDecl ::= (VarDecl) Type:varType MultipleVarDecl:mulitpleVars SEMI {: RESULT=new VarDecl(varType, mulitpleVars); RESULT.setLine(varTypeleft); :}
                 ;
 
-MultipleVarDecl ::= (MultipleVarDecls) MultipleVarDecl:M1 COMMA SingleVar:S2 {: RESULT=new MultipleVarDecls(M1, S2); RESULT.setLine(M1left); :}
+MultipleVarDecl ::= (MultipleVarDecls) MultipleVarDecl:M1 COMMA LastSingleVar:L2 {: RESULT=new MultipleVarDecls(M1, L2); RESULT.setLine(M1left); :}
                 |
                 (MultipleVarDeclSingleVar) SingleVar:S1 {: RESULT=new MultipleVarDeclSingleVar(S1); RESULT.setLine(S1left); :}
-                |
-                (MultipleVarDeclError) error:l
-                {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :} {: RESULT=new MultipleVarDeclError(); :}
                 ;
 
-SingleVar ::= (SingleVar) IDENT:varName PossibleArrayDecl:possibleArray {: RESULT=new SingleVar(varName, possibleArray); RESULT.setLine(varNameleft); :}
+LastSingleVar ::= (LastSingleVarCorrect) IDENT:varName PossibleArrayDecl:possibleArray {: RESULT=new LastSingleVarCorrect(varName, possibleArray); RESULT.setLine(varNameleft); :}
+                |
+                (LastSingleVarError) error:l
+                {: parser.report_error("Izvrsen oporavak do ; u liniji " +lleft, null); :} {: RESULT=new LastSingleVarError(); :}
                 ;
+
+SingleVar ::= (SingleVarCorrect) IDENT:varName PossibleArrayDecl:possibleArray {: RESULT=new SingleVarCorrect(varName, possibleArray); RESULT.setLine(varNameleft); :}
+            |
+            (SingleVarError) error:l
+            {: parser.report_error("Izvrsen oporavak do , u liniji " +lleft, null); :} {: RESULT=new SingleVarError(); :}
+            ;
 
 Type ::= (TypeWNamespace) IDENT:namespace COLON COLON IDENT:typeName {: RESULT=new TypeWNamespace(namespace, typeName); RESULT.setLine(namespaceleft); :}
         |
@@ -236,9 +251,6 @@ StatementList ::= (Statements) StatementList:S1 Statement:S2 {: RESULT=new State
                 ;
 
 Statement ::=  (StatementWDesignatorStmt) DesignatorStatement:D1 SEMI {: RESULT=new StatementWDesignatorStmt(D1); RESULT.setLine(D1left); :}
-            |
-            (StatementError) error Expr:E1 SEMI:l
-            {: parser.report_error("Izvrsen oporavak(iskaz dodele) do ; u liniji " +lleft, null); :} {: RESULT=new StatementError(E1); RESULT.setLine(E1left); :}
             |
             (IfStatement) IfBlock:I1 {: RESULT=new IfStatement(I1); RESULT.setLine(I1left); :}
             |
@@ -265,7 +277,10 @@ Statement ::=  (StatementWDesignatorStmt) DesignatorStatement:D1 SEMI {: RESULT=
 //all helpert for if-else
 IfStartDetected ::= (IfStartDetected) IF {: RESULT=new IfStartDetected(); :};
 
-IfConditionEndDetected ::= (IfConditionEndDetected) IfStartDetected:I1 LPAREN Condition:C2 RPAREN {: RESULT=new IfConditionEndDetected(I1, C2); RESULT.setLine(I1left); :};
+IfConditionEndDetected ::= (IfConditionEndDetectedCorrect) IfStartDetected:I1 LPAREN Condition:C2 RPAREN {: RESULT=new IfConditionEndDetectedCorrect(I1, C2); RESULT.setLine(I1left); :}
+                        |
+                        (IfConditionError) IfStartDetected:I1 LPAREN error:l {: parser.report_error("Izvrsen oporavak do ) u liniji " + lleft, null); :} RPAREN {: RESULT=new IfConditionError(I1); RESULT.setLine(I1left); :}
+                        ;
 
 IfBlock ::= (IfBlock) IfConditionEndDetected:I1 Statement:S2 {: RESULT=new IfBlock(I1, S2); RESULT.setLine(I1left); :};
 
@@ -283,12 +298,17 @@ ForTailDesignatorStart ::= (ForTailDesignatorStart) SEMI {: RESULT=new ForTailDe
 
 PossibleCondFact ::= (PossibleCondFactYes) CondFact:C1 {: RESULT=new PossibleCondFactYes(C1); RESULT.setLine(C1left); :} | (PossibleCondFactNo) {: RESULT=new PossibleCondFactNo(); :} /* epsilon */;
 
-PossibleDesignatorStatementList ::= (PossibleDesignatorStatements) PossibleDesignatorStatementList:P1 COMMA DesignatorStatement:D2 {: RESULT=new PossibleDesignatorStatements(P1, D2); RESULT.setLine(P1left); :}
+DesignatorStatementList ::= (DesignatorStatements) DesignatorStatementList:D1 COMMA DesignatorStatement:D2 {: RESULT=new DesignatorStatements(D1, D2); RESULT.setLine(D1left); :}
                                     |
                                     (SingleDesignatorStatement) DesignatorStatement:D1 {: RESULT=new SingleDesignatorStatement(D1); RESULT.setLine(D1left); :}
                                     ;
 
+PossibleDesignatorStatementList ::= (PossibleDesignatorStatementListYes) DesignatorStatementList:D1 {: RESULT=new PossibleDesignatorStatementListYes(D1); RESULT.setLine(D1left); :} | (PossibleDesignatorStatementListNo) {: RESULT=new PossibleDesignatorStatementListNo(); :} /* epsilon*/ ;
+
 DesignatorStatement ::= (DesignatorStmtAssign) Designator:D1 Assignop:A2 Expr:E3 {: RESULT=new DesignatorStmtAssign(D1, A2, E3); RESULT.setLine(D1left); :}
+                    |
+                    (DesignatorStatementError) error:l
+                    {: parser.report_error("Izvrsen oporavak do ; u liniji " +lleft, null); :} {: RESULT=new DesignatorStatementError(); :}
                     |
                     (DesignatorStmtCallNoArg) Designator:D1 LPAREN RPAREN {: RESULT=new DesignatorStmtCallNoArg(D1); RESULT.setLine(D1left); :}
                     |

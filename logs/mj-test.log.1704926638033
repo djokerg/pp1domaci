@@ -1,0 +1,184 @@
+INFO  23:42:52,204 - Compiling source file: C:\Users\gd200089d\Desktop\pp1domaci\MJCompiler\test\program.mj
+INFO  23:42:52,275 - #2 program
+INFO  23:42:52,275 - #45 test302
+INFO  23:42:52,275 - #3 namespace
+INFO  23:42:52,276 - #45 Addition
+INFO  23:42:52,276 - #4 {
+INFO  23:42:52,276 - #4 {
+INFO  23:42:52,276 - #45 int
+INFO  23:42:52,277 - #45 sum
+INFO  23:42:52,277 - #40 (
+INFO  23:42:52,277 - #45 int
+INFO  23:42:52,277 - #45 z
+INFO  23:42:52,277 - #38 ,
+INFO  23:42:52,278 - #45 int
+INFO  23:42:52,278 - #45 d
+INFO  23:42:52,278 - #41 )
+INFO  23:42:52,278 - #4 {
+INFO  23:42:52,279 - #14 return
+INFO  23:42:52,279 - #45 z
+INFO  23:42:52,279 - #20 +
+INFO  23:42:52,280 - #45 d
+INFO  23:42:52,280 - #36 ;
+INFO  23:42:52,281 - #5 }
+INFO  23:42:52,281 - #45 int
+INFO  23:42:52,282 - #45 inkrement
+INFO  23:42:52,282 - #40 (
+INFO  23:42:52,282 - #45 int
+INFO  23:42:52,282 - #45 a
+INFO  23:42:52,282 - #38 ,
+INFO  23:42:52,282 - #45 int
+INFO  23:42:52,282 - #45 inc
+INFO  23:42:52,282 - #41 )
+INFO  23:42:52,282 - #45 int
+INFO  23:42:52,282 - #45 pom
+INFO  23:42:52,282 - #36 ;
+ERROR 23:42:52,282 - 
+Sintaksna greska na liniji 16
+INFO  23:42:52,283 - #4 {
+INFO  23:42:52,283 - #10 if
+INFO  23:42:52,283 - #40 (
+INFO  23:42:52,284 - #45 inc
+ERROR 23:42:52,284 - Izvrsen oporavak do , u liniji 16
+INFO  23:42:52,285 - #25 ==
+INFO  23:42:52,285 - #46 1
+INFO  23:42:52,286 - #41 )
+INFO  23:42:52,286 - #45 pom
+INFO  23:42:52,286 - #33 =
+INFO  23:42:52,286 - #46 1
+INFO  23:42:52,287 - #36 ;
+INFO  23:42:52,287 - #8 else
+INFO  23:42:52,288 - #10 if
+INFO  23:42:52,288 - #40 (
+INFO  23:42:52,289 - #45 inc
+INFO  23:42:52,289 - #25 ==
+INFO  23:42:52,289 - #46 2
+INFO  23:42:52,289 - #41 )
+INFO  23:42:52,289 - #45 pom
+INFO  23:42:52,289 - #33 =
+INFO  23:42:52,289 - #45 a
+INFO  23:42:52,289 - #36 ;
+INFO  23:42:52,289 - #14 return
+INFO  23:42:52,289 - #45 sum
+INFO  23:42:52,289 - #40 (
+INFO  23:42:52,289 - #45 a
+INFO  23:42:52,289 - #38 ,
+INFO  23:42:52,289 - #45 pom
+INFO  23:42:52,290 - #41 )
+INFO  23:42:52,290 - #36 ;
+INFO  23:42:52,290 - #5 }
+INFO  23:42:52,290 - #5 }
+INFO  23:42:52,290 - #5 }
+INFO  23:42:52,290 - #3 namespace
+INFO  23:42:52,291 - #45 Unpacking
+INFO  23:42:52,291 - #4 {
+INFO  23:42:52,291 - #45 int
+INFO  23:42:52,291 - #45 niz
+INFO  23:42:52,291 - #42 [
+INFO  23:42:52,291 - #43 ]
+INFO  23:42:52,291 - #38 ,
+INFO  23:42:52,292 - #45 niz2
+INFO  23:42:52,292 - #42 [
+INFO  23:42:52,292 - #43 ]
+INFO  23:42:52,292 - #38 ,
+ERROR 23:42:52,292 - 
+Sintaksna greska na liniji 28
+INFO  23:42:52,292 - #45 niz3
+INFO  23:42:52,292 - #42 [
+INFO  23:42:52,292 - #43 ]
+INFO  23:42:52,292 - #36 ;
+INFO  23:42:52,292 - #45 int
+INFO  23:42:52,292 - #45 a
+INFO  23:42:52,292 - #38 ,
+ERROR 23:42:52,292 - Izvrsen oporavak do , u liniji 28
+INFO  23:42:52,293 - #45 b
+INFO  23:42:52,293 - #36 ;
+INFO  23:42:52,293 - #4 {
+INFO  23:42:52,293 - #5 }
+INFO  23:42:52,293 - #5 }
+INFO  23:42:52,293 - #45 int
+INFO  23:42:52,293 - #45 i
+INFO  23:42:52,293 - #36 ;
+ERROR 23:42:52,293 - 
+Sintaksna greska na liniji 34
+INFO  23:42:52,293 - #45 bool
+INFO  23:42:52,293 - #45 ibool
+INFO  23:42:52,293 - #36 ;
+INFO  23:42:52,293 - #45 int
+INFO  23:42:52,293 - #45 niz2
+INFO  23:42:52,293 - #36 ;
+INFO  23:42:52,293 - #45 int
+INFO  23:42:52,293 - #45 niz
+INFO  23:42:52,293 - #42 [
+INFO  23:42:52,294 - #43 ]
+ERROR 23:42:52,294 - Izvrsen oporavak do , u liniji 34
+INFO  23:42:52,294 - #36 ;
+ERROR 23:42:52,294 - 
+Sintaksna greska na liniji 39
+INFO  23:42:52,294 - #45 int
+INFO  23:42:52,294 - #45 a
+INFO  23:42:52,294 - #38 ,
+INFO  23:42:52,294 - #45 b
+ERROR 23:42:52,294 - Izvrsen oporavak do , u liniji 39
+INFO  23:42:52,294 - #38 ,
+ERROR 23:42:52,294 - 
+Sintaksna greska na liniji 40
+INFO  23:42:52,294 - #45 curr
+INFO  23:42:52,294 - #45 bahan
+INFO  23:42:52,294 - #36 ;
+INFO  23:42:52,294 - #4 {
+INFO  23:42:52,294 - #45 int
+INFO  23:42:52,294 - #45 sum
+ERROR 23:42:52,294 - Izvrsen oporavak do , u liniji 40
+INFO  23:42:52,294 - #40 (
+INFO  23:42:52,294 - #45 waefoiwejf
+INFO  23:42:52,294 - #41 )
+ERROR 23:42:52,294 - 
+Sintaksna greska na liniji 43
+INFO  23:42:52,295 - #4 {
+INFO  23:42:52,295 - #14 return
+INFO  23:42:52,295 - #45 a
+INFO  23:42:52,295 - #20 +
+ERROR 23:42:52,295 - Izvrsen oporavak do , u liniji 43
+INFO  23:42:52,295 - #45 c
+INFO  23:42:52,296 - #36 ;
+INFO  23:42:52,296 - #5 }
+INFO  23:42:52,296 - #15 void
+INFO  23:42:52,296 - #45 main
+INFO  23:42:52,296 - #40 (
+INFO  23:42:52,296 - #41 )
+INFO  23:42:52,296 - #4 {
+INFO  23:42:52,296 - #45 a
+INFO  23:42:52,296 - #33 =
+INFO  23:42:52,296 - #46 5
+INFO  23:42:52,296 - #20 +
+INFO  23:42:52,296 - #46 3
+INFO  23:42:52,297 - #20 +
+INFO  23:42:52,297 - #36 ;
+ERROR 23:42:52,297 - 
+Sintaksna greska na liniji 48
+INFO  23:42:52,297 - #12 print
+INFO  23:42:52,297 - #40 (
+INFO  23:42:52,297 - #45 a
+ERROR 23:42:52,297 - Izvrsen oporavak(iskaz dodele) do ; u liniji 1
+INFO  23:42:52,297 - #41 )
+INFO  23:42:52,297 - #36 ;
+INFO  23:42:52,297 - #10 if
+INFO  23:42:52,298 - #40 (
+INFO  23:42:52,298 - #45 a
+INFO  23:42:52,298 - #45 a
+ERROR 23:42:52,298 - 
+Sintaksna greska na liniji 50
+INFO  23:42:52,298 - #45 a
+INFO  23:42:52,298 - #41 )
+INFO  23:42:52,298 - #4 {
+INFO  23:42:52,298 - #12 print
+INFO  23:42:52,298 - #40 (
+ERROR 23:42:52,298 - Izvrsen oporavak do ) u liniji 50
+INFO  23:42:52,299 - #48 a
+INFO  23:42:52,299 - #41 )
+INFO  23:42:52,299 - #36 ;
+INFO  23:42:52,299 - #5 }
+INFO  23:42:52,299 - #5 }
+INFO  23:42:52,299 - #5 }
+ERROR 23:42:52,301 - Parsiranje nije uspesno zavrseno!

@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 9/0/2024 16:42:47
+// 11/0/2024 10:52:27
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class FormParsList extends FormPars {
 
     private FormPars FormPars;
-    private FormParam FormParam;
+    private LastFormParam LastFormParam;
 
-    public FormParsList (FormPars FormPars, FormParam FormParam) {
+    public FormParsList (FormPars FormPars, LastFormParam LastFormParam) {
         this.FormPars=FormPars;
         if(FormPars!=null) FormPars.setParent(this);
-        this.FormParam=FormParam;
-        if(FormParam!=null) FormParam.setParent(this);
+        this.LastFormParam=LastFormParam;
+        if(LastFormParam!=null) LastFormParam.setParent(this);
     }
 
     public FormPars getFormPars() {
@@ -25,12 +25,12 @@ public class FormParsList extends FormPars {
         this.FormPars=FormPars;
     }
 
-    public FormParam getFormParam() {
-        return FormParam;
+    public LastFormParam getLastFormParam() {
+        return LastFormParam;
     }
 
-    public void setFormParam(FormParam FormParam) {
-        this.FormParam=FormParam;
+    public void setLastFormParam(LastFormParam LastFormParam) {
+        this.LastFormParam=LastFormParam;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class FormParsList extends FormPars {
 
     public void childrenAccept(Visitor visitor) {
         if(FormPars!=null) FormPars.accept(visitor);
-        if(FormParam!=null) FormParam.accept(visitor);
+        if(LastFormParam!=null) LastFormParam.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(FormPars!=null) FormPars.traverseTopDown(visitor);
-        if(FormParam!=null) FormParam.traverseTopDown(visitor);
+        if(LastFormParam!=null) LastFormParam.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(FormPars!=null) FormPars.traverseBottomUp(visitor);
-        if(FormParam!=null) FormParam.traverseBottomUp(visitor);
+        if(LastFormParam!=null) LastFormParam.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class FormParsList extends FormPars {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(FormParam!=null)
-            buffer.append(FormParam.toString("  "+tab));
+        if(LastFormParam!=null)
+            buffer.append(LastFormParam.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
