@@ -10,9 +10,8 @@ import org.apache.log4j.xml.DOMConfigurator;
 import rs.ac.bg.etf.pp1.ast.Program;
 import rs.ac.bg.etf.pp1.util.Log4JUtils;
 import rs.etf.pp1.mj.runtime.Code;
-import rs.etf.pp1.symboltable.Tab;
 
-public class MJParserTest {
+public class Compiler {
 
 	static {
 		DOMConfigurator.configure(Log4JUtils.instance().findLoggerConfigFile());
@@ -21,11 +20,14 @@ public class MJParserTest {
 	
 	public static void main(String[] args) throws Exception {
 		
-		Logger log = Logger.getLogger(MJParserTest.class);
+		Logger log = Logger.getLogger(Compiler.class);
 		
 		Reader br = null;
 		try {
-			File sourceCode = new File("test/program.mj");
+
+			String mjProgram = args[0];
+
+			File sourceCode = new File(mjProgram);
 			log.info("Compiling source file: " + sourceCode.getAbsolutePath());
 			
 			br = new BufferedReader(new FileReader(sourceCode));
@@ -42,13 +44,14 @@ public class MJParserTest {
 				log.info("===================================");
 
 				// ispis prepoznatih programskih konstrukcija
-				SemanticPass v = new SemanticPass();
+				SemanticAnalyzer v = new SemanticAnalyzer();
 				prog.traverseBottomUp(v);
 
 				log.info("===================================");
 				TabDerived.dump();
 				if(!p.errorDetected && v.passed()){
-					File objFile = new File("test/program.obj");
+					String mjObjDestination = args[1];
+					File objFile = new File(mjObjDestination);
 					if(objFile.exists()) objFile.delete();
 
 					CodeGenerator codeGenerator = new CodeGenerator();

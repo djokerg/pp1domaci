@@ -5,7 +5,7 @@ import rs.etf.pp1.mj.runtime.Code;
 import rs.etf.pp1.symboltable.Tab;
 import rs.etf.pp1.symboltable.concepts.Obj;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -277,9 +277,7 @@ public class CodeGenerator extends VisitorAdaptor {
     *
     * */
 
-    Stack<List<Integer>> StackOfANDblockPatchingAddresses = new Stack<>();
-    Stack<List<Integer>> StackOfORblockPatchingAddresses = new Stack<>();
-    Stack<List<Integer>> StackOfTHENblockPatchingAddresses = new Stack<>();
+
 
     Stack<Integer> StackOfForConditionAddresses = new Stack<>();
 
@@ -289,13 +287,17 @@ public class CodeGenerator extends VisitorAdaptor {
 
     Stack<List<Integer>> StackOfForExitLoopPatchingAddresses = new Stack<>();
 
+    Stack<List<Integer>> StackOfANDblockPatchingAddresses = new Stack<>();
+    Stack<List<Integer>> StackOfORblockPatchingAddresses = new Stack<>();
+    Stack<List<Integer>> StackOfTHENblockPatchingAddresses = new Stack<>();
+
     //i need to save and patch several address for for loop:
     //when if statement start, i have to make those list
 
     public void visit(IfStartDetected ifStartDetected){
-        StackOfANDblockPatchingAddresses.push(new ArrayList<>());
-        StackOfORblockPatchingAddresses.push(new ArrayList<>());
-        StackOfTHENblockPatchingAddresses.push(new ArrayList<>());
+        StackOfANDblockPatchingAddresses.push(new LinkedList<>());
+        StackOfORblockPatchingAddresses.push(new LinkedList<>());
+        StackOfTHENblockPatchingAddresses.push(new LinkedList<>());
     }
 
     //now process and condition parts
@@ -350,14 +352,7 @@ public class CodeGenerator extends VisitorAdaptor {
         //also i have to put new OR block address for patch
         StackOfORblockPatchingAddresses.peek().add(Code.pc -2);
 
-        for(int patchAdr: StackOfANDblockPatchingAddresses.peek()){
-            Code.fixup(patchAdr);
-        }
-
-
-        StackOfANDblockPatchingAddresses.peek().clear();
-
-
+        patchAddressesFromList(StackOfANDblockPatchingAddresses.peek());
     }
 
     //last OR Block End
@@ -365,12 +360,7 @@ public class CodeGenerator extends VisitorAdaptor {
     public void visit(IfConditionEndDetectedCorrect ifConditionEndDetectedCorrect){
         //this is last OR block, so i have to patch the rest of OR blocks to jump there because this is also begin of then part
         //BEGINING OF THEN BLOCK
-
-        for(int patchAdr: StackOfORblockPatchingAddresses.peek()){
-            Code.fixup(patchAdr);
-        }
-
-        StackOfORblockPatchingAddresses.peek().clear();
+        patchAddressesFromList(StackOfORblockPatchingAddresses.peek());
     }
 
     //now i have to patch all remaining AND addreses from last OR block, just in case some of them is false
@@ -385,21 +375,13 @@ public class CodeGenerator extends VisitorAdaptor {
 
         //i have to patch all AND block addresses from last OR Block
         //all AND blocks should go to next OR blocks, but last AND block if it is false it has to go to ELSE or end
-        for(int patchAdr: StackOfANDblockPatchingAddresses.peek()){
-            Code.fixup(patchAdr);
-        }
-
-        StackOfANDblockPatchingAddresses.peek().clear();
+        patchAddressesFromList(StackOfANDblockPatchingAddresses.peek());
     }
 
 
     public  void visit(IfElseStatement ifElseStatement){
         //i have to patch all then addreses
-        for(int patchAdr: StackOfTHENblockPatchingAddresses.peek()){
-            Code.fixup(patchAdr);
-        }
-
-        StackOfTHENblockPatchingAddresses.peek().clear();
+        patchAddressesFromList(StackOfTHENblockPatchingAddresses.peek());
 
         //also delete all lists
         StackOfANDblockPatchingAddresses.pop();
@@ -416,8 +398,8 @@ public class CodeGenerator extends VisitorAdaptor {
 
     public void visit(ForLoopStart forLoopStart){
         //i have to put new structures on stack
-        StackOfForStatementsStartPatchingAddresses.push(new ArrayList<>());
-        StackOfForExitLoopPatchingAddresses.push(new ArrayList<>());
+        StackOfForStatementsStartPatchingAddresses.push(new LinkedList<>());
+        StackOfForExitLoopPatchingAddresses.push(new LinkedList<>());
     }
 
     public void visit(ForConditionStart forConditionStart){
@@ -428,21 +410,14 @@ public class CodeGenerator extends VisitorAdaptor {
     public void visit(ForStatementsStart forStatementsStart){
         //odavde skacem na proveru uslova
         Code.putJump(StackOfForConditionAddresses.peek());
-
-        for(int patchAdr: StackOfForStatementsStartPatchingAddresses.peek()){
-            Code.fixup(patchAdr);
-        }
-        StackOfForStatementsStartPatchingAddresses.peek().clear();
+        patchAddressesFromList(StackOfForStatementsStartPatchingAddresses.peek());
     }
 
     public void visit(ForStatement forStatement){
         //jump to tail designator after it is processed
         Code.putJump(StackOfForTailDesignatorAddresses.peek());
         //after this is out of for loop
-        for(int patchAdr: StackOfForExitLoopPatchingAddresses.peek()){
-            Code.fixup(patchAdr);
-        }
-        StackOfForExitLoopPatchingAddresses.peek().clear();
+        patchAddressesFromList(StackOfForExitLoopPatchingAddresses.peek());
     }
 
     public void visit(ForTailDesignatorStart forTailDesignatorStart){//this is also condition end
@@ -471,14 +446,18 @@ public class CodeGenerator extends VisitorAdaptor {
     }
 
     //multiple assignment processing:
-    List<Obj> designators = new ArrayList<>();
+    List<Obj> designators = new LinkedList<>();
 
     public void visit(DesignatorStatementMultipleAssign designatorStatementMultipleAssign){
         //first load array address
         Obj arr = designatorStatementMultipleAssign.getDesignator1().obj;
+        Obj arr2 = designatorStatementMultipleAssign.getDesignator().obj;
         Code.load(arr);
         Code.put(Code.arraylength);
-        Code.loadConst(designators.size()+1);//+1 for the last designator
+        Code.loadConst(designators.size());//+1 for the last designator
+        Code.load(arr2);
+        Code.put(Code.arraylength);
+        Code.put(Code.add);
         Code.putFalseJump(Code.lt,0);
         int adr = Code.pc-2;
         Code.loadConst(2);
@@ -496,7 +475,6 @@ public class CodeGenerator extends VisitorAdaptor {
             Code.store(designators.get(i));
         }
         //in the end, copy the remaining elements to last designator
-        Obj arr2 = designatorStatementMultipleAssign.getDesignator().obj;
         //i addded 0 to my iterator
         Code.loadConst(0);
         Code.put(Code.putstatic);
@@ -539,6 +517,13 @@ public class CodeGenerator extends VisitorAdaptor {
 
     public void visit(DesignatorNo designatorNo){
         designators.add(TabDerived.noObj);
+    }
+
+    private void patchAddressesFromList(List<Integer> lista){
+        for(int patchAdr: lista){
+            Code.fixup(patchAdr);
+        }
+        lista.clear();
     }
 
 

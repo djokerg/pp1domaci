@@ -7,7 +7,7 @@ import rs.etf.pp1.symboltable.concepts.Struct;
 
 import java.util.*;
 
-public class SemanticPass extends VisitorAdaptor {
+public class SemanticAnalyzer extends VisitorAdaptor {
     Obj currentMethod = null;
 
     Stack<Obj> calledMethods = new Stack<>();
